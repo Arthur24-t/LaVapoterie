@@ -6,26 +6,24 @@
     vertical-align: bottom;
 }
 
-.truc li{
-    list-style-type: none;
-    display: inline;
-    margin-left: 3.9cm;
+.truc {
+    display: flex;
+    justify-content:space-between;
     
     }
 
 
 .logo{
-    margin-left: 18cm;
-    margin-right: 14cm;
+    align-self: center;
 }
 .panier{
-    margin-right:0cm;
-    margin-bottom: 100;
+   align-self: flex-start;
 }
 
 
-.menu li{
-list-style-type: none;
-display: inline;
-margin-left: 3cm;
+.menu {
+    display: flex;
+    
+    justify-content:space-between;
+    
 }
