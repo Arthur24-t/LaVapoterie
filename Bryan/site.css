@@ -21,4 +21,45 @@
     justify-content: space-between;
 }
 
-.banderole {}
+.produit {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+
+}
+.produit>*{
+    flex: 1 1 80px
+}
+.item{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    
+}
+
+.tout{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.image_produit img{
+order: 1;
+max-width: 250px;
+height: auto;
+}
+.nom_produit p{
+order: 2;
+
+}
+
+.nom_produit>*{
+    flex: 1 1 8px
+}
+
+.descprition_produit{
+order: 3;
+}
+.prix_produit{
+order: 4;
+
+}
