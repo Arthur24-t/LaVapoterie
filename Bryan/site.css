@@ -4,30 +4,21 @@
 
 .panier {
     vertical-align: bottom;
+    align-self: flex-start;
 }
 
 .truc {
     display: flex;
-    justify-content:space-between;
-    
-    }
+    justify-content: space-between;
+}
 
-
-.logo{
+.logo {
     align-self: center;
 }
-.panier{
-   align-self: flex-start;
-}
-
 
 .menu {
     display: flex;
-    
-    justify-content:space-between;
-    
+    justify-content: space-between;
 }
-.banderole{
 
-    
-}
+.banderole {}
