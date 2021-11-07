@@ -10,6 +10,8 @@
 .truc {
     display: flex;
     justify-content: space-between;
+    margin-right: 2%;
+    margin-left: 2%;
 }
 
 .logo {
@@ -19,20 +21,47 @@
 .menu {
     display: flex;
     justify-content: space-between;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+.banderole{
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+
+.corps{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2%;
+    margin-left: 2%;
 }
 
 .produit {
 display: flex;
-justify-content: center;
+justify-content: space-between;
 flex-wrap: wrap;
 
 }
-.produit>*{
-    flex: 1 1 80px
+.Recherche{
+display: flex;
+flex-direction: column;
+}
+
+
+.vide{
+    display: flex;
+        
+}
+
+.vide img{
+
+max-width: 200px;
+height: 10000px;
 }
 .item{
     display: flex;
-    justify-content: flex-start;
+    
     flex-wrap: wrap;
     
 }
@@ -44,7 +73,7 @@ flex-wrap: wrap;
 }
 .image_produit img{
 order: 1;
-max-width: 250px;
+max-width: 200px;
 height: auto;
 }
 .nom_produit p{
