@@ -41,10 +41,17 @@
     margin-left: 2%;
 }
 
-.produit {
+.promo {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
+    
+}
+.lespromo{
+display: flex;
+flex-direction: column;
+margin-top: 5%;
+
 }
 
 .Recherche {
@@ -52,14 +59,17 @@
     flex-direction: column;
 }
 
-.vide {
+.commentaire {
     display: flex;
     margin-right: 5%;
+    border: solid;
 }
 
 .item {
     display: flex;
     flex-wrap: wrap;
+    border: solid;
+    width: 300px;
 }
 
 .tout {
@@ -68,24 +78,39 @@
     flex-wrap: wrap;
 }
 
-.image_produit img {
+.image_produit img{
     order: 1;
     max-width: 200px;
+    max-height: 500px;
     height: auto;
+    overflow:auto;
 }
 
-.nom_produit p {
+.nom_produit{
+    display: flex;
     order: 2;
+    flex-wrap: wrap;
 }
 
 .nom_produit>* {
-    flex: 1 1 8px
+    flex: 1 1 5px
 }
 
 .descprition_produit {
+    display: flex;
     order: 3;
+    flex-wrap: wrap;
+}
+.description_produit>* {
+    flex: 1 1 5px
 }
 
 .prix_produit {
     order: 4;
+}
+
+.top{
+    margin-top: 5%;
+    
+    border: solid;
 }

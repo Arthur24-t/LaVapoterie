@@ -1,23 +1,12 @@
-<!DOCTYPE html>
-<html lang="fr">
-<meta charset="utf-8" />
-
-<head>
-    <title></title>
-    <link rel="stylesheet" type="text/css" href="site.css" />
-</head>
-
 <header class="header">
 
     <div class="truc">
         <div class="bidule">
             <p></p>
         </div>
-        <a href="index.php">
-            <div class="logo">
-                <img src="/image/Logo.png" class="logo" width="200" height="200">
-            </div>
-        </a>
+        <div class="logo">
+            <img src="/image/Logo.png" class="logo" width="200" height="200">
+        </div>
         <div class="panier"><img src="/image/panier.png" class="panier" width="90" height="90">
         </div>
 
@@ -49,11 +38,3 @@
         </a>
 
     </div>
-
-</header>
-
-<body>
-
-</body>
-
-</html>
