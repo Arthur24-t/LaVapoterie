@@ -45,13 +45,14 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    
+    width: 80%;
 }
 .lespromo{
 display: flex;
 flex-direction: column;
+flex-wrap: wrap;
 margin-top: 5%;
-
+width: 80%;
 }
 
 .Recherche {
@@ -61,28 +62,29 @@ margin-top: 5%;
 
 .commentaire {
     display: flex;
-    margin-right: 5%;
+    margin-right: 2%;
     border: solid;
+    width: 15%;
 }
 
 .item {
     display: flex;
     flex-wrap: wrap;
     border: solid;
-    width: 300px;
+    
 }
 
 .tout {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap:nowrap;
+    
 }
 
 .image_produit img{
     order: 1;
-    max-width: 200px;
-    max-height: 500px;
-    height: auto;
+ max-width: 100px;
+ height: 150px;
     overflow:auto;
 }
 
@@ -92,18 +94,14 @@ margin-top: 5%;
     flex-wrap: wrap;
 }
 
-.nom_produit>* {
-    flex: 1 1 5px
-}
+
 
 .descprition_produit {
     display: flex;
     order: 3;
     flex-wrap: wrap;
 }
-.description_produit>* {
-    flex: 1 1 5px
-}
+
 
 .prix_produit {
     order: 4;
@@ -111,6 +109,21 @@ margin-top: 5%;
 
 .top{
     margin-top: 5%;
-    
+    width: 15%;
     border: solid;
+}
+
+.item_promo{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    
+    width: 120%;
+    height: 100%;
+}
+
+.toutpromo{
+display: flex;
+width: 80%;
+justify-content: center;
 }

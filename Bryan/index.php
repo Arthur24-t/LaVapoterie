@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <meta charset="utf-8" />
-
+<META HTTP-EQUIV="Refresh" CONTENT="1"; URL="index.php">
 <head>
     <title></title>
     <link rel="stylesheet" type="text/css" href="site.css" />
@@ -118,8 +118,8 @@
     <div class="lespromo">
         <h1>Les Promotions du moment !!</h1>
         <div class="promo">
-
-            <div class="item">
+        <div class="toutpromo">
+            <div class="item_promo">
         
                 <div class="image_produit"><img src="/image/cigarette-electronique-80w-complet-kit-kit-vape-av.jpg">
                 </div>
@@ -137,7 +137,7 @@
             </div>
 
 
-            <div class="item">
+            <div class="item_promo">
                 <div class="image_produit"><img src="/image/heisenberg.jpg">
                 </div>
                 <div class="tout">
@@ -154,7 +154,7 @@
                 </div>
             </div>
 
-            <div class="item">
+            <div class="item_promo">
                 <div class="image_produit"><img src="/image/ecigarette.jpg">
                 </div>
                 <div class="tout">
@@ -170,7 +170,7 @@
                 </div>
             </div>
 
-            <div class="item">
+            <div class="item_promo">
                 <div class="image_produit"><img src="/image/resistance-melo-ec-eleaf-a-l-unite-cigarette-electronique.jpg">
                 </div>
                 <div class="tout">
@@ -186,7 +186,8 @@
                 </div>
             </div>
 
-
+            
+        </div>
         </div>
         </div>
         <div class="commentaire">
