@@ -115,7 +115,7 @@
 </div>
 
 
-    <div class="lespromo">
+    <div class="millieu">
         <h1>Les Promotions du moment !!</h1>
         <div class="promo">
         <div class="toutpromo">
@@ -175,7 +175,7 @@
                 </div>
                 <div class="tout">
                     <div class="nom_produit">
-                        <p>Rsistance</p>
+                        <p>Resistance</p>
                     </div>
                     <div class="descprition_produit">
                         <p>Resiste prouve que tu existes</p>
@@ -189,8 +189,44 @@
             
         </div>
         </div>
+        <H1>Nos Categorie !</H1>
+        <div class="categorie">
+            
+<div class="ligne1">
+    <div class="categ_ecigarette">
+        <a href="Cigarettes.html">
+        <p>ecigarette</p>
+<img src="image/ciga_dessin.jpg" alt="">
+</a>
+    </div>
+    <div class="categ_produit">
+    <a href="liquides.html">
+    <p>liquide</p>
+<img src="image/liquide_categ.png" alt="">
+    </a>
+    </div>
+    </div>
+
+<div class="ligne2">
+    <div class="categ_accessoire">
+    <a href="accessoire.html">
+    <p>Accessoire</p>
+<img src="image/accessorie.jpg" alt="">
+</a>
+    </div>
+    <div class="categ_pieces">
+    <a href="pieces.html">
+    <p>Pieces</p>
+<img src="image/pieces_categ.jpg" alt="">
+</a>
+    </div>
+    </div>
+    </div>
         </div>
-        <div class="commentaire">
+
+
+
+<div class="commentaire">
 <p>les commentaires:</p>
         </div>
 

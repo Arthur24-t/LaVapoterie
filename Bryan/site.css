@@ -47,7 +47,7 @@
     flex-wrap: wrap;
     width: 80%;
 }
-.lespromo{
+.millieu{
 display: flex;
 flex-direction: column;
 flex-wrap: wrap;
@@ -100,6 +100,8 @@ width: 80%;
     display: flex;
     order: 3;
     flex-wrap: wrap;
+    font-size: small;
+    
 }
 
 
@@ -128,3 +130,23 @@ width: 80%;
 justify-content: center;
 }
 
+.categorie{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.categorie img{
+
+max-width: 40%;
+max-width: 50%;
+}
+.ligne1{
+display: flex;
+justify-content: baseline;
+
+}
+.ligne2{
+display: flex;
+
+}
