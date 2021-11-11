@@ -32,7 +32,7 @@
         <div>
         <p>Top des ventes</p>
         <div class="item">
-            <div><p>1</p></div>
+            <div><H1>1</H1></div>
                 <div class="image_produit"><img src="/image/cigarette-electronique-80w-complet-kit-kit-vape-av.jpg">
                 </div>
                 <div class="tout">
@@ -48,7 +48,7 @@
                 </div>
             </div>
             <div class="item">
-            <div><p>2</p></div>
+            <div><H1>2</H1></div>
                 <div class="image_produit"><img src="/image/cigarette-electronique-80w-complet-kit-kit-vape-av.jpg">
                 </div>
                 <div class="tout">
@@ -64,7 +64,7 @@
                 </div>
             </div>
             <div class="item">
-            <div><p>3</p></div>
+            <div><H1>3</H1></div>
                 <div class="image_produit"><img src="/image/cigarette-electronique-80w-complet-kit-kit-vape-av.jpg">
                 </div>
                 <div class="tout">
@@ -80,7 +80,7 @@
                 </div>
             </div>
             <div class="item">
-            <div><p>4</p></div>
+            <div><H1>4</H1></div>
                 <div class="image_produit"><img src="/image/cigarette-electronique-80w-complet-kit-kit-vape-av.jpg">
                 </div>
                 <div class="tout">
@@ -96,7 +96,7 @@
                 </div>
             </div>
             <div class="item">
-            <div><p>5</p></div>
+            <div><H1>5</H1></div>
                 <div class="image_produit"><img src="/image/cigarette-electronique-80w-complet-kit-kit-vape-av.jpg">
                 </div>
                 <div class="tout">
