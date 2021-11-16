@@ -3,7 +3,8 @@
 <meta charset="utf-8" />
 <META HTTP-EQUIV="Refresh" CONTENT="1"; URL="index.php">
 <head>
-    <title></title>
+    <title>Site d'achat d'ecigarette</title>
+    <link rel="icon" href="/image/logo.png" type="image/icon type">
     <link rel="stylesheet" type="text/css" href="site.css" />
 </head>
 
@@ -18,6 +19,8 @@
 
 
 <body>
+
+
 
     <div class="banderole">
 
@@ -234,6 +237,11 @@
 
 </body>
 
-
+<footer>
+<div class="footer_certif">
+    <div><p>une super livraison </p></div>
+    <div><p>des avis certifié !</p></div> !
+</div>
+</footer>
 
 </html>

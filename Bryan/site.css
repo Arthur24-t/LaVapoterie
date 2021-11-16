@@ -45,7 +45,8 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 80%;
+    width: 100%;
+    border: solid;
 }
 .millieu{
 display: flex;
@@ -128,6 +129,7 @@ width: 80%;
 display: flex;
 width: 80%;
 justify-content: center;
+
 }
 
 .categorie{
