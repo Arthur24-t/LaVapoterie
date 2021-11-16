@@ -123,14 +123,22 @@ width: 80%;
     
     width: 120%;
     height: 100%;
+    
 }
 
-.toutpromo{
+.toutpromo1{
 display: flex;
 width: 80%;
 justify-content: center;
-
+border: solid;
 }
+
+.toutpromo2{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    border: solid;
+    }
 
 .categorie{
     display: flex;
