@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <meta charset="utf-8" />
-<META HTTP-EQUIV="Refresh" CONTENT="1"; URL="index.php">
+<META HTTP-EQUIV="Refresh" CONTENT="5"; URL="index.php">
 <head>
     <title>Site d'achat d'ecigarette</title>
     <link rel="icon" href="/image/logo.png" type="image/icon type">
@@ -244,17 +244,17 @@
             </div>
 
             <div class="item_promo">
-                <div class="image_produit"><img src="/image/resistance-melo-ec-eleaf-a-l-unite-cigarette-electronique.jpg">
+                <div class="image_produit"><img src="/image/suivant.png">
                 </div>
                 <div class="tout">
                     <div class="nom_produit">
-                        <p>Resistance</p>
+                        <p>La suite</p>
                     </div>
                     <div class="descprition_produit">
-                        <p>Resiste prouve que tu existes</p>
+                        <p>cliquez ici pour decouvrir d'autre promotion !</p>
                     </div>
                     <div class="prix_produit">
-                        <p>24€</p>
+                        <p></p>
                     </div>
                 </div>
             </div>
