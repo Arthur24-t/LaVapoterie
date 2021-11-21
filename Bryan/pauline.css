@@ -1,0 +1,84 @@
+.texte {
+    font-family: Andale Mono, monospace;
+    /*galigraphie du Texte */
+}
+
+.panier {
+    margin-left: 2%;
+}
+
+.truc {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.logo {
+    align-self: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.banderole {
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 5%;
+    width: auto;
+    height: 250px;
+    border: 3px solid;
+}
+
+.corps {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.item {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tout {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.produit {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.image_produit img {
+    order: 1;
+    max-width: 200px;
+    height: auto;
+}
+
+.nom_produit p {
+    order: 2;
+}
+
+.nom_produit>* {
+    flex: 1 1 8px
+}
+
+.descprition_produit {
+    order: 3;
+}
+
+.prix_produit {
+    order: 4;
+}
