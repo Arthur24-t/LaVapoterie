@@ -41,6 +41,25 @@
     margin-left: 2%;
 }
 
+.produit {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.Recherche {
+    display: flex;
+    flex-direction: column;
+}
+
+.vide {
+    display: flex;
+    margin-right: 5%;
+}
+
 .item {
     display: flex;
     flex-wrap: wrap;
@@ -50,15 +69,6 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-}
-
-.produit {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 80%;
-    margin-right: 2%;
-    margin-left: 2%;
 }
 
 .image_produit img {
