@@ -266,13 +266,13 @@
         <div class="categorie">
             
 <div class="ligne1">
-    <div class="categ_ecigarette">
+    <div class="categ_">
         <a href="Cigarettes.html">
         <p>ecigarette</p>
 <img src="image/ciga_dessin.jpg" alt="">
 </a>
     </div>
-    <div class="categ_produit">
+    <div class="categ_">
     <a href="liquides.html">
     <p>liquide</p>
 <img src="image/liquide_categ.png" alt="">
@@ -281,13 +281,13 @@
     </div>
 
 <div class="ligne2">
-    <div class="categ_accessoire">
+    <div class="categ_">
     <a href="accessoire.html">
     <p>Accessoire</p>
 <img src="image/accessorie.jpg" alt="">
 </a>
     </div>
-    <div class="categ_pieces">
+    <div class="categ_">
     <a href="pieces.html">
     <p>Pieces</p>
 <img src="image/pieces_categ.jpg" alt="">
