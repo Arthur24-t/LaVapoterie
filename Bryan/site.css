@@ -71,7 +71,7 @@ width: 80%;
 .item {
     display: flex;
     flex-wrap: wrap;
-    border: solid;
+    
     
 }
 
@@ -113,7 +113,7 @@ width: 80%;
 .top{
     margin-top: 5%;
     width: 15%;
-    border: solid;
+    
 }
 
 .item_promo{
@@ -145,11 +145,11 @@ justify-content: center;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    border: solid;
+    
     
 }
 
-.categ_ p {
+.categ_:link {
     text-decoration: none;
 }
 
