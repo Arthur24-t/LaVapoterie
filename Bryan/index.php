@@ -6,6 +6,7 @@
     <title>Site d'achat d'ecigarette</title>
     <link rel="icon" href="/image/logo.png" type="image/icon type">
     <link rel="stylesheet" type="text/css" href="site.css" />
+    
 </head>
 
 <?php include("header.php"); ?>
@@ -112,6 +113,7 @@
                     <div class="prix_produit">
                         <p>10€</p>
                     </div>
+                    
                 </div>
             </div>
     </div>
@@ -136,6 +138,10 @@
                     <div class="prix_produit">
                         <p>10€</p>
                     </div>
+                    <div class="quantite">
+                    <input id="number" type="number" value="1" min="1" max="15">   
+                    </div> 
+                    <div class="bouton"><button class="ajout_panier" type="submit"> <img src="/image/panier.png"> ajouter au panier </button></div>
                 </div>
             </div>
 
@@ -153,7 +159,11 @@
                     <div class="prix_produit">
                         <p>5€</p>
                     </div>
-
+                    <div class="quantite">
+                    <input id="number" type="number" value="1" min="1" max="15">   
+                    </div> 
+                    <div class="bouton"><button class="ajout_panier" type="submit"> <img src="/image/panier.png"> ajouter au panier </button>
+                </div>
                 </div>
             </div>
 
@@ -170,6 +180,10 @@
                     <div class="prix_produit">
                         <p>un rein</p>
                     </div>
+                    <div class="quantite">
+                    <input id="number" type="number" value="1" min="1" max="15">   
+                    </div> 
+                    <div class="bouton"><button class="ajout_panier" type="submit"> <img src="/image/panier.png"> ajouter au panier </button></div>
                 </div>
             </div>
 
@@ -186,6 +200,10 @@
                     <div class="prix_produit">
                         <p>24€</p>
                     </div>
+                    <div class="quantite">
+                    <input id="number" type="number" value="1" min="1" max="15">   
+                    </div> 
+                    <div class="bouton"><button class="ajout_panier" type="submit"> <img src="/image/panier.png"> ajouter au panier </button></div>
                 </div>
             </div>
 
@@ -206,6 +224,10 @@
                     <div class="prix_produit">
                         <p>10€</p>
                     </div>
+                    <div class="quantite">
+                    <input id="number" type="number" value="1" min="1" max="15">   
+                    </div> 
+                    <div class="bouton"><button class="ajout_panier" type="submit"> <img src="/image/panier.png"> ajouter au panier </button></div>
                 </div>
             </div>
 
@@ -223,7 +245,10 @@
                     <div class="prix_produit">
                         <p>5€</p>
                     </div>
-
+                    <div class="quantite">
+                    <input id="number" type="number" value="1" min="1" max="15">   
+                    </div> 
+                    <div class="bouton"><button class="ajout_panier" type="submit"> <img src="/image/panier.png"> ajouter au panier </button></div>
                 </div>
             </div>
 
@@ -240,12 +265,22 @@
                     <div class="prix_produit">
                         <p>un rein</p>
                     </div>
+                    
+                    <div class="quantite">
+                    <input id="number" type="number" value="1" min="1" max="15">   
+                    </div> 
+                    <div class="bouton">
+                    <button class="ajout_panier" type="submit"> <img src="/image/panier.png"> ajouter au panier </button>
                 </div>
+                </div>
+                
             </div>
 
             <div class="item_promo">
+            <a href="immanquables.html">
                 <div class="image_produit"><img src="/image/suivant.png">
                 </div>
+                
                 <div class="tout">
                     <div class="nom_produit">
                         <p>La suite</p>
@@ -256,6 +291,7 @@
                     <div class="prix_produit">
                         <p></p>
                     </div>
+                    </a>
                 </div>
             </div>
 

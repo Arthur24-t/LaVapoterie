@@ -23,6 +23,12 @@
     justify-content: space-between;
     margin-right: 2%;
     margin-left: 2%;
+    text-decoration: none;
+    color: yellowgreen;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
 }
 
 .banderole {
@@ -46,7 +52,7 @@
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
-    border: solid;
+    
 }
 .millieu{
 display: flex;
@@ -73,6 +79,16 @@ width: 80%;
     flex-wrap: wrap;
     
     
+}
+
+.bouton{
+display: flex;
+order: 6;
+width: 50%;
+}
+
+.bouton img{
+    width: 12%;
 }
 
 .tout {
@@ -113,7 +129,7 @@ width: 80%;
 .top{
     margin-top: 5%;
     width: 15%;
-    
+    border: solid;
 }
 
 .item_promo{
@@ -121,9 +137,13 @@ width: 80%;
     flex-wrap: nowrap;
     justify-content: center;
     
-    width: 120%;
+    width: 80%;
     height: 100%;
     
+}
+.item_promo a{
+    text-decoration: none;
+    color: black;
 }
 
 .toutpromo1{
@@ -149,8 +169,10 @@ justify-content: center;
     
 }
 
-.categ_:link {
+.categ_ a{
+    color: inherit;
     text-decoration: none;
+    justify-content: center;
 }
 
 .categorie img{
@@ -167,6 +189,13 @@ justify-content: center;
 }
 .ligne2{
 display: flex;
+}
 
-
+.quantite{
+    display: flex;
+order: 5;
+width: 20%;
+}
+.quantite input{
+width: 100%;
 }
