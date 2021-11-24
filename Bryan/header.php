@@ -4,9 +4,11 @@
         <div class="bidule">
             <p></p>
         </div>
-        <div class="logo">
-            <img src="/image/Logo.png" class="logo" width="200" height="200">
-        </div>
+        <a href="index.php">
+            <div class="logo">
+                <img src="image/Logo.png" class="logo" width="200" height="200">
+            </div>
+        </a>
         <div class="panier"><img src="/image/panier.png" class="panier" width="90" height="90">
         </div>
 
@@ -33,7 +35,7 @@
         <a href="guide.html">
             <div>LE GUIDE</div>
         </a>
-        <a href="contact.html">
+        <a href="contact.php">
             <div>QUI SOMMES-NOUS ?</div>
         </a>
 

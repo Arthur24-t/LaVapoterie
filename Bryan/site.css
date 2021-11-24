@@ -77,8 +77,6 @@ width: 80%;
 .item {
     display: flex;
     flex-wrap: wrap;
-    
-    
 }
 
 .bouton{
@@ -88,7 +86,7 @@ width: 50%;
 }
 
 .bouton img{
-    width: 12%;
+    width: 15%;
 }
 
 .tout {
@@ -198,4 +196,26 @@ width: 20%;
 }
 .quantite input{
 width: 100%;
+}
+
+
+
+.contact_main{
+display: flex;
+margin-top: 5%;
+}
+
+.contact_droite{
+display: flex;
+width: 20%;
+}
+
+.contact_millieu{
+display: flex;
+
+}
+
+.contact_gauche{
+display: flex;
+width: 20%;
 }
