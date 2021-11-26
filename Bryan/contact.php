@@ -21,7 +21,7 @@
 </div>
 <div class="contact_millieu">
 
-<form action="" method="get" class="contact_form">
+<form action="contact.php" method="post" class="contact_form">
 
 <label for="name">Entrer votre nom: </label>
     <input type="text" name="name" id="name" required>
@@ -29,18 +29,21 @@
     <label for="email">Entrer votre adresse email : </label>
     <input type="email" name="email" id="email" required>
     </br>
-    <label for="sujet">Sujet de votre message</label>
-    <select name=" nomdelaliste" size="nombre de lignes visibles">
-<option value="nom de l'élément">texte à afficher</option>
-<option value="nom de l'élément">texte à afficher</option>
 
-<option value="nom de l'élément">texte à afficher</option>
+
+    <label for="sujet">Sujet de votre message</label>
+
+    <select name=" contact_sujet" size="1">
+<option value="pbLivraison">Probleme avec la Livraison</option>
+<option value="pbProduit">Porbleme avec le produit</option>
+
+<option value="pbreclamation">reclamation</option>
 </select>
 
     </br><span class="contact_message">
     <textarea name="contact_message" rows="10" cols="50" minlength="30" maxlength="500"  require>  </textarea></span>
 </br>
-    <input type="submit" value="Envoyer">
+    <input type="submit" value="Envoyer" name="submit">
 </form>
 
 
@@ -51,7 +54,23 @@
 
 </div>
 
+<?php
 
+
+if (isset($_POST['submit']))
+{
+    $to = 'arthur@lavapoterie';
+$subject= $_POST["contact_sujet"];
+$message='email :'. $_POST["email"]. "\nsujet :" . $_POST["contact_sujet"]. "\nmessage : ". $_POST["contact_message"] ; 
+$from = 'admin@lavapoterie';
+if(mail($to, $subject, $message)){
+   echo 'Votre message a été envoyé avec succès!';
+} else{
+   echo 'Impossible d envoyer des emails. Veuillez réessayer.';
+}
+}
+
+?> 
 
 
 
