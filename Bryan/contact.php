@@ -30,10 +30,15 @@
     <input type="email" name="email" id="email" required>
     </br>
     <label for="sujet">Sujet de votre message</label>
-    <input type="text" name="sujet" id="sujet" required>
+    <select name=" nomdelaliste" size="nombre de lignes visibles">
+<option value="nom de l'élément">texte à afficher</option>
+<option value="nom de l'élément">texte à afficher</option>
 
-    </br>
-    <textarea name="contact_message" rows="10" cols="50" minlength="30" maxlength="500" require>  </textarea>
+<option value="nom de l'élément">texte à afficher</option>
+</select>
+
+    </br><span class="contact_message">
+    <textarea name="contact_message" rows="10" cols="50" minlength="30" maxlength="500"  require>  </textarea></span>
 </br>
     <input type="submit" value="Envoyer">
 </form>

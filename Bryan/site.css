@@ -219,3 +219,7 @@ display: flex;
 display: flex;
 width: 20%;
 }
+
+.contact_message textarea{
+    resize: none;
+}
