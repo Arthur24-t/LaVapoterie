@@ -1,7 +1,8 @@
+
 <!DOCTYPE html>
 <html lang="fr">
 <meta charset="utf-8" />
-<META HTTP-EQUIV="Refresh" CONTENT="5"; URL="index.php">
+
 <head>
     <title>Site d'achat d'ecigarette</title>
     <link rel="icon" href="/image/logo.png" type="image/icon type">
@@ -49,8 +50,26 @@
                     <div class="prix_produit">
                         <p>10€</p>
                     </div>
-                </div>
+                    <div class="quantite">
+                        <form action="" method="POST">
+                    <input name="nb-0001" id="number" type="number" value="1" min="1" max="15">   
+                    </div> 
+                    <div class="bouton"><button class="ajout_panier" type="submit" name="prod-0001"> <img src="/image/panier.png"> ajouter au panier </button></div>
+                </div></form>
             </div>
+
+            <?php  
+
+if (isset($_POST["prod-0001"]))
+{
+$produit = $_POST["prod-0001"];
+$nb= $_POST["nb-0001"];
+$_SESSION["truc"] +=1 ;
+echo $nb;
+}
+
+?>
+
             <div class="item">
             <div><H1>2</H1></div>
                 <div class="image_produit"><img src="/image/cigarette-electronique-80w-complet-kit-kit-vape-av.jpg">
@@ -65,6 +84,10 @@
                     <div class="prix_produit">
                         <p>10€</p>
                     </div>
+                    <div class="quantite">
+                    <input name="nb-0002" id="number" type="number" value="1" min="1" max="15">   
+                    </div> 
+                    <div class="bouton"><button class="ajout_panier" type="submit" name="prod-0002"> <img src="/image/panier.png"> ajouter au panier </button></div>
                 </div>
             </div>
             <div class="item">
@@ -81,6 +104,10 @@
                     <div class="prix_produit">
                         <p>10€</p>
                     </div>
+                    <div class="quantite">
+                    <input  name="nb-0003" id="number" type="number" value="1" min="1" max="15">   
+                    </div> 
+                    <div class="bouton"><button class="ajout_panier" type="submit" name="prod-0003"> <img src="/image/panier.png"> ajouter au panier </button></div>
                 </div>
             </div>
             <div class="item">
@@ -97,6 +124,10 @@
                     <div class="prix_produit">
                         <p>10€</p>
                     </div>
+                    <div class="quantite">
+                    <input name="nb-0004" id="number" type="number" value="1" min="1" max="15">   
+                    </div> 
+                    <div class="bouton"><button class="ajout_panier" type="submit" name="prod-0004"> <img src="/image/panier.png"> ajouter au panier </button></div>
                 </div>
             </div>
             <div class="item">
@@ -113,7 +144,10 @@
                     <div class="prix_produit">
                         <p>10€</p>
                     </div>
-                    
+                    <div class="quantite">
+                    <input name="nb-0005" id="number" type="number" value="1" min="1" max="15">   
+                    </div> 
+                    <div class="bouton"><button class="ajout_panier" type="submit" name="prod-0005"> <img src="/image/panier.png"> ajouter au panier </button></div>
                 </div>
             </div>
     </div>
@@ -141,7 +175,7 @@
                     <div class="quantite">
                     <input id="number" type="number" value="1" min="1" max="15">   
                     </div> 
-                    <div class="bouton"><button class="ajout_panier" type="submit"> <img src="/image/panier.png"> ajouter au panier </button></div>
+                    <div class="bouton"><button class="ajout_panier" type="submit" name="prod-0006"> <img src="/image/panier.png"> ajouter au panier </button></div>
                 </div>
             </div>
 
@@ -351,3 +385,5 @@
 </footer>
 
 </html>
+
+
