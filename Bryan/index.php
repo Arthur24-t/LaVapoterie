@@ -67,6 +67,8 @@ $nb= $_POST["nb-0001"];
 $_SESSION["truc"] +=1 ;
 echo $nb;
 }
+else
+echo "bleu";
 
 ?>
 

@@ -1,5 +1,4 @@
-<?php session_start() 
-?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <meta charset="utf-8" />
@@ -47,15 +46,6 @@
 </br>
     <input type="submit" value="Envoyer" name="submit">
 </form>
-
-
-</div>
-    <div class="contact_gauche">
-
-    </div>
-
-</div>
-
 <?php
 
 
@@ -66,13 +56,22 @@ $subject= $_POST["contact_sujet"];
 $message='email :'. $_POST["email"]. "\nsujet :" . $_POST["contact_sujet"]. "\nmessage : ". $_POST["contact_message"] ; 
 $from = 'admin@lavapoterie';
 if(mail($to, $subject, $message)){
-   echo 'Votre message a été envoyé avec succès!';
+   echo 'Votre message a été envoyé avec succès! Nous vous repondrons dans les plus bref delais ';
 } else{
    echo 'Impossible d envoyer des emails. Veuillez réessayer.';
 }
 }
 
 ?> 
+
+</div>
+    <div class="contact_gauche">
+
+    </div>
+
+</div>
+
+
 
 
 
