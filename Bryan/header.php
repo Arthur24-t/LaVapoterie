@@ -1,4 +1,5 @@
-<?php session_start() ?>
+<?php session_start();
+?>
 <header class="header">
 
     <div class="truc">
@@ -12,10 +13,7 @@
         </a>
         <div class="panier"><img src="/image/panier.png" class="panier" width="90" height="90">
 </br>
-        <?php
-
- echo "il y a : " .$_SESSION["truc"] ." artcile dans le panier";
-?>
+       
         </div>
 
     </div>
