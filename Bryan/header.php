@@ -12,10 +12,8 @@
             </div>
         </a>
         <div class="panier"><img src="/image/panier.png" class="panier" width="90" height="90">
-</br>
-       
+            </br>
         </div>
-
     </div>
 
 
@@ -45,4 +43,4 @@
 
     </div>
 
-   
+</header>

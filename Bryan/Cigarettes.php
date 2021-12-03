@@ -34,7 +34,6 @@
             <label for="Ecigarette">Ecigarette</label>
         </div>
     </div>
-</div>
 </body>
 
 </html>
