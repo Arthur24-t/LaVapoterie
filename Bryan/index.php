@@ -70,22 +70,29 @@ echo $nb;
 else
 echo "bleu";
 
+
+try {
+ 
+    $pdo = new PDO(
+        'mysql:host=localhost;dbname=site;charset=utf8',
+        'root',
+        '1234'
+    );
+    
+    }
+    catch (PDOException $exception) {
+     
+     mail('VOTRE_EMAIL', 'PDOException', $exception->getMessage());
+     exit('Erreur de connexion à la base de données');
+     
+    }
+
+
+
 ?>
 
-<?php
-            $servername = 'localhost';
-            $username = 'root';
-            $password = 'root';
-            
-            //On établit la connexion
-            $conn = mysqli_connect($servername, $username, $password);
-            
-            //On vérifie la connexion
-            if(!$conn){
-                die('Erreur : ' .mysqli_connect_error());
-            }
-            echo 'Connexion réussie';
-        ?>
+
+
             <div class="item">
             <div><H1>2</H1></div>
                 <div class="image_produit"><img src="/image/cigarette-electronique-80w-complet-kit-kit-vape-av.jpg">
