@@ -313,7 +313,7 @@ echo "bleu";
             </div>
 
             <div class="item_promo">
-            <a href="immanquables.html">
+            <a href="immanquables.php">
                 <div class="image_produit"><img src="/image/suivant.png">
                 </div>
                 
