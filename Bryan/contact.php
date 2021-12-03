@@ -4,7 +4,8 @@
 <meta charset="utf-8" />
 
 <head>
-    <title></title>
+    <title>Contact</title>
+    <link rel="icon" href="/image/logo.png" type="image/icon type">
     <link rel="stylesheet" type="text/css" href="site.css" />
 </head>
 
