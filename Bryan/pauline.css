@@ -73,7 +73,7 @@
 
 .image_produit img {
     order: 1;
-    max-width: 10%;
+    max-width: 200px;
     height: auto;
 }
 
