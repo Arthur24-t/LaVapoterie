@@ -32,4 +32,18 @@ INSERT  INTO `client`(`cliId`,`cliNom`,`cliPrenom`,`cliMail`,`cliDate`,`cliAge`)
 (7,'Tsougnui','Henri','pinguin@gmail.com','2021-12-03',60);
 
 INSERT  INTO produit(prodId,prodNom,prodCateg,prodStock,prodPrix) VALUES 
-('C01','Pod Caliburn','Cigarette',57,30);
+('C16','Pod 2000','Cigarette',12,15),
+('A17','Pochette Rangement','Rangement',100,25),
+('P18','Batterie','Piles',11,150),
+('A19','Seringue 10ml','Contenant',200,10),
+('A20','Flacon','Contenant',600,12),
+('L21','liquide Banane','Liquide',45,11),
+('C22','VapeZen','Cigarette',23,123),
+('A23','Drip Trip Bleu','Drip',5,30),
+('A24','Reservoir','Contenance',0,100),
+('L25','Liquide Ananas','Liquide',45,9),
+('L26','Liquide Exotique','Liquide',22,10),
+('P27','Clearomiseur','Autre',2,110),
+('C28','Cigarette Perfect','Cigarette',4,125),
+('C29','Cigarette Economique','Cigarette',56,100),
+('L30','Liquide Mangue','Liquide',120,12);
