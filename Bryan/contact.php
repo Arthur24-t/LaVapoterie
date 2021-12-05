@@ -1,4 +1,6 @@
-
+<?php session_start();
+echo '<?xml version="1.0" encoding="utf-8"?>';
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <meta charset="utf-8" />

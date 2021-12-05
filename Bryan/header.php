@@ -1,5 +1,5 @@
-<?php session_start();
-?>
+
+<link rel="stylesheet" type="text/css" href="site.css" />
 <header class="header">
 
     <div class="truc">
@@ -11,7 +11,10 @@
                 <img src="image/Logo.png" class="logo" width="200" height="200">
             </div>
         </a>
-        <div class="panier"><img src="/image/panier.png" class="panier" width="90" height="90">
+        
+        <div class="panier"><a href="panier.php">
+            <img src="/image/panier.png" class="panier" width="90" height="90">
+    </a>
             </br>
         </div>
     </div>

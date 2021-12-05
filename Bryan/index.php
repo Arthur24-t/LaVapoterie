@@ -1,4 +1,10 @@
 
+<?php 
+session_start();
+echo '<?xml version="1.0" encoding="utf-8"?>';
+
+include_once("fonction-panier.php");
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <meta charset="utf-8" />
@@ -49,6 +55,7 @@
                     </div>
                     <div class="prix_produit">
                         <p>10€</p>
+                        
                     </div>
                     <div class="quantite">
                         <form action="" method="POST">
@@ -62,10 +69,8 @@
 
 if (isset($_POST["prod-0001"]))
 {
-$produit = $_POST["prod-0001"];
-$nb= $_POST["nb-0001"];
-$_SESSION["truc"] +=1 ;
-echo $nb;
+    $qte =$_POST["nb-0001"];
+ajouterArticle("cigarette",$qte,13);
 }
 else
 echo "bleu";
