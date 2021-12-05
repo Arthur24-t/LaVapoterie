@@ -14,6 +14,17 @@
         
         <div class="panier"><a href="panier.php">
             <img src="/image/panier.png" class="panier" width="90" height="90">
+            <?php   
+            include_once("fonction-panier.php");
+            $nb= compterArticles();
+
+            if ($nb == 0)
+            {
+            echo "<p>il n'y a pas d'article dans le panier </p>" ;
+            }
+            else
+            echo "<p>il y a $nb d'article dans le panier </p>" ;
+            ?>
     </a>
             </br>
         </div>

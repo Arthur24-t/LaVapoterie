@@ -62,7 +62,7 @@ include_once("fonction-panier.php");
                     <input name="nb-0001" id="number" type="number" value="1" min="1" max="15">   
                     </div> 
                     <div class="bouton"><button class="ajout_panier" type="submit" name="prod-0001"> <img src="/image/panier.png"> ajouter au panier </button></div>
-                </div></form>
+                </div>
             </div>
 
             <?php  
@@ -71,9 +71,9 @@ if (isset($_POST["prod-0001"]))
 {
     $qte =$_POST["nb-0001"];
 ajouterArticle("cigarette",$qte,13);
+header("Refresh:0");
 }
-else
-echo "bleu";
+
 
 
 try {
@@ -118,6 +118,17 @@ try {
                     <div class="bouton"><button class="ajout_panier" type="submit" name="prod-0002"> <img src="/image/panier.png"> ajouter au panier </button></div>
                 </div>
             </div>
+
+            <?php  
+
+if (isset($_POST["prod-0002"]))
+{
+    $qte =$_POST["nb-0002"];
+ajouterArticle("produit",$qte,4);
+header("Refresh:0");
+}
+
+?>
             <div class="item">
             <div><H1>3</H1></div>
                 <div class="image_produit"><img src="/image/cigarette-electronique-80w-complet-kit-kit-vape-av.jpg">
@@ -356,7 +367,7 @@ try {
                     </a>
                 </div>
             </div>
-
+            </form>
 
         </div>
         </div>
