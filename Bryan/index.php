@@ -13,6 +13,7 @@ include_once("fonction-panier.php");
     <title>Site d'achat d'ecigarette</title>
     <link rel="icon" href="/image/logo.png" type="image/icon type">
     <link rel="stylesheet" type="text/css" href="site.css" />
+    <link rel="stylesheet" media="screen and (max-width: 1280px)" href="site.css" type="text/css" />
     
 </head>
 
@@ -44,34 +45,33 @@ include_once("fonction-panier.php");
         <p>Top des ventes</p>
         <div class="item">
             <div><H1>1</H1></div>
-                <div class="image_produit"><img src="/image/cigarette-electronique-80w-complet-kit-kit-vape-av.jpg">
+                <div class="image_produit"><img src="/image/produit/pod-caliburn.jpg">
                 </div>
                 <div class="tout">
                     <div class="nom_produit">
-                        <p>cigarette</p>
+                        <p>Pod Caliburn</p>
                     </div>
                     <div class="descprition_produit">
                         <p>elle fume</p>
                     </div>
                     <div class="prix_produit">
-                        <p>10€</p>
+                        <p>30€</p>
                         
                     </div>
                     <div class="quantite">
                         <form action="" method="POST">
-                    <input name="nb-0001" id="number" type="number" value="1" min="1" max="15">   
+                    <input name="nb-C01" id="number" type="number" value="1" min="1" max="15">   
                     </div> 
-                    <div class="bouton"><button class="ajout_panier" type="submit" name="prod-0001"> <img src="/image/panier.png"> ajouter au panier </button></div>
+                    <div class="bouton"><button class="ajout_panier" type="submit" name="prod-C01">  ajouter au panier </button></div>
                 </div>
             </div>
 
             <?php  
-
-if (isset($_POST["prod-0001"]))
+if (isset($_POST["prod-C01"]))
 {
-    $qte =$_POST["nb-0001"];
-ajouterArticle("cigarette",$qte,13);
-header("Refresh:0");
+    $qte =$_POST["nb-C01"];
+ajouterArticle("Pod Caliburn",$qte,30);
+
 }
 
 
@@ -91,106 +91,131 @@ try {
      exit('Erreur de connexion à la base de données');
      
     }
-
-
-
 ?>
 
 
 
             <div class="item">
             <div><H1>2</H1></div>
-                <div class="image_produit"><img src="/image/cigarette-electronique-80w-complet-kit-kit-vape-av.jpg">
+                <div class="image_produit"><img src="/image/produit/aegis-solo.jpg">
                 </div>
                 <div class="tout">
                     <div class="nom_produit">
-                        <p>cigarette</p>
+                        <p>Aegis Solo</p>
                     </div>
                     <div class="descprition_produit">
                         <p>elle fume</p>
                     </div>
                     <div class="prix_produit">
-                        <p>10€</p>
+                        <p>54€</p>
                     </div>
                     <div class="quantite">
-                    <input name="nb-0002" id="number" type="number" value="1" min="1" max="15">   
+                    <input name="nb-C14" id="number" type="number" value="1" min="1" max="15">   
                     </div> 
-                    <div class="bouton"><button class="ajout_panier" type="submit" name="prod-0002"> <img src="/image/panier.png"> ajouter au panier </button></div>
+                    <div class="bouton"><button class="ajout_panier" type="submit" name="prod-C14">  ajouter au panier </button></div>
                 </div>
             </div>
 
             <?php  
-
-if (isset($_POST["prod-0002"]))
+if (isset($_POST["prod-C14"]))
 {
-    $qte =$_POST["nb-0002"];
-ajouterArticle("produit",$qte,4);
-header("Refresh:0");
-}
+    $qte =$_POST["nb-C14"];
+ajouterArticle("Aegis Solo",$qte,54);
 
+}
 ?>
             <div class="item">
             <div><H1>3</H1></div>
-                <div class="image_produit"><img src="/image/cigarette-electronique-80w-complet-kit-kit-vape-av.jpg">
+                <div class="image_produit"><img src="/image/produit/acu-30w.jpg">
                 </div>
                 <div class="tout">
                     <div class="nom_produit">
-                        <p>cigarette</p>
+                        <p>ACU 30w</p>
                     </div>
                     <div class="descprition_produit">
-                        <p>elle fume</p>
+                        <p>un acu de 30w </br>comptatible toute ecigarette</p>
                     </div>
                     <div class="prix_produit">
                         <p>10€</p>
                     </div>
                     <div class="quantite">
-                    <input  name="nb-0003" id="number" type="number" value="1" min="1" max="15">   
+                    <input  name="nb-A11" id="number" type="number" value="1" min="1" max="15">   
                     </div> 
-                    <div class="bouton"><button class="ajout_panier" type="submit" name="prod-0003"> <img src="/image/panier.png"> ajouter au panier </button></div>
+                    <div class="bouton"><button class="ajout_panier" type="submit" name="prod-A11">  ajouter au panier </button></div>
                 </div>
             </div>
+            <?php  
+
+if (isset($_POST["prod-A11"]))
+{
+    $qte =$_POST["nb-A11"];
+ajouterArticle("Acu 30w",$qte,10);
+
+}
+?>
             <div class="item">
             <div><H1>4</H1></div>
-                <div class="image_produit"><img src="/image/cigarette-electronique-80w-complet-kit-kit-vape-av.jpg">
+                <div class="image_produit"><img src="/image/produit/liquide-mangue.jpg">
                 </div>
                 <div class="tout">
                     <div class="nom_produit">
                         <p>cigarette</p>
                     </div>
                     <div class="descprition_produit">
-                        <p>elle fume</p>
+                        <p>Liquide Mangue pour ecigarette</p>
                     </div>
                     <div class="prix_produit">
                         <p>10€</p>
                     </div>
                     <div class="quantite">
-                    <input name="nb-0004" id="number" type="number" value="1" min="1" max="15">   
+                        
+                    <input name="nb-L30" id="number" type="number" value="1" min="1" max="15">   
                     </div> 
-                    <div class="bouton"><button class="ajout_panier" type="submit" name="prod-0004"> <img src="/image/panier.png"> ajouter au panier </button></div>
+                    <div class="bouton"><button class="ajout_panier" type="submit" name="prod-L30" onclick="document.location.reload(true)"> <img src="/image/panier.png"> ajouter au panier </button></div>
                 </div>
             </div>
+
+<?php  
+
+if (isset($_POST["prod-L30"]))
+{
+    $qte =$_POST["nb-L30"];
+ajouterArticle("Liquide Mangue",$qte,12);
+
+}
+?> 
             <div class="item">
             <div><H1>5</H1></div>
-                <div class="image_produit"><img src="/image/cigarette-electronique-80w-complet-kit-kit-vape-av.jpg">
+                <div class="image_produit"><img src="/image/produit/cigarette-economique.jpg">
                 </div>
                 <div class="tout">
                     <div class="nom_produit">
-                        <p>cigarette</p>
+                        <p>Ecigarette Economique</p>
                     </div>
                     <div class="descprition_produit">
-                        <p>elle fume</p>
+                        <p>Cigarette pas tres economique vu son prix</p>
                     </div>
                     <div class="prix_produit">
-                        <p>10€</p>
+                        <p>100€</p>
                     </div>
                     <div class="quantite">
-                    <input name="nb-0005" id="number" type="number" value="1" min="1" max="15">   
+                    <input name="nb-C29" id="number" type="number" value="1" min="1" max="15">   
                     </div> 
-                    <div class="bouton"><button class="ajout_panier" type="submit" name="prod-0005"> <img src="/image/panier.png"> ajouter au panier </button></div>
+                    <div class="bouton"><button class="ajout_panier" type="submit" name="prod-C29">  ajouter au panier </button></div>
                 </div>
             </div>
     </div>
 </div>
+<?php  
+
+if (isset($_POST["prod-C29"]))
+{
+    $qte =$_POST["nb-C29"];
+ajouterArticle("Ecigarette economique",$qte,100);
+
+}
+?> 
+
 
 
     <div class="millieu">
@@ -214,7 +239,7 @@ header("Refresh:0");
                     <div class="quantite">
                     <input id="number" type="number" value="1" min="1" max="15">   
                     </div> 
-                    <div class="bouton"><button class="ajout_panier" type="submit" name="prod-0006"> <img src="/image/panier.png"> ajouter au panier </button></div>
+                    <div class="bouton"><button class="ajout_panier" type="submit" name="prod-0006">  ajouter au panier </button></div>
                 </div>
             </div>
 
@@ -235,7 +260,7 @@ header("Refresh:0");
                     <div class="quantite">
                     <input id="number" type="number" value="1" min="1" max="15">   
                     </div> 
-                    <div class="bouton"><button class="ajout_panier" type="submit"> <img src="/image/panier.png"> ajouter au panier </button>
+                    <div class="bouton"><button class="ajout_panier" type="submit">  ajouter au panier </button>
                 </div>
                 </div>
             </div>
@@ -256,7 +281,7 @@ header("Refresh:0");
                     <div class="quantite">
                     <input id="number" type="number" value="1" min="1" max="15">   
                     </div> 
-                    <div class="bouton"><button class="ajout_panier" type="submit"> <img src="/image/panier.png"> ajouter au panier </button></div>
+                    <div class="bouton"><button class="ajout_panier" type="submit">  ajouter au panier </button></div>
                 </div>
             </div>
 
@@ -276,7 +301,7 @@ header("Refresh:0");
                     <div class="quantite">
                     <input id="number" type="number" value="1" min="1" max="15">   
                     </div> 
-                    <div class="bouton"><button class="ajout_panier" type="submit"> <img src="/image/panier.png"> ajouter au panier </button></div>
+                    <div class="bouton"><button class="ajout_panier" type="submit">  ajouter au panier </button></div>
                 </div>
             </div>
 
@@ -300,7 +325,7 @@ header("Refresh:0");
                     <div class="quantite">
                     <input id="number" type="number" value="1" min="1" max="15">   
                     </div> 
-                    <div class="bouton"><button class="ajout_panier" type="submit"> <img src="/image/panier.png"> ajouter au panier </button></div>
+                    <div class="bouton"><button class="ajout_panier" type="submit">  ajouter au panier </button></div>
                 </div>
             </div>
 
@@ -321,7 +346,7 @@ header("Refresh:0");
                     <div class="quantite">
                     <input id="number" type="number" value="1" min="1" max="15">   
                     </div> 
-                    <div class="bouton"><button class="ajout_panier" type="submit"> <img src="/image/panier.png"> ajouter au panier </button></div>
+                    <div class="bouton"><button class="ajout_panier" type="submit">  ajouter au panier </button></div>
                 </div>
             </div>
 
@@ -343,7 +368,7 @@ header("Refresh:0");
                     <input id="number" type="number" value="1" min="1" max="15">   
                     </div> 
                     <div class="bouton">
-                    <button class="ajout_panier" type="submit"> <img src="/image/panier.png"> ajouter au panier </button>
+                    <button class="ajout_panier" type="submit">  ajouter au panier </button>
                 </div>
                 </div>
                 
@@ -376,13 +401,13 @@ header("Refresh:0");
             
 <div class="ligne1">
     <div class="categ_">
-        <a href="Cigarettes.html">
+        <a href="Cigarettes.php">
         <p>ecigarette</p>
 <img src="image/ciga_dessin.jpg" alt="">
 </a>
     </div>
     <div class="categ_">
-    <a href="liquides.html">
+    <a href="liquides.php">
     <p>liquide</p>
 <img src="image/liquide_categ.png" alt="">
     </a>
@@ -391,13 +416,13 @@ header("Refresh:0");
 
 <div class="ligne2">
     <div class="categ_">
-    <a href="accessoire.html">
+    <a href="accessoire.php">
     <p>Accessoire</p>
 <img src="image/accessorie.jpg" alt="">
 </a>
     </div>
     <div class="categ_">
-    <a href="pieces.html">
+    <a href="pieces.php">
     <p>Pieces</p>
 <img src="image/pieces_categ.jpg" alt="">
 </a>
@@ -409,7 +434,7 @@ header("Refresh:0");
 
 
 <div class="commentaire">
-<p>les commentaires:</p>
+
         </div>
 
     </div>

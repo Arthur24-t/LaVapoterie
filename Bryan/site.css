@@ -2,6 +2,8 @@
     font-family: Andale Mono, monospace;
 }
 
+
+@media  all and (max-width:1900px){
 .panier {
     vertical-align: bottom;
     align-self: flex-start;
@@ -22,14 +24,14 @@
 .menu {
     display: flex;
     justify-content: space-between;
-    margin-right: 2%;
-    margin-left: 2%;
     text-decoration: none;
-    color: yellowgreen;
+    background-color: black;
+    width: 100%;
+    
 }
 .menu a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .banderole {
@@ -39,6 +41,7 @@
     width: auto;
     height: 250px;
     border: 3px solid;
+    
 }
 
 .corps {
@@ -82,8 +85,14 @@ width: 80%;
 
 .bouton{
 display: flex;
+flex-wrap: wrap;
 order: 6;
-width: 50%;
+width: 100px;
+background-color: black;
+}
+.bouton button{
+    background-color: black;
+    color: white;
 }
 
 .bouton img{
@@ -129,6 +138,7 @@ width: 50%;
     margin-top: 5%;
     width: 15%;
     border: solid;
+    
 }
 
 .item_promo{
@@ -193,7 +203,7 @@ display: flex;
 .quantite{
     display: flex;
 order: 5;
-width: 20%;
+width: 50px;
 }
 .quantite input{
 width: 100%;
@@ -229,4 +239,247 @@ width: 20%;
 display: flex;
 justify-content: center;
 margin-top: 5%;
+}
+
+
+
+}
+
+@media  all and (max-width: 1280px) {
+    .panier {
+        vertical-align: bottom;
+        align-self: flex-start;
+        flex-wrap: wrap;
+    }
+    
+    .truc {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 2%;
+        margin-left: 2%;
+        
+    }
+    
+    .logo {
+        align-self: center;
+    }
+    
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 2%;
+        margin-left: 2%;
+        text-decoration: none;
+        background-color: black;
+        
+    }
+    .menu a{
+        text-decoration: none;
+        color: white;
+        background-color: black;
+    }
+    
+    .banderole  {
+        margin-right: 2%;
+        margin-left: 2%;
+        margin-top: 5%;
+        width: auto;
+        height: 250px;
+        color: green;
+    }
+    
+    .corps {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+    
+    .promo {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+        
+    }
+    .millieu{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    width: 80%;
+    }
+    
+    .Recherche {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .commentaire {
+        display: flex;
+        margin-right: 2%;
+        border: solid;
+        width: 15%;
+    }
+    
+    .item {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    
+    .bouton{
+    display: flex;
+    flex-wrap: wrap;
+    order: 6;
+    width: 50%;
+    }
+    
+    .bouton img{
+        width: 15%;
+    }
+    
+    .tout {
+        display: flex;
+        flex-direction: column;
+        flex-wrap:nowrap;
+        
+    }
+    
+    .image_produit img{
+        order: 1;
+     max-width: 100px;
+     height: 150px;
+        overflow:auto;
+    }
+    
+    .nom_produit{
+        display: flex;
+        order: 2;
+        flex-wrap: wrap;
+    }
+    
+    
+    
+    .descprition_produit {
+        display: flex;
+        order: 3;
+        flex-wrap: wrap;
+        font-size: small;
+        
+    }
+    
+    
+    .prix_produit {
+        order: 4;
+    }
+    
+    .top{
+        margin-top: 5%;
+        width: 15%;
+        border: solid;
+    }
+    
+    .item_promo{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        
+        width: 80%;
+        height: 100%;
+        
+    }
+    .item_promo a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    .toutpromo1{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    
+    }
+    
+    .toutpromo2{
+        display: flex;
+        width: 80%;
+        justify-content: center;
+        
+    
+        }
+    
+    .categorie{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+        
+    }
+    
+    .categ_ a{
+        color: inherit;
+        text-decoration: none;
+        justify-content: center;
+    }
+    
+    .categorie img{
+    
+    max-width: 40%;
+    max-width: 50%;
+    
+    }
+    .ligne1{
+    display: flex;
+    justify-content: center;
+    
+    
+    }
+    .ligne2{
+    display: flex;
+    }
+    
+    .quantite{
+        display: flex;
+    order: 5;
+    width: 20%;
+    }
+    .quantite input{
+    width: 100%;
+    }
+    
+    
+    
+    .contact_main{
+    display: flex;
+    margin-top: 5%;
+    }
+    
+    .contact_droite{
+    display: flex;
+    width: 20%;
+    }
+    
+    .contact_millieu{
+    display: flex;
+    
+    }
+    
+    .contact_gauche{
+    display: flex;
+    width: 20%;
+    }
+    
+    .contact_message textarea{
+        resize: none;
+    }
+    
+    .panier_millieu{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    }
+    
+    body{
+        width: 100%;
+    }
 }
