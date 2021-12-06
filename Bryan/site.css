@@ -3,7 +3,7 @@
 }
 
 
-@media  all and (max-width:1900px){
+@media  all and (max-width:1920px){
 .panier {
     vertical-align: bottom;
     align-self: flex-start;
@@ -13,8 +13,7 @@
 .truc {
     display: flex;
     justify-content: space-between;
-    margin-right: 2%;
-    margin-left: 2%;
+    
 }
 
 .logo {
