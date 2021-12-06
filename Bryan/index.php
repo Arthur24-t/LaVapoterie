@@ -70,7 +70,7 @@ include_once("fonction-panier.php");
 if (isset($_POST["prod-C01"]))
 {
     $qte =$_POST["nb-C01"];
-ajouterArticle("Pod Caliburn",$qte,30);
+ajouterArticle("C01","Pod Caliburn",$qte,30);
 
 }
 
@@ -122,7 +122,7 @@ try {
 if (isset($_POST["prod-C14"]))
 {
     $qte =$_POST["nb-C14"];
-ajouterArticle("Aegis Solo",$qte,54);
+ajouterArticle("C14","Aegis Solo",$qte,54);
 
 }
 ?>
@@ -151,7 +151,7 @@ ajouterArticle("Aegis Solo",$qte,54);
 if (isset($_POST["prod-A11"]))
 {
     $qte =$_POST["nb-A11"];
-ajouterArticle("Acu 30w",$qte,10);
+ajouterArticle("A11","Acu 30w",$qte,10);
 
 }
 ?>
@@ -182,7 +182,7 @@ ajouterArticle("Acu 30w",$qte,10);
 if (isset($_POST["prod-L30"]))
 {
     $qte =$_POST["nb-L30"];
-ajouterArticle("Liquide Mangue",$qte,12);
+ajouterArticle("L30","Liquide Mangue",$qte,12);
 
 }
 ?> 
@@ -213,7 +213,7 @@ ajouterArticle("Liquide Mangue",$qte,12);
 if (isset($_POST["prod-C29"]))
 {
     $qte =$_POST["nb-C29"];
-ajouterArticle("Ecigarette economique",$qte,100);
+ajouterArticle("C29","Ecigarette economique",$qte,100);
 
 }
 ?> 
@@ -224,6 +224,7 @@ ajouterArticle("Ecigarette economique",$qte,100);
         <h1>Les Promotions du moment !!</h1>
         <div class="promo">
         <div class="toutpromo1">
+            
             <div class="item_promo">
         
                 <div class="image_produit"><img src="/image/cigarette-electronique-80w-complet-kit-kit-vape-av.jpg">

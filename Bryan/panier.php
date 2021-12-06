@@ -12,12 +12,14 @@ if($action !== null)
    $erreur=true;
 
    //récupération des variables en POST ou GET
+   $i = (isset($_POST['i'])? $_POST['i']:  (isset($_GET['i'])? $_GET['i']:null )) ;
    $l = (isset($_POST['l'])? $_POST['l']:  (isset($_GET['l'])? $_GET['l']:null )) ;
    $p = (isset($_POST['p'])? $_POST['p']:  (isset($_GET['p'])? $_GET['p']:null )) ;
    $q = (isset($_POST['q'])? $_POST['q']:  (isset($_GET['q'])? $_GET['q']:null )) ;
 
    //Suppression des espaces verticaux
    $l = preg_replace('#\v#', '',$l);
+   $i = preg_replace('#\v#', '',$i);
    //On vérifie que $p est un float
    $p = floatval($p);
 
@@ -38,7 +40,7 @@ if($action !== null)
 if (!$erreur){
    switch($action){
       Case "ajout":
-         ajouterArticle($l,$q,$p);
+         ajouterArticle($i,$l,$q,$p);
          break;
 
       Case "suppression":
@@ -46,9 +48,9 @@ if (!$erreur){
          break;
 
       Case "refresh" :
-         for ($i = 0 ; $i < count($QteArticle) ; $i++)
+         for ($b = 0 ; $b < count($QteArticle) ; $b++)
          {
-            modifierQTeArticle($_SESSION['panier']['libelleProduit'][$i],round($QteArticle[$i]));
+            modifierQTeArticle($_SESSION['panier']['libelleProduit'][$i],round($QteArticle[$b]));
          }
          break;
 

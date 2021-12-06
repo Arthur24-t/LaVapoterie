@@ -8,6 +8,13 @@
     vertical-align: bottom;
     align-self: flex-start;
     flex-wrap: wrap;
+    text-align: center;
+    text-decoration: none;
+}
+
+.panier a{
+    text-decoration: none;
+    color: black;
 }
 
 .truc {
@@ -61,8 +68,8 @@
 display: flex;
 flex-direction: column;
 flex-wrap: wrap;
-margin-top: 5%;
-width: 80%;
+margin-top: 8%;
+width: 100%;
 }
 
 .Recherche {
@@ -73,7 +80,7 @@ width: 80%;
 .commentaire {
     display: flex;
     margin-right: 2%;
-    border: solid;
+    margin-top: 5%;
     width: 15%;
 }
 
@@ -185,18 +192,22 @@ justify-content: center;
 
 .categorie img{
 
-max-width: 40%;
-max-width: 50%;
+    width: 300px;
+    height: 300px;
 
 }
 .ligne1{
 display: flex;
 justify-content: center;
-
+flex-wrap: wrap;
+width: 400px;
 
 }
 .ligne2{
-display: flex;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 400px;
 }
 
 .quantite{
@@ -239,6 +250,7 @@ display: flex;
 justify-content: center;
 margin-top: 5%;
 }
+
 
 
 
@@ -315,6 +327,7 @@ margin-top: 5%;
     .commentaire {
         display: flex;
         margin-right: 2%;
+        margin-top: 5%;
         border: solid;
         width: 15%;
     }
@@ -419,8 +432,8 @@ margin-top: 5%;
     
     .categorie img{
     
-    max-width: 40%;
-    max-width: 50%;
+    width: 100px;
+    height: 100px;
     
     }
     .ligne1{
@@ -436,7 +449,7 @@ margin-top: 5%;
     .quantite{
         display: flex;
     order: 5;
-    width: 5àpx;
+    width: 50px;
     }
     .quantite input{
     width: 100%;
