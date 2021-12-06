@@ -50,7 +50,7 @@ if (!$erreur){
       Case "refresh" :
          for ($b = 0 ; $b < count($QteArticle) ; $b++)
          {
-            modifierQTeArticle($_SESSION['panier']['libelleProduit'][$i],round($QteArticle[$b]));
+            modifierQTeArticle($_SESSION['panier']['libelleProduit'][$b],round($QteArticle[$b]));
          }
          break;
 
@@ -95,8 +95,8 @@ echo '<?xml version="1.0" encoding="utf-8"?>';?>
           {
              echo "<tr>";
              echo "<td>".htmlspecialchars($_SESSION['panier']['libelleProduit'][$i])."</ td>";
-             echo "<td><input type=\"text\" size=\"4\" name=\"q[]\" value=\"".htmlspecialchars($_SESSION['panier']['qteProduit'][$i])."\"/></td>";
-             echo "<td>".htmlspecialchars($_SESSION['panier']['prixProduit'][$i])."</td>";
+             echo "<td><input type=\"number\" size=\"2\" name=\"q[]\" value=\"".htmlspecialchars($_SESSION['panier']['qteProduit'][$i])."\"/></td>";
+             echo "<td>".htmlspecialchars($_SESSION['panier']['prixProduit'][$i])."€</td>";
              echo "<td><a href=\"".htmlspecialchars("panier.php?action=suppression&l=".rawurlencode($_SESSION['panier']['libelleProduit'][$i]))."\">Suprimer</a></td>";
              echo "</tr>";
           }
@@ -104,7 +104,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>';?>
           echo "<tr><td colspan=\"2\"> </td>";
           echo "<td colspan=\"2\">";
           echo "Total : ".MontantGlobal();
-          echo "</td></tr>";
+          echo "€</td></tr>";
 
           echo "<tr><td colspan=\"4\">";
           echo "<input type=\"submit\" value=\"Rafraichir\"/>";
