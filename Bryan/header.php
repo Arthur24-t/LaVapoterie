@@ -1,10 +1,10 @@
 
 <link rel="stylesheet" type="text/css" href="site.css" />
-<header class="header">
+
 
     <div class="truc">
         <div class="bidule">
-            <p></p>
+            
         </div>
         <a href="index.php">
             <div class="logo">
@@ -20,10 +20,10 @@
 
             if ($nb == 0)
             {
-            echo "<p>il n'y a pas d'article dans le panier </p>" ;
+            echo "<p>il n'y a pas d'article </br>dans le panier </p>" ;
             }
             else
-            echo "<p>il y a $nb d'article dans le panier </p>" ;
+            echo "<p>il y a $nb d'article </br>dans le panier </p>" ;
             ?>
     </a>
             </br>
@@ -57,4 +57,3 @@
 
     </div>
 
-</header>

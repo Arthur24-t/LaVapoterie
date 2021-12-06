@@ -42,7 +42,7 @@ include_once("fonction-panier.php");
 
         <div class="top">
         <div>
-        <p>Top des ventes</p>
+        <h1>Top des ventes</h1>
         <div class="item">
             <div><H1>1</H1></div>
                 <div class="image_produit"><img src="/image/produit/pod-caliburn.jpg">
@@ -76,6 +76,7 @@ ajouterArticle("Pod Caliburn",$qte,30);
 
 
 
+/*
 try {
  
     $pdo = new PDO(
@@ -91,6 +92,7 @@ try {
      exit('Erreur de connexion à la base de données');
      
     }
+    */
 ?>
 
 
@@ -159,7 +161,7 @@ ajouterArticle("Acu 30w",$qte,10);
                 </div>
                 <div class="tout">
                     <div class="nom_produit">
-                        <p>cigarette</p>
+                        <p>Liquide Mangue</p>
                     </div>
                     <div class="descprition_produit">
                         <p>Liquide Mangue pour ecigarette</p>
@@ -273,7 +275,7 @@ ajouterArticle("Ecigarette economique",$qte,100);
                         <p>ecigarette superturbo</p>
                     </div>
                     <div class="descprition_produit">
-                        <p>mega cigarette de la mort qui tue</p>
+                        <p>mega cigarette </br>de la mort qui tue</p>
                     </div>
                     <div class="prix_produit">
                         <p>un rein</p>
