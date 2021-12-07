@@ -78,12 +78,7 @@ width: 100%;
     flex-direction: column;
 }
 
-.commentaire {
-    display: flex;
-    margin-right: 2%;
-    margin-top: 5%;
-    width: 15%;
-}
+
 
 .item {
     display: flex;
@@ -145,6 +140,7 @@ background-color: black;
 .top{
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 
@@ -183,7 +179,7 @@ justify-content: center;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 100px;
-    margin-right: 50px;
+    
     
 }
 
@@ -197,7 +193,6 @@ justify-content: center;
 .categ_ h3{
 text-align: center;
 
-
 }
 .categorie img{
 
@@ -205,15 +200,7 @@ text-align: center;
     height: 300px;
 
 }
-.ligne1{
-display: flex;
 
-
-
-}
-.ligne2{
-    display: flex;
-}
 
 .quantite{
     display: flex;
@@ -226,6 +213,10 @@ width: 100%;
 
 .titre{
     margin-left: 100px;
+    
+    height: 70px;
+    color: white;
+    background-color: black;
 }
 
 .contact_main{
@@ -443,15 +434,7 @@ margin-top: 5%;
     height: 100px;
     
     }
-    .ligne1{
-    display: flex;
-    justify-content: center;
     
-    
-    }
-    .ligne2{
-    display: flex;
-    }
     
     .quantite{
         display: flex;

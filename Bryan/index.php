@@ -220,7 +220,7 @@ include_once("fonction-panier.php");
 
 
             <div class="titre">
-                <h1>Les Promotions du moment !!</h1>
+                <H1>Les Promotions du moment !!</H1>
             </div>
 
             <div class="promo">
@@ -450,14 +450,14 @@ include_once("fonction-panier.php");
 
 
 
+            
+
+            <div class="categorie">
             <div class="titre">
                 <H1>Nos Categorie !</H1>
             </div>
 
-            <div class="categorie">
-
-
-                <div class="ligne1">
+                
                     <div class="categ_">
                         <a href="Cigarettes.php">
                             <h3>ECIGARETTE</h3>
@@ -470,9 +470,9 @@ include_once("fonction-panier.php");
                             <img src="image/liquide_categ.png" alt="">
                         </a>
                     </div>
-                </div>
+                
 
-                <div class="ligne2">
+                
                     <div class="categ_">
                         <a href="accessoire.php">
                             <h3>ACCESSOIRES</h3>
@@ -485,7 +485,7 @@ include_once("fonction-panier.php");
                             <img src="image/pieces_categ.jpg" alt="">
                         </a>
                     </div>
-                </div>
+                
             </div>
         </div>
     </div>
