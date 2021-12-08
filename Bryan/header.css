@@ -1,3 +1,9 @@
+*{
+    font-family: Andale Mono, monospace;
+    margin: 0; 
+    padding: 0;
+}
+
 @media  all and (max-width:1920px){
 
 .container__docker {
