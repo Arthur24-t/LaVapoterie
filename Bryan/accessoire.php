@@ -68,8 +68,10 @@
                     <div class="prix_produit">
                         <p>12€</p>
                     </div>
+                    <div class="bouton"><button class="ajout_panier" type="submit" name="prod-C01"> ajouter au panier </button></div>
                 </div>
             </div>
+
 
             <div class="item">
                 <div class="image_produit"><img src="/image/seringue.jpg">

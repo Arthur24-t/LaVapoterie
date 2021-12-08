@@ -100,3 +100,16 @@
 .prix_produit {
     order: 4;
 }
+
+.bouton {
+    display: flex;
+    flex-wrap: wrap;
+    order: 5;
+    width: 100px;
+    background-color: black;
+}
+
+.bouton button {
+    background-color: black;
+    color: white;
+}
