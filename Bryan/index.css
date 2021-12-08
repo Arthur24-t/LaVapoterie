@@ -402,3 +402,201 @@ text-align: center;
 }
 
 }
+
+@media all and (max-width: 640px) {
+    
+    .head {
+        margin: 0;
+position: fixed;
+width: 100%;
+background-color: white;
+opacity: 1;
+z-index: 3;
+    }
+
+.banderole {
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 2%;
+    width: auto;
+    height: 250px;
+    border: 3px solid;
+}
+
+.corps {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.promo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    margin: 50px;
+    
+}
+.millieu{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+
+
+}
+
+
+.item {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 200px;
+    
+}
+
+.bouton{
+display: flex;
+flex-wrap: wrap;
+order: 6;
+width: 100px;
+background-color: black;
+}
+.bouton button{
+    background-color: black;
+    color: white;
+}
+
+.bouton img{
+    width: 15%;
+}
+
+.tout {
+    display: flex;
+    flex-direction: column;
+    flex-wrap:nowrap;
+    justify-content: space-between;
+    
+}
+
+.image_produit img{
+    order: 1;
+ max-width: 200px;
+ height: 100px;
+    overflow:auto;
+}
+
+.nom_produit{
+    display: flex;
+    order: 2;
+    flex-wrap: wrap;
+    font-weight: bold;
+}
+
+
+
+.descprition_produit {
+    display: flex;
+    order: 3;
+    flex-wrap: wrap;
+    font-size: small;
+    
+}
+
+
+.prix_produit {
+    order: 4;
+}
+
+.top{
+    margin-top: 20px;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+    width: auto;
+   
+}
+
+
+
+.item_promo{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    
+    width: 280px;
+    
+    
+}
+.item_promo a{
+    text-decoration: none;
+    color: black;
+}
+
+.toutpromo1{
+display: flex;
+
+justify-content: center;
+
+}
+
+.toutpromo2{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    
+
+    }
+
+.categorie{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+
+.categ_ a{
+    color: inherit;
+    text-decoration: none;
+    
+}
+
+.categ_ h3{
+text-align: center;
+
+}
+.categorie img{
+
+    width: 150px;
+    height: 150px;
+    margin: 50px;
+}
+
+
+.titre{
+    margin-top: 10px;
+ text-align: center;   
+
+}
+
+.num{
+    margin-top: 5px;
+    position: relative;
+    
+    color: white;
+    background-color: black;
+    transform: translate(0px, 9px);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+                    height: 32px;
+                    width: 32px;
+    z-index: 1;
+}
+
+
+
+    }

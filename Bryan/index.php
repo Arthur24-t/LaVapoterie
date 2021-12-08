@@ -51,7 +51,7 @@ include_once("fonction-panier.php");
                     </div>
                 <div class="item">
                     
-                    <div class="image_produit"><img src="/image/produit/pod-caliburn.jpg">
+                    <div class="image_produit"><img src="/image/produit/C01.jpg">
                     </div>
                     <div class="tout">
                         <div class="nom_produit">
@@ -102,7 +102,7 @@ include_once("fonction-panier.php");
 
                 <div class="item">
                     
-                    <div class="image_produit"><img src="/image/produit/aegis-solo.jpg">
+                    <div class="image_produit"><img src="/image/produit/C14.jpg">
                     </div>
                     <div class="tout">
                         <div class="nom_produit">
@@ -132,7 +132,7 @@ include_once("fonction-panier.php");
                     </div>
                 <div class="item">
                     
-                    <div class="image_produit"><img src="/image/produit/acu-30w.jpg">
+                    <div class="image_produit"><img src="/image/produit/A11.jpg">
                     </div>
                     <div class="tout">
                         <div class="nom_produit">
@@ -162,7 +162,7 @@ include_once("fonction-panier.php");
                     </div>
                 <div class="item">
                     
-                    <div class="image_produit"><img src="/image/produit/liquide-mangue.jpg">
+                    <div class="image_produit"><img src="/image/produit/L30.jpg">
                     </div>
                     <div class="tout">
                         <div class="nom_produit">
@@ -194,7 +194,7 @@ include_once("fonction-panier.php");
                     </div>
                 <div class="item">
                 
-                    <div class="image_produit"><img src="/image/produit/cigarette-economique.jpg">
+                    <div class="image_produit"><img src="/image/produit/C29.jpg">
                     </div>
                     <div class="tout">
                         <div class="nom_produit">
@@ -234,7 +234,7 @@ include_once("fonction-panier.php");
 
                     <div class="item_promo">
 
-                        <div class="image_produit"><img src="/image/produit/chargeur-double.jpg">
+                        <div class="image_produit"><img src="/image/produit/A12.jpg">
                         </div>
                         <div class="tout">
                             <div class="nom_produit">
@@ -262,7 +262,7 @@ include_once("fonction-panier.php");
                     ?>
 
                     <div class="item_promo">
-                        <div class="image_produit"><img src="/image/produit/pochette-rangement.jpg">
+                        <div class="image_produit"><img src="/image/produit/A17.jpg">
                         </div>
                         <div class="tout">
                             <div class="nom_produit">
@@ -277,7 +277,7 @@ include_once("fonction-panier.php");
                             <div class="quantite">
                                 
                             </div>
-                            <div class="bouton"><button class="ajout_panier" type="submit" name="prod-A11"> ajouter au panier </button>
+                            <div class="bouton"><button class="ajout_panier" type="submit" name="prod-A17"> ajouter au panier </button>
                             </div>
                         </div>
                     </div>
@@ -290,7 +290,7 @@ include_once("fonction-panier.php");
                     ?>
 
                     <div class="item_promo">
-                        <div class="image_produit"><img src="/image/produit/flacon 100ml.jpg">
+                        <div class="image_produit"><img src="/image/produit/A20.jpg">
                         </div>
                         <div class="tout">
                             <div class="nom_produit">
@@ -318,7 +318,7 @@ include_once("fonction-panier.php");
                     ?>
 
                     <div class="item_promo">
-                        <div class="image_produit"><img src="/image/produit/resistance.jpg">
+                        <div class="image_produit"><img src="/image/produit/P02.jpg">
                         </div>
                         <div class="tout">
                             <div class="nom_produit">
@@ -348,7 +348,7 @@ include_once("fonction-panier.php");
                 <div class="toutpromo2">
                     <div class="item_promo">
 
-                        <div class="image_produit"><img src="/image/produit/ecigarette-kit.jpg">
+                        <div class="image_produit"><img src="/image/produit/C04.jpg">
                         </div>
                         <div class="tout">
                             <div class="nom_produit">
@@ -375,7 +375,7 @@ include_once("fonction-panier.php");
                     }
                     ?>
                     <div class="item_promo">
-                        <div class="image_produit"><img src="/image/produit/liquide ananas.jpg">
+                        <div class="image_produit"><img src="/image/produit/L25.jpg">
                         </div>
                         <div class="tout">
                             <div class="nom_produit">
@@ -402,7 +402,7 @@ include_once("fonction-panier.php");
                     }
                     ?>
                     <div class="item_promo">
-                        <div class="image_produit"><img src="/image/produit/pod-2000.jpg">
+                        <div class="image_produit"><img src="/image/produit/C16.jpg">
                         </div>
                         <div class="tout">
                             <div class="nom_produit">
