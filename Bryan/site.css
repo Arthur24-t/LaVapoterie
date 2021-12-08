@@ -46,12 +46,6 @@ flex-wrap: wrap;
 
 }
 
-.Recherche {
-    display: flex;
-    flex-direction: column;
-}
-
-
 
 .item {
     display: flex;
@@ -180,50 +174,13 @@ text-align: center;
 }
 
 
-.quantite{
-    display: flex;
-order: 5;
-width: 50px;
-}
-.quantite input{
-width: 100%;
-}
-
 .titre{
     margin-top: 10px;
  text-align: center;   
-    
-    
-}
-.contact_main{
-display: flex;
-margin-top: 5%;
-}
-
-.contact_droite{
-display: flex;
-width: 20%;
-}
-
-.contact_millieu{
-display: flex;
 
 }
 
-.contact_gauche{
-display: flex;
-width: 20%;
-}
 
-.contact_message textarea{
-    resize: none;
-}
-
-.panier_millieu{
-display: flex;
-justify-content: center;
-margin-top: 5%;
-}
 
 
 

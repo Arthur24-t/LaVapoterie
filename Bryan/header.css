@@ -1,3 +1,5 @@
+@media  all and (max-width:1920px){
+
 .container__docker {
     margin-top: 5px;
     position: fixed;
@@ -57,3 +59,66 @@ line-height: 40px;
 text-decoration: none;
 color: white;
 }
+}
+
+@media  all and (max-width: 1366px) {
+    .container__docker {
+        margin-top: 5px;
+        position: fixed;
+        right: 0;
+        top: 0;
+        transform: translate(-10px, 10px);
+        background-color: blue;
+        
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        border-radius: 9999px;
+                        height: 32px;
+                        width: 32px;
+    }
+    
+    
+    
+    .panier {
+    vertical-align: bottom;
+    align-self: flex-start;
+    flex-wrap: wrap;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    
+    }
+    
+    .panier a{
+    text-decoration: none;
+    color: black;
+    }
+    
+    .truc {
+    display: flex;
+    justify-content: space-between;
+    
+    }
+    
+    .logo {
+    align-self: center;
+    width: 250px;
+    height: 250px;
+    }
+    
+    .menu {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    background-color: black;
+    
+    font-size: 25px;
+    line-height: 40px;
+    
+    }
+    .menu a{
+    text-decoration: none;
+    color: white;
+    }
+    }
