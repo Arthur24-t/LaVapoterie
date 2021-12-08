@@ -80,7 +80,10 @@
 }
 
 .nom_produit p {
+    display: flex;
     order: 2;
+    font-weight: bold;
+    flex-wrap: wrap;
 }
 
 .nom_produit>* {
@@ -88,7 +91,9 @@
 }
 
 .descprition_produit {
+    display: flex;
     order: 3;
+    flex-wrap: wrap;
 }
 
 .prix_produit {

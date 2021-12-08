@@ -85,14 +85,14 @@
             </div>
 
             <div class="item">
-                <div class="image_produit"><img src="image/flacon 100ml.jpg">
+                <div class="image_produit"><img src="image/produit/flacon 100ml.jpg">
                 </div>
                 <div class="tout">
                     <div class="nom_produit">
                         <p>Flacon</p>
                     </div>
                     <div class="descprition_produit">
-                        <p>Flacon pour liquide <br> en plastique de <br> contenance 100ml</p>
+                        <p>Flacon pour liquide  en plastique de  contenance 100ml</p>
                     </div>
                     <div class="prix_produit">
                         <p>5€</p>
@@ -119,7 +119,7 @@
             </div>
 
             <div class="item">
-                <div class="image_produit"><img src="image/flacon 100ml.jpg">
+                <div class="image_produit"><img src="image/produit/flacon 100ml.jpg">
                 </div>
                 <div class="tout">
                     <div class="nom_produit">
