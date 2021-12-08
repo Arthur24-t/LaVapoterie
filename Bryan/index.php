@@ -11,8 +11,8 @@ include_once("fonction-panier.php");
 <head>
     <title>Site d'achat d'ecigarette</title>
     <link rel="icon" href="/image/logo.png" type="image/icon type">
-    <link rel="stylesheet" type="text/css" href="site.css" />
-    <link rel="stylesheet" media="screen and (max-width: 1280px)" href="site.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="stylesheet" media="screen and (max-width: 1280px)" href="index.css" type="text/css" />
 
 </head>
 

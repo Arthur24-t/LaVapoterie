@@ -1,0 +1,29 @@
+*{
+    font-family: Andale Mono, monospace;
+    margin: 0; 
+    padding: 0;
+}
+
+.contact_main{
+    display: flex;
+    margin-top: 5%;
+    }
+    
+    .contact_droite{
+    display: flex;
+    width: 20%;
+    }
+    
+    .contact_millieu{
+    display: flex;
+    
+    }
+    
+    .contact_gauche{
+    display: flex;
+    width: 20%;
+    }
+    
+    .contact_message textarea{
+        resize: none;
+    }

@@ -1,6 +1,6 @@
 
 <link rel="stylesheet" type="text/css" href="header.css" />
-
+<link rel="stylesheet" media="screen and (max-width: 1280px)" href="site.css" type="text/css" />
 
     <div class="truc">
         <div class="bidule">
