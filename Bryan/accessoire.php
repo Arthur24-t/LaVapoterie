@@ -48,7 +48,16 @@
             </div>
         </div>
 
-
+        <?php
+            try
+            {
+	            $db = new PDO('mysql:host=localhost;dbname=lavapoterie;charset=utf8', 'root', '1234');
+            }
+            catch (Exception $e)
+            {
+                die('Erreur : ' . $e->getMessage());
+            }
+        ?>
 
         <div class="produit">
 
