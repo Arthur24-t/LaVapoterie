@@ -21,6 +21,8 @@
     </div>
     <div class="corps">
 
+
+        <!--
         <div class="Recherche">
 
             <div>
@@ -48,12 +50,13 @@
             </div>
         </div>
 
+-->
 
 
         <div class="produit">
-
+        
             <div class="item">
-                <div class="image_produit"><img src="image/rangement.jpg">
+                <div class="image_produit"><img src="/image/rangement.jpg">
                 </div>
                 <div class="tout">
                     <div class="nom_produit">
@@ -69,7 +72,7 @@
             </div>
 
             <div class="item">
-                <div class="image_produit"><img src="image/seringue.jpg">
+                <div class="image_produit"><img src="/image/seringue.jpg">
                 </div>
                 <div class="tout">
                     <div class="nom_produit">
@@ -85,7 +88,7 @@
             </div>
 
             <div class="item">
-                <div class="image_produit"><img src="image/produit/flacon 100ml.jpg">
+                <div class="image_produit"><img src="/image/produit/A20.jpg">
                 </div>
                 <div class="tout">
                     <div class="nom_produit">
@@ -103,7 +106,7 @@
 
 
             <div class="item">
-                <div class="image_produit"><img src="image/chargeur.jpg">
+                <div class="image_produit"><img src="/image/chargeur.jpg">
                 </div>
                 <div class="tout">
                     <div class="nom_produit">
@@ -119,7 +122,7 @@
             </div>
 
             <div class="item">
-                <div class="image_produit"><img src="image/produit/flacon 100ml.jpg">
+                <div class="image_produit"><img src="/image/produit/A20.jpg">
                 </div>
                 <div class="tout">
                     <div class="nom_produit">
@@ -136,7 +139,7 @@
             </div>
 
             <div class="item">
-                <div class="image_produit"><img src="image/drip tip bleu.jpg">
+                <div class="image_produit"><img src="/image/drip tip bleu.jpg">
                 </div>
                 <div class="tout">
                     <div class="nom_produit">
@@ -152,7 +155,7 @@
             </div>
 
             <div class="item">
-                <div class="image_produit"><img src="image/seringue.jpg">
+                <div class="image_produit"><img src="/image/seringue.jpg">
                 </div>
                 <div class="tout">
                     <div class="nom_produit">
@@ -168,7 +171,7 @@
             </div>
 
             <div class="item">
-                <div class="image_produit"><img src="image/seringue.jpg">
+                <div class="image_produit"><img src="/image/seringue.jpg">
                 </div>
                 <div class="tout">
                     <div class="nom_produit">
@@ -184,7 +187,7 @@
             </div>
 
             <div class="item">
-                <div class="image_produit"><img src="image/seringue.jpg">
+                <div class="image_produit"><img src="/image/seringue.jpg">
                 </div>
                 <div class="tout">
                     <div class="nom_produit">
@@ -200,7 +203,7 @@
             </div>
 
             <div class="item">
-                <div class="image_produit"><img src="image/seringue.jpg">
+                <div class="image_produit"><img src="/image/seringue.jpg">
                 </div>
                 <div class="tout">
                     <div class="nom_produit">
@@ -215,8 +218,9 @@
                 </div>
             </div>
 
+            
             <div class="item">
-                <div class="image_produit"><img src="image/seringue.jpg">
+                <div class="image_produit"><img src="/image/seringue.jpg">
                 </div>
                 <div class="tout">
                     <div class="nom_produit">
@@ -233,9 +237,7 @@
 
 
         </div>
-        <div class="vide">
 
-        </div>
 
     </div>
 
