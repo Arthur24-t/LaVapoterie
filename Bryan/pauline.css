@@ -63,6 +63,8 @@
 .item {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 50px;
+    margin-left: 10px;
 }
 
 .tout {

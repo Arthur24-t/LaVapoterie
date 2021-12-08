@@ -1,17 +1,13 @@
-*{
+* {
     font-family: Andale Mono, monospace;
-    margin: 0; 
+    margin: 0;
     padding: 0;
 }
 
-
-@media  all and (max-width:1920px){
-
-    
+@media all and (max-width:1920px) {
     .container {
         position: relative;
     }
-
     .container__docker {
         margin-top: 5px;
         position: absolute;
@@ -24,298 +20,216 @@
         display: flex;
         justify-content: center;
         border-radius: 9999px;
-                        height: 32px;
-                        width: 32px;
+        height: 32px;
+        width: 32px;
     }
-
-
-
-.panier {
-    vertical-align: bottom;
-    align-self: flex-start;
-    flex-wrap: wrap;
-    text-align: center;
-    text-decoration: none;
-}
-
-.panier a{
-    text-decoration: none;
-    color: black;
-}
-
-.truc {
-    display: flex;
-    justify-content: space-between;
-    
-}
-
-.logo {
-    align-self: center;
-}
-
-.menu {
-    display: flex;
-    justify-content: space-between;
-    text-decoration: none;
-    background-color: black;
-    
-    font-size: 25px;
-    line-height: 40px;
-    
-}
-.menu a{
-    text-decoration: none;
-    color: white;
-}
-
-.banderole {
-    margin-right: 2%;
-    margin-left: 2%;
-    margin-top: 5%;
-    width: auto;
-    height: 250px;
-    border: 3px solid;
-    
-}
-
-.corps {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-right: 2%;
-    margin-left: 2%;
-}
-
-.promo {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    
-    margin: 50px;
-    
-}
-.millieu{
-display: flex;
-flex-direction: column;
-flex-wrap: wrap;
-margin-top: 8%;
-
-}
-
-.Recherche {
-    display: flex;
-    flex-direction: column;
-}
-
-
-
-.item {
-    display: flex;
-    flex-wrap: nowrap;
-    width: 300px;
-}
-
-.bouton{
-display: flex;
-flex-wrap: wrap;
-order: 6;
-width: 100px;
-background-color: black;
-}
-.bouton button{
-    background-color: black;
-    color: white;
-}
-
-.bouton img{
-    width: 15%;
-}
-
-.tout {
-    display: flex;
-    flex-direction: column;
-    flex-wrap:nowrap;
-    justify-content: space-between;
-}
-
-.image_produit img{
-    order: 1;
- max-width: 100px;
- height: 150px;
-    overflow:auto;
-}
-
-.nom_produit{
-    display: flex;
-    order: 2;
-    flex-wrap: wrap;
-}
-
-
-
-.descprition_produit {
-    display: flex;
-    order: 3;
-    flex-wrap: wrap;
-    font-size: small;
-    
-}
-
-
-.prix_produit {
-    order: 4;
-}
-
-.top{
-    display: flex;
-    justify-content: center;
-    
-    margin: 50px;
-}
-
-
-
-.item_promo{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    
-    width: 400px;
-    
-    
-}
-.item_promo a{
-    text-decoration: none;
-    color: black;
-}
-
-.toutpromo1{
-display: flex;
-
-justify-content: center;
-
-}
-
-.toutpromo2{
-    display: flex;
-    
-    justify-content: center;
-    
-
+    .panier {
+        vertical-align: bottom;
+        align-self: flex-start;
+        flex-wrap: wrap;
+        text-align: center;
+        text-decoration: none;
     }
-
-.categorie{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    
-    
-    
+    .panier a {
+        text-decoration: none;
+        color: black;
+    }
+    .truc {
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo {
+        align-self: center;
+    }
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        text-decoration: none;
+        background-color: black;
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .menu a {
+        text-decoration: none;
+        color: white;
+    }
+    .banderole {
+        margin-right: 2%;
+        margin-left: 2%;
+        margin-top: 5%;
+        width: auto;
+        height: 250px;
+        border: 3px solid;
+    }
+    .corps {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+    .promo {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 50px;
+    }
+    .millieu {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 8%;
+    }
+    .Recherche {
+        display: flex;
+        flex-direction: column;
+    }
+    .item {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 300px;
+    }
+    .bouton {
+        display: flex;
+        flex-wrap: wrap;
+        order: 6;
+        width: 100px;
+        background-color: black;
+    }
+    .bouton button {
+        background-color: black;
+        color: white;
+    }
+    .bouton img {
+        width: 15%;
+    }
+    .tout {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    .image_produit img {
+        order: 1;
+        max-width: 100px;
+        height: 150px;
+        overflow: auto;
+    }
+    .nom_produit {
+        display: flex;
+        order: 2;
+        flex-wrap: wrap;
+    }
+    .descprition_produit {
+        display: flex;
+        order: 3;
+        flex-wrap: wrap;
+        font-size: small;
+    }
+    .prix_produit {
+        order: 4;
+    }
+    .top {
+        display: flex;
+        justify-content: center;
+        margin: 50px;
+    }
+    .item_promo {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        width: 400px;
+    }
+    .item_promo a {
+        text-decoration: none;
+        color: black;
+    }
+    .toutpromo1 {
+        display: flex;
+        justify-content: center;
+    }
+    .toutpromo2 {
+        display: flex;
+        justify-content: center;
+    }
+    .categorie {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .categ_ a {
+        color: inherit;
+        text-decoration: none;
+    }
+    .categ_ h3 {
+        text-align: center;
+    }
+    .categorie img {
+        width: 300px;
+        height: 300px;
+    }
+    .quantite {
+        display: flex;
+        order: 5;
+        width: 50px;
+    }
+    .quantite input {
+        width: 100%;
+    }
+    .titre {
+        text-align: center;
+    }
+    .contact_main {
+        display: flex;
+        margin-top: 5%;
+    }
+    .contact_droite {
+        display: flex;
+        width: 20%;
+    }
+    .contact_millieu {
+        display: flex;
+    }
+    .contact_gauche {
+        display: flex;
+        width: 20%;
+    }
+    .contact_message textarea {
+        resize: none;
+    }
+    .panier_millieu {
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+    }
 }
 
-
-.categ_ a{
-    color: inherit;
-    text-decoration: none;
-    
-}
-
-.categ_ h3{
-text-align: center;
-
-}
-.categorie img{
-
-    width: 300px;
-    height: 300px;
-
-}
-
-
-.quantite{
-    display: flex;
-order: 5;
-width: 50px;
-}
-.quantite input{
-width: 100%;
-}
-
-.titre{
-    
- text-align: center;   
-    
-    
-}
-.contact_main{
-display: flex;
-margin-top: 5%;
-}
-
-.contact_droite{
-display: flex;
-width: 20%;
-}
-
-.contact_millieu{
-display: flex;
-
-}
-
-.contact_gauche{
-display: flex;
-width: 20%;
-}
-
-.contact_message textarea{
-    resize: none;
-}
-
-.panier_millieu{
-display: flex;
-justify-content: center;
-margin-top: 5%;
-}
-
-
-
-
-}
-
-@media  all and (max-width: 1366px) {
+@media all and (max-width: 1366px) {
     .panier {
         vertical-align: bottom;
         align-self: flex-start;
         flex-wrap: wrap;
     }
-    
     .truc {
         display: flex;
         justify-content: space-between;
-        
         width: auto;
     }
-    
     .logo {
         align-self: center;
     }
-    
     .menu {
         display: flex;
         justify-content: space-between;
-        
         text-decoration: none;
         background-color: black;
-        
     }
-    .menu a{
+    .menu a {
         text-decoration: none;
         color: white;
         background-color: black;
-        
     }
-    
-    .banderole  {
+    .banderole {
         margin-right: 2%;
         margin-left: 2%;
         margin-top: 5%;
@@ -323,34 +237,29 @@ margin-top: 5%;
         height: 250px;
         color: black;
     }
-    
     .corps {
         display: flex;
         justify-content: space-between;
         margin-right: 2%;
         margin-left: 2%;
     }
-    
     .promo {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
         width: 100%;
-        
     }
-    .millieu{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin-top: 5%;
-    width: 80%;
+    .millieu {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 5%;
+        width: 80%;
     }
-    
     .Recherche {
         display: flex;
         flex-direction: column;
     }
-    
     .commentaire {
         display: flex;
         margin-right: 2%;
@@ -358,153 +267,109 @@ margin-top: 5%;
         border: solid;
         width: 15%;
     }
-    
     .item {
         display: flex;
         flex-wrap: nowrap;
     }
-    
-    .bouton{
-    display: flex;
-    flex-wrap: wrap;
-    order: 6;
-    width: 100px;
+    .bouton {
+        display: flex;
+        flex-wrap: wrap;
+        order: 6;
+        width: 100px;
     }
-    
-    
-    
     .tout {
         display: flex;
         flex-direction: column;
-        flex-wrap:nowrap;
-        
+        flex-wrap: nowrap;
     }
-    
-    .image_produit img{
+    .image_produit img {
         order: 1;
-     width: 80px;
-     height: 150px;
-        overflow:auto;
+        width: 80px;
+        height: 150px;
+        overflow: auto;
     }
-    
-    .nom_produit{
+    .nom_produit {
         display: flex;
         order: 2;
         flex-wrap: wrap;
     }
-    
-    
-    
     .descprition_produit {
         display: flex;
         order: 3;
         flex-wrap: wrap;
         font-size: small;
-        
     }
-    
-    
     .prix_produit {
         order: 4;
     }
-    
-    .top{
+    .top {
         margin-top: 5%;
-        
-        
     }
-    
-    .item_promo{
+    .item_promo {
         display: flex;
         flex-wrap: nowrap;
         justify-content: center;
-        
         width: 300px;
         height: 200px;
-        
     }
-    .item_promo a{
+    .item_promo a {
         text-decoration: none;
         color: black;
     }
-    
-    .toutpromo1{
-    display: flex;
-    width: 80%;
-    justify-content: center;
-    
+    .toutpromo1 {
+        display: flex;
+        width: 80%;
+        justify-content: center;
     }
-    
-    .toutpromo2{
+    .toutpromo2 {
         display: flex;
         width: 80%;
         justify-content: center;
         margin-top: 40px;
-    
-        }
-    
-    .categorie{
+    }
+    .categorie {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        
-        
     }
-    
-    .categ_ a{
+    .categ_ a {
         color: inherit;
         text-decoration: none;
         justify-content: center;
     }
-    
-    .categorie img{
-    
-    width: 100px;
-    height: 100px;
-    
+    .categorie img {
+        width: 100px;
+        height: 100px;
     }
-    
-    
-    .quantite{
+    .quantite {
         display: flex;
-    order: 5;
-    width: 50px;
+        order: 5;
+        width: 50px;
     }
-    .quantite input{
-    width: 100%;
+    .quantite input {
+        width: 100%;
     }
-    
-    
-    
-    .contact_main{
-    display: flex;
-    margin-top: 5%;
+    .contact_main {
+        display: flex;
+        margin-top: 5%;
     }
-    
-    .contact_droite{
-    display: flex;
-    width: 20%;
+    .contact_droite {
+        display: flex;
+        width: 20%;
     }
-    
-    .contact_millieu{
-    display: flex;
-    
+    .contact_millieu {
+        display: flex;
     }
-    
-    .contact_gauche{
-    display: flex;
-    width: 20%;
+    .contact_gauche {
+        display: flex;
+        width: 20%;
     }
-    
-    .contact_message textarea{
+    .contact_message textarea {
         resize: none;
     }
-    
-    .panier_millieu{
-    display: flex;
-    justify-content: center;
-    margin-top: 5%;
+    .panier_millieu {
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
     }
-    
-    
 }
