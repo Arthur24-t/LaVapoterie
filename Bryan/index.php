@@ -460,7 +460,7 @@ include_once("fonction-panier.php");
 
 
         <div class="titre">
-            <H1>NOS CATEGORIE</H1>
+            <H1>NOS CATEGORIES</H1>
         </div>
 
         <div class="categorie">

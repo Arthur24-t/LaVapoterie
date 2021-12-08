@@ -86,6 +86,8 @@ color: white;
         border-radius: 9999px;
                         height: 32px;
                         width: 32px;
+                        z-index: 11;
+                        
     }
     
     
@@ -97,7 +99,9 @@ color: white;
     text-align: center;
     text-decoration: none;
     background-color: white;
-    
+    z-index: 10;
+    width: 70px;
+    height: 70px;
     }
     
     .panier a{
@@ -113,8 +117,8 @@ color: white;
     
     .logo {
     align-self: center;
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
     }
     
     .menu {
@@ -123,8 +127,8 @@ color: white;
     text-decoration: none;
     background-color: black;
     
-    font-size: 25px;
-    line-height: 40px;
+    font-size: 18px;
+    line-height: 20px;
     
     }
     .menu a{
