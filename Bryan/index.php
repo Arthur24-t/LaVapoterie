@@ -45,11 +45,12 @@ include_once("fonction-panier.php");
                 <h1>TOP DES VENTES</h1>
             </div>
             <div class="top">
-
-                <div class="item">
-                    <div>
+                
+            <div class="num">
                         <H1>1</H1>
                     </div>
+                <div class="item">
+                    
                     <div class="image_produit"><img src="/image/produit/pod-caliburn.jpg">
                     </div>
                     <div class="tout">
@@ -95,12 +96,12 @@ include_once("fonction-panier.php");
                 */
                 ?>
 
-
+                    <div class="num">
+                        <H1 >2</H1>
+                    </div>
 
                 <div class="item">
-                    <div>
-                        <H1>2</H1>
-                    </div>
+                    
                     <div class="image_produit"><img src="/image/produit/aegis-solo.jpg">
                     </div>
                     <div class="tout">
@@ -126,10 +127,11 @@ include_once("fonction-panier.php");
                     ajouterArticle("C14", "Aegis Solo", 1, 54);
                 }
                 ?>
-                <div class="item">
-                    <div>
+                <div class="num">
                         <H1>3</H1>
                     </div>
+                <div class="item">
+                    
                     <div class="image_produit"><img src="/image/produit/acu-30w.jpg">
                     </div>
                     <div class="tout">
@@ -155,10 +157,11 @@ include_once("fonction-panier.php");
                     ajouterArticle("A11", "Acu 30w", 1, 10);
                 }
                 ?>
-                <div class="item">
-                    <div>
+                <div class="num">
                         <H1>4</H1>
                     </div>
+                <div class="item">
+                    
                     <div class="image_produit"><img src="/image/produit/liquide-mangue.jpg">
                     </div>
                     <div class="tout">
@@ -186,10 +189,11 @@ include_once("fonction-panier.php");
                     ajouterArticle("L30", "Liquide Mangue", 1, 12);
                 }
                 ?>
-                <div class="item">
-                    <div>
+                <div class="num">
                         <H1>5</H1>
                     </div>
+                <div class="item">
+                
                     <div class="image_produit"><img src="/image/produit/cigarette-economique.jpg">
                     </div>
                     <div class="tout">
