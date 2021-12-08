@@ -20,10 +20,10 @@
 
             if ($nb == 0)
             {
-            echo "<p>il n'y a pas d'article </br>dans le panier </p>" ;
+            echo "<p>0 article  </p>" ;
             }
             else
-            echo "<p>il y a $nb d'article </br>dans le panier </p>" ;
+            echo "<p>$nb articles</p>" ;
             ?>
     </a>
             </br>

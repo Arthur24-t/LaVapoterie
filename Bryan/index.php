@@ -40,7 +40,7 @@ include_once("fonction-panier.php");
     <div class="corps">
         <div class="millieu">
             <div class="titre">
-                <h1>Top des ventes</h1>
+                <h1>TOP DES VENTES</h1>
             </div>
             <div class="top">
 
@@ -92,7 +92,7 @@ include_once("fonction-panier.php");
                 }
                 */
                 ?>
-                
+
 
 
                 <div class="item">
@@ -220,7 +220,7 @@ include_once("fonction-panier.php");
 
 
             <div class="titre">
-                <H1>Les Promotions du moment !!</H1>
+                <H1>LES PROMOTION DU MOMENTS</H1>
             </div>
 
             <div class="promo">
@@ -446,68 +446,51 @@ include_once("fonction-panier.php");
                 </form>
 
             </div>
-
-
-
-
-            
-
-            <div class="categorie">
-            <div class="titre">
-                <H1>Nos Categorie !</H1>
-            </div>
-
-                
-                    <div class="categ_">
-                        <a href="Cigarettes.php">
-                            <h3>ECIGARETTE</h3>
-                            <img src="image/ciga_dessin.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="categ_">
-                        <a href="liquides.php">
-                            <h3>LIQUIDES</h3>
-                            <img src="image/liquide_categ.png" alt="">
-                        </a>
-                    </div>
-                
-
-                
-                    <div class="categ_">
-                        <a href="accessoire.php">
-                            <h3>ACCESSOIRES</h3>
-                            <img src="image/accessorie.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="categ_">
-                        <a href="pieces.php">
-                            <h3>PIECES</h3>
-                            <img src="image/pieces_categ.jpg" alt="">
-                        </a>
-                    </div>
-                
-            </div>
         </div>
+
+
+
+
+
+
+        <div class="titre">
+            <H1>NOS CATEGORIE</H1>
+        </div>
+
+        <div class="categorie">
+            <div class="categ_">
+                <a href="Cigarettes.php">
+                    <h3>ECIGARETTE</h3>
+                    <img src="image/ciga_dessin.jpg" alt="">
+                </a>
+            </div>
+            <div class="categ_">
+                <a href="liquides.php">
+                    <h3>LIQUIDES</h3>
+                    <img src="image/liquide_categ.png" alt="">
+                </a>
+            </div>
+
+
+
+            <div class="categ_">
+                <a href="accessoire.php">
+                    <h3>ACCESSOIRES</h3>
+                    <img src="image/accessorie.jpg" alt="">
+                </a>
+            </div>
+            <div class="categ_">
+                <a href="pieces.php">
+                    <h3>PIECES</h3>
+                    <img src="image/pieces_categ.jpg" alt="">
+                </a>
+            </div>
+
+        </div>
+
     </div>
-
-
-    <div class="commentaire">
-
-    </div>
-
 
 
 </body>
-
-<footer>
-    <div class="footer_certif">
-        <div>
-            <p>une super livraison </p>
-        </div>
-        <div>
-            <p>des avis certifié !</p>
-        </div> !
-    </div>
-</footer>
 
 </html>
