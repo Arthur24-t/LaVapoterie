@@ -57,13 +57,13 @@ include_once("fonction-panier.php");
                         <div class="descprition_produit">
                             <p>elle fume</p>
                         </div>
-                        <div class="prix_produit">
+                        <div class="price-tag">
                             <p>30€</p>
 
                         </div>
                         <div class="quantite">
                             <form action="" method="POST">
-                                <input name="nb-C01" id="number" type="number" value="1" min="1" max="15">
+                                
                         </div>
                         <div class="bouton"><button class="ajout_panier" type="submit" name="prod-C01"> ajouter au panier </button></div>
                     </div>

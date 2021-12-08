@@ -11,21 +11,34 @@
                 <img src="image/Logo.png" class="logo" width="200" height="200">
             </div>
         </a>
-        
+        <div class="container">
         <div class="panier"><a href="panier.php">
             <img src="/image/panier.png" class="panier" width="90" height="90">
-            <?php   
+            
+    <!-- Docked at the top right corner -->
+    <div class="container__docker">
+    <?php   
             include_once("fonction-panier.php");
             $nb= compterArticles();
 
             if ($nb == 0)
             {
-            echo "<p>0 article  </p>" ;
+            echo "<p>0   </p>" ;
             }
             else
-            echo "<p>$nb articles</p>" ;
+            echo "<p>$nb </p>" ;
             ?>
+    </div>
+
+            
     </a>
+
+
+</div>
+
+
+
+
             </br>
         </div>
     </div>

@@ -1,9 +1,35 @@
 *{
     font-family: Andale Mono, monospace;
+    margin: 0; 
+    padding: 0;
 }
 
 
 @media  all and (max-width:1920px){
+
+    
+    .container {
+        position: relative;
+    }
+
+    .container__docker {
+        margin-top: 5px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        transform: translate(-10px, 10px);
+        background-color: blue;
+        /* Center the content */
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        border-radius: 9999px;
+                        height: 32px;
+                        width: 32px;
+    }
+
+
+
 .panier {
     vertical-align: bottom;
     align-self: flex-start;
@@ -32,7 +58,9 @@
     justify-content: space-between;
     text-decoration: none;
     background-color: black;
-    width: 100%;
+    
+    font-size: 25px;
+    line-height: 40px;
     
 }
 .menu a{
@@ -84,7 +112,7 @@ margin-top: 8%;
 .item {
     display: flex;
     flex-wrap: nowrap;
-    width: 290px;
+    width: 300px;
 }
 
 .bouton{
@@ -107,7 +135,7 @@ background-color: black;
     display: flex;
     flex-direction: column;
     flex-wrap:nowrap;
-    
+    justify-content: space-between;
 }
 
 .image_produit img{
@@ -284,6 +312,7 @@ margin-top: 5%;
         text-decoration: none;
         color: white;
         background-color: black;
+        
     }
     
     .banderole  {
@@ -381,8 +410,8 @@ margin-top: 5%;
     
     .top{
         margin-top: 5%;
-        width: 300px;
-        border: solid;
+        
+        
     }
     
     .item_promo{
