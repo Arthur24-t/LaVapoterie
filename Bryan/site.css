@@ -7,19 +7,22 @@
 
 @media  all and (max-width:1920px){
 
-    
-    .container {
-        position: relative;
+    .head{
+        margin: 0;
+position: fixed;
+width: 100%;
+background-color: white;
     }
+    
 
     .container__docker {
         margin-top: 5px;
-        position: absolute;
+        position: fixed;
         right: 0;
         top: 0;
         transform: translate(-10px, 10px);
         background-color: blue;
-        /* Center the content */
+        
         align-items: center;
         display: flex;
         justify-content: center;
@@ -36,6 +39,8 @@
     flex-wrap: wrap;
     text-align: center;
     text-decoration: none;
+    background-color: white;
+    
 }
 
 .panier a{
@@ -51,6 +56,8 @@
 
 .logo {
     align-self: center;
+    width: 300px;
+    height: 300px;
 }
 
 .menu {
@@ -71,17 +78,15 @@
 .banderole {
     margin-right: 2%;
     margin-left: 2%;
-    margin-top: 5%;
+    margin-top: 2%;
     width: auto;
     height: 250px;
     border: 3px solid;
-    
 }
 
 .corps {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     margin-right: 2%;
     margin-left: 2%;
 }
@@ -98,7 +103,7 @@
 display: flex;
 flex-direction: column;
 flex-wrap: wrap;
-margin-top: 8%;
+
 
 }
 
@@ -113,6 +118,7 @@ margin-top: 8%;
     display: flex;
     flex-wrap: nowrap;
     width: 300px;
+    
 }
 
 .bouton{
@@ -140,7 +146,7 @@ background-color: black;
 
 .image_produit img{
     order: 1;
- max-width: 100px;
+ max-width: 400px;
  height: 150px;
     overflow:auto;
 }
@@ -149,6 +155,7 @@ background-color: black;
     display: flex;
     order: 2;
     flex-wrap: wrap;
+    font-weight: bold;
 }
 
 
@@ -167,10 +174,12 @@ background-color: black;
 }
 
 .top{
+    margin-top: 20px;
     display: flex;
+    margin-bottom: 20px;
     justify-content: center;
-    
-    margin: 50px;
+    width: auto;
+   
 }
 
 
@@ -198,7 +207,7 @@ justify-content: center;
 
 .toutpromo2{
     display: flex;
-    
+    margin-top: 20px;
     justify-content: center;
     
 
@@ -208,9 +217,9 @@ justify-content: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
-    
-    
+    margin-top: 20px;
+    margin-bottom: 20px;
+
 }
 
 
@@ -228,7 +237,7 @@ text-align: center;
 
     width: 300px;
     height: 300px;
-
+    margin: 20px;
 }
 
 
@@ -242,7 +251,7 @@ width: 100%;
 }
 
 .titre{
-    
+    margin-top: 10px;
  text-align: center;   
     
     
