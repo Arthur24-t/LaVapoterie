@@ -16,8 +16,9 @@ include_once("fonction-panier.php");
 
 </head>
 
+<div class="head">
 <?php include("header.php"); ?>
-
+</div>
 
 <!--Nos coups de coeurs TOP 5-->
 
@@ -27,7 +28,7 @@ include_once("fonction-panier.php");
 
 
 <body>
-
+<?php include("header.php"); ?>
 
 
     <div class="banderole">
@@ -37,6 +38,7 @@ include_once("fonction-panier.php");
         </table>
 
     </div>
+
     <div class="corps">
         <div class="millieu">
             <div class="titre">
@@ -57,7 +59,7 @@ include_once("fonction-panier.php");
                         <div class="descprition_produit">
                             <p>elle fume</p>
                         </div>
-                        <div class="price-tag">
+                        <div class="prix_produit">
                             <p>30€</p>
 
                         </div>
@@ -71,8 +73,8 @@ include_once("fonction-panier.php");
 
                 <?php
                 if (isset($_POST["prod-C01"])) {
-                    $qte = $_POST["nb-C01"];
-                    ajouterArticle("C01", "Pod Caliburn", $qte, 30);
+                    
+                    ajouterArticle("C01", "Pod Caliburn", 1, 30);
                 }
 
 
@@ -112,7 +114,7 @@ include_once("fonction-panier.php");
                             <p>54€</p>
                         </div>
                         <div class="quantite">
-                            <input name="nb-C14" id="number" type="number" value="1" min="1" max="15">
+                            
                         </div>
                         <div class="bouton"><button class="ajout_panier" type="submit" name="prod-C14"> ajouter au panier </button></div>
                     </div>
@@ -120,8 +122,8 @@ include_once("fonction-panier.php");
 
                 <?php
                 if (isset($_POST["prod-C14"])) {
-                    $qte = $_POST["nb-C14"];
-                    ajouterArticle("C14", "Aegis Solo", $qte, 54);
+                    
+                    ajouterArticle("C14", "Aegis Solo", 1, 54);
                 }
                 ?>
                 <div class="item">
@@ -141,7 +143,7 @@ include_once("fonction-panier.php");
                             <p>10€</p>
                         </div>
                         <div class="quantite">
-                            <input name="nb-A11" id="number" type="number" value="1" min="1" max="15">
+                            
                         </div>
                         <div class="bouton"><button class="ajout_panier" type="submit" name="prod-A11"> ajouter au panier </button></div>
                     </div>
@@ -149,8 +151,8 @@ include_once("fonction-panier.php");
                 <?php
 
                 if (isset($_POST["prod-A11"])) {
-                    $qte = $_POST["nb-A11"];
-                    ajouterArticle("A11", "Acu 30w", $qte, 10);
+                    
+                    ajouterArticle("A11", "Acu 30w", 1, 10);
                 }
                 ?>
                 <div class="item">
@@ -171,17 +173,17 @@ include_once("fonction-panier.php");
                         </div>
                         <div class="quantite">
 
-                            <input name="nb-L30" id="number" type="number" value="1" min="1" max="15">
+                            
                         </div>
-                        <div class="bouton"><button class="ajout_panier" type="submit" name="prod-L30" onclick="document.location.reload(true)"> <img src="/image/panier.png"> ajouter au panier </button></div>
+                        <div class="bouton"><button class="ajout_panier" type="submit" name="prod-L30" >  ajouter au panier </button></div>
                     </div>
                 </div>
 
                 <?php
 
                 if (isset($_POST["prod-L30"])) {
-                    $qte = $_POST["nb-L30"];
-                    ajouterArticle("L30", "Liquide Mangue", $qte, 12);
+                    
+                    ajouterArticle("L30", "Liquide Mangue", 1, 12);
                 }
                 ?>
                 <div class="item">
@@ -201,7 +203,7 @@ include_once("fonction-panier.php");
                             <p>100€</p>
                         </div>
                         <div class="quantite">
-                            <input name="nb-C29" id="number" type="number" value="1" min="1" max="15">
+                            
                         </div>
                         <div class="bouton"><button class="ajout_panier" type="submit" name="prod-C29"> ajouter au panier </button></div>
                     </div>
@@ -211,8 +213,8 @@ include_once("fonction-panier.php");
             <?php
 
             if (isset($_POST["prod-C29"])) {
-                $qte = $_POST["nb-C29"];
-                ajouterArticle("C29", "Ecigarette economique", $qte, 100);
+                
+                ajouterArticle("C29", "Ecigarette economique", 1, 100);
             }
             ?>
 
@@ -241,7 +243,7 @@ include_once("fonction-panier.php");
                                 <p>14€</p>
                             </div>
                             <div class="quantite">
-                                <input name="nb-A11" id="number" type="number" value="1" min="1" max="15">
+                                
                             </div>
                             <div class="bouton"><button class="ajout_panier" name="prod-A11"> ajouter au panier </button></div>
                         </div>
@@ -250,8 +252,8 @@ include_once("fonction-panier.php");
                     <?php
 
                     if (isset($_POST["prod-A11"])) {
-                        $qte = $_POST["nb-A11"];
-                        ajouterArticle("A11", "Chargeur Double", $qte, 14);
+                        
+                        ajouterArticle("A11", "Chargeur Double", 1, 14);
                     }
                     ?>
 
@@ -269,7 +271,7 @@ include_once("fonction-panier.php");
                                 <p>25€</p>
                             </div>
                             <div class="quantite">
-                                <input name="nb-A17" id="number" type="number" value="1" min="1" max="15">
+                                
                             </div>
                             <div class="bouton"><button class="ajout_panier" type="submit" name="prod-A11"> ajouter au panier </button>
                             </div>
@@ -278,13 +280,13 @@ include_once("fonction-panier.php");
                     <?php
 
                     if (isset($_POST["prod-A17"])) {
-                        $qte = $_POST["nb-A17"];
-                        ajouterArticle("A17", "Pochette de rangement", $qte, 25);
+                        
+                        ajouterArticle("A17", "Pochette de rangement", 1, 25);
                     }
                     ?>
 
                     <div class="item_promo">
-                        <div class="image_produit"><img src="/image/produit/flacon.jpg">
+                        <div class="image_produit"><img src="/image/produit/flacon 100ml.jpg">
                         </div>
                         <div class="tout">
                             <div class="nom_produit">
@@ -297,7 +299,7 @@ include_once("fonction-panier.php");
                                 <p>12</p>
                             </div>
                             <div class="quantite">
-                                <input name="nb-A20" id="number" type="number" value="1" min="1" max="15">
+                                
                             </div>
                             <div class="bouton"><button class="ajout_panier" type="submit" name="prod-A20"> ajouter au panier </button></div>
                         </div>
@@ -306,13 +308,13 @@ include_once("fonction-panier.php");
                     <?php
 
                     if (isset($_POST["prod-A20"])) {
-                        $qte = $_POST["nb-A20"];
-                        ajouterArticle("A20", "Flacon", $qte, 12);
+                        
+                        ajouterArticle("A20", "Flacon", 1, 12);
                     }
                     ?>
 
                     <div class="item_promo">
-                        <div class="image_produit"><img src="/image/produit/resistance-50w.jpg">
+                        <div class="image_produit"><img src="/image/produit/resistance.jpg">
                         </div>
                         <div class="tout">
                             <div class="nom_produit">
@@ -325,7 +327,7 @@ include_once("fonction-panier.php");
                                 <p>3€</p>
                             </div>
                             <div class="quantite">
-                                <input name="nb-P02" id="number" type="number" value="1" min="1" max="15">
+                                
                             </div>
                             <div class="bouton"><button class="ajout_panier" type="submit" name="prod-P02"> ajouter au panier </button></div>
                         </div>
@@ -333,8 +335,8 @@ include_once("fonction-panier.php");
                     <?php
 
                     if (isset($_POST["prod-P02"])) {
-                        $qte = $_POST["nb-P02"];
-                        ajouterArticle("P02", "Resistance 50w", $qte, 12);
+                        
+                        ajouterArticle("P02", "Resistance 50w", 1, 12);
                     }
                     ?>
 
@@ -355,7 +357,7 @@ include_once("fonction-panier.php");
                                 <p>40€</p>
                             </div>
                             <div class="quantite">
-                                <input name="nb-C04" id="number" type="number" value="1" min="1" max="15">
+                                
                             </div>
                             <div class="bouton"><button class="ajout_panier" type="submit" name="prod-C04"> ajouter au panier </button></div>
                         </div>
@@ -364,8 +366,8 @@ include_once("fonction-panier.php");
                     <?php
 
                     if (isset($_POST["prod-C04"])) {
-                        $qte = $_POST["nb-C04"];
-                        ajouterArticle("C04", "Ecigarette kit", $qte, 40);
+                        
+                        ajouterArticle("C04", "Ecigarette kit", 1, 40);
                     }
                     ?>
                     <div class="item_promo">
@@ -382,7 +384,7 @@ include_once("fonction-panier.php");
                                 <p>9€</p>
                             </div>
                             <div class="quantite">
-                                <input name="nb-L25" id="number" type="number" value="1" min="1" max="15">
+                                
                             </div>
                             <div class="bouton"><button class="ajout_panier" type="submit" name="prod-L25"> ajouter au panier </button></div>
                         </div>
@@ -391,8 +393,8 @@ include_once("fonction-panier.php");
                     <?php
 
                     if (isset($_POST["prod-L25"])) {
-                        $qte = $_POST["nb-L25"];
-                        ajouterArticle("L25", "Liquide Ananas", $qte, 9);
+                        
+                        ajouterArticle("L25", "Liquide Ananas", 1, 9);
                     }
                     ?>
                     <div class="item_promo">
@@ -410,7 +412,7 @@ include_once("fonction-panier.php");
                             </div>
 
                             <div class="quantite">
-                                <input name="nb-C16" id="number" type="number" value="1" min="1" max="15">
+                                
                             </div>
                             <div class="bouton">
                                 <button class="ajout_panier" type="submit" name="prod-C16"> ajouter au panier </button>
@@ -421,8 +423,8 @@ include_once("fonction-panier.php");
                     <?php
 
                     if (isset($_POST["prod-C16"])) {
-                        $qte = $_POST["nb-C16"];
-                        ajouterArticle("C16", "Pod 2000", $qte, 15);
+                        
+                        ajouterArticle("C16", "Pod 2000", 1, 15);
                     }
                     ?>
                     <div class="item_promo">
