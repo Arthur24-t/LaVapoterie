@@ -249,15 +249,15 @@ include_once("fonction-panier.php");
                             <div class="quantite">
                                 
                             </div>
-                            <div class="bouton"><button class="ajout_panier" name="prod-A11"> ajouter au panier </button></div>
+                            <div class="bouton"><button class="ajout_panier" name="prod-A12"> ajouter au panier </button></div>
                         </div>
                     </div>
 
                     <?php
 
-                    if (isset($_POST["prod-A11"])) {
+                    if (isset($_POST["prod-A12"])) {
                         
-                        ajouterArticle("A11", "Chargeur Double", 1, 14);
+                        ajouterArticle("A12", "Chargeur Double", 1, 14);
                     }
                     ?>
 
