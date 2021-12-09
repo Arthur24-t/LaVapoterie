@@ -4,6 +4,16 @@
     padding: 0;
 }
 
+
+.head {
+    margin: 0;
+position: fixed;
+width: 100%;
+background-color: white;
+opacity: .99;
+z-index: 3;
+}
+
 .panier_millieu{
     display: flex;
     justify-content: center;
@@ -25,18 +35,41 @@ margin-right: 5px;
 
 .libelle_produit{
     display: flex;
-margin-right: 100px;
-transform: translate(-50px, 10px);
+ font-weight: bold;
+transform: translate(-60px, 10px);
 }
 
 .prix_produit{
-
+    display: flex;
 margin-right: 10px;
-transform: translate(-50px, 10px);
-}
-
-.qte_produit{
-margin-right: 20px;
-transform: translate(-50px, 10px);
 
 }
+
+.qte_produit input{
+    display: flex;
+margin-right: 100px;
+
+width: 50px;
+}
+
+.haut_table {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+   
+   
+    
+    }
+
+    .supprimer_produit{
+        display: flex;
+    margin-left: 50px;
+
+    }
+    .panier_produit{
+display: flex;
+flex-wrap: nowrap;
+justify-content: space-between;
+align-items: center;
+
+    }
