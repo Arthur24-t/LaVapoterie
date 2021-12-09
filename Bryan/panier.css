@@ -18,6 +18,7 @@ z-index: 3;
     display: flex;
     justify-content: center;
     margin-top: 5%;
+    width: 100%;
     }
 
     .image_produit img{
@@ -54,10 +55,7 @@ width: 50px;
 
 .haut_table {
     display: flex;
-    justify-content: space-between;
-    text-decoration: none;
-   
-   
+    justify-content: space-around;
     
     }
 
@@ -73,3 +71,19 @@ justify-content: space-between;
 align-items: center;
 
     }
+
+.panier_vide{
+
+display: flex;
+justify-content: space-between;
+
+}
+.truc{
+display: flex;
+
+}
+.supprimer_panier{
+display: flex;
+
+
+}

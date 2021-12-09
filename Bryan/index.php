@@ -79,21 +79,7 @@ include_once("fonction-panier.php");
                 }
 
 
-                /*
-
-                try {
-
-                    $pdo = new PDO(
-                        'mysql:host=localhost;dbname=site;charset=utf8',
-                        'root',
-                        '1234'
-                    );
-                } catch (PDOException $exception) {
-
-                    mail('VOTRE_EMAIL', 'PDOException', $exception->getMessage());
-                    exit('Erreur de connexion à la base de données');
-                }
-                */
+               
                 ?>
 
                     <div class="num">

@@ -134,7 +134,7 @@ function MontantGlobal(){
 
 /**
  * Fonction de suppression du panier
- * @return void
+ * @return string
  */
 function supprimePanier(){
    unset($_SESSION['panier']);
