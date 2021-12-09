@@ -18,7 +18,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>';
 <body>
 
     <div class="contact_main">
-        <div class="contact_droite"> 
+        <div class="contact_droite">
 
         </div>
         <div class="contact_millieu">
@@ -39,7 +39,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>';
 
                 </br>
                 <span class="contact_message">
-                <textarea name="contact_message" rows="10" cols="50" minlength="30" maxlength="500"  require>  </textarea></span>
+                    <textarea name="contact_message" rows="10" cols="50" minlength="30" maxlength="500" require>  </textarea></span>
                 </br>
                 <input type="submit" value="Envoyer" name="submit">
             </form>
@@ -47,23 +47,19 @@ echo '<?xml version="1.0" encoding="utf-8"?>';
             <?php
 
 
-                if (isset($_POST['submit']))
-                {
-                    $to = 'arthur@lavapoterie';
-                    $subject= $_POST["contact_sujet"];
-                    $message='email :'. $_POST["email"]. "\nsujet :" . $_POST["contact_sujet"]. "\nmessage : ". $_POST["contact_message"] ; 
-                    $from = 'admin@lavapoterie';
-                    if(mail($to, $subject, $message))
-                    {
-                        echo 'Votre message a été envoyé avec succès! Nous vous repondrons dans les plus bref delais ';
-                    } 
-                    else
-                    {
-                        echo 'Impossible d envoyer des emails. Veuillez réessayer.';
-                    }
+            if (isset($_POST['submit'])) {
+                $to = 'arthur@lavapoterie';
+                $subject = $_POST["contact_sujet"];
+                $message = 'email :' . $_POST["email"] . "\nsujet :" . $_POST["contact_sujet"] . "\nmessage : " . $_POST["contact_message"];
+                $from = 'admin@lavapoterie';
+                if (mail($to, $subject, $message)) {
+                    echo 'Votre message a été envoyé avec succès! Nous vous repondrons dans les plus bref delais ';
+                } else {
+                    echo 'Impossible d envoyer des emails. Veuillez réessayer.';
                 }
+            }
 
-            ?> 
+            ?>
 
         </div>
         <div class="contact_gauche">
