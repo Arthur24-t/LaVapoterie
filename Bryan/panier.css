@@ -9,3 +9,34 @@
     justify-content: center;
     margin-top: 5%;
     }
+
+    .image_produit img{
+        max-width: 200px;
+        height: 150px;
+margin-right: 100px;
+
+    }
+
+    .tableau tr td{
+margin-right: 5px;
+
+
+    }
+
+.libelle_produit{
+    display: flex;
+margin-right: 100px;
+transform: translate(-50px, 10px);
+}
+
+.prix_produit{
+
+margin-right: 10px;
+transform: translate(-50px, 10px);
+}
+
+.qte_produit{
+margin-right: 20px;
+transform: translate(-50px, 10px);
+
+}

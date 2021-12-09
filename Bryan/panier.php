@@ -72,17 +72,20 @@ echo '<?xml version="1.0" encoding="utf-8"?>';?>
 <body>
 <div class="panier_millieu">
     <form method="post" action="panier.php">
-        <table style="width: 400px">
+        <table style="width: 600px">
                  <tr>
-                    <td colspan="4">Votre panier</td>
+                    <td colspan="5">Votre panier</td>
                  </tr>
-                 <tr>
-                    <td>Libellé</td>
-                    <td>Quantité</td>
-                    <td>Prix Unitaire</td>
-                    <td>Action</td>
+                 <div class="tableau">
+                 <tr >
+                    <td>Image </td>
+                    <td>Libellé </td>
+                    <td>  </td>
+                    <td> Prix Unitaire </td>
+                    <td> Action </td>
                 </tr>
 
+                </div>
 
     <?php
     if (creationPanier())
@@ -95,9 +98,10 @@ echo '<?xml version="1.0" encoding="utf-8"?>';?>
           for ($i=0 ;$i < $nbArticles ; $i++)
           {
              echo "<tr>";
-             echo "<td>".htmlspecialchars($_SESSION['panier']['libelleProduit'][$i])."</ td>";
-             echo "<td><input type=\"number\" size=\"2\" name=\"q[]\" value=\"".htmlspecialchars($_SESSION['panier']['qteProduit'][$i])."\"/></td>";
-             echo "<td>".htmlspecialchars($_SESSION['panier']['prixProduit'][$i])."€</td>";
+             echo"<td><div class=\"image_produit\"><img src=\"/image/produit/".htmlspecialchars($_SESSION['panier']['idProduit'][$i]).".jpg\"></div><td>";
+             echo "<td><div class=\"libelle_produit\">".htmlspecialchars($_SESSION['panier']['libelleProduit'][$i])."</div></ td>";
+             echo "<td><div class=\"qte_produit\"><input type=\"number\" size=\"2\" name=\"q[]\" value=\"".htmlspecialchars($_SESSION['panier']['qteProduit'][$i])."\"/></div></td>";
+             echo "<td><div class=\"prix_produit\">".htmlspecialchars($_SESSION['panier']['prixProduit'][$i])."€</div></td>";
              echo "<td><a href=\"".htmlspecialchars("panier.php?action=suppression&l=".rawurlencode($_SESSION['panier']['libelleProduit'][$i]))."\">Suprimer</a></td>";
              echo "</tr>";
           }
@@ -107,7 +111,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>';?>
           echo "Total : ".MontantGlobal();
           echo "€</td></tr>";
 
-          echo "<tr><td colspan=\"4\">";
+          echo "<tr><td colspan=\"5\">";
           echo "<input type=\"submit\" value=\"Rafraichir\"/>";
           echo "<input type=\"hidden\" name=\"action\" value=\"refresh\"/>";
 
