@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Verifie si le panier existe, le crée sinon double test
+ * Verifie si le panier existe, le crée sinon 
  * @return booleen
  */
 function creationPanier(){
