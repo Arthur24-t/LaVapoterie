@@ -4,7 +4,7 @@ include_once("fonction-panier.php");
 
 
 try {
-
+//test de la connection
     $pdo = new PDO(
         'mysql:host=localhost;dbname=site;charset=utf8',
         'root',
@@ -18,12 +18,25 @@ echo"connecter";
     exit('Erreur de connexion à la base de données');
 }
 
-$nbArticles = count($_SESSION['panier']['libelleProduit']);
+
+
+$nbArticles = count($_SESSION['panier']['libelleProduit']);//recupere le nombre de produit dans la panier 
 
 for ($i = 0; $i < $nbArticles; $i++) {
    $id= $_SESSION['panier']['idProduit'][$i];
-$requete = "UPDATE produit SET prodStock = prodStock - 1 WHERE prodId = $id";
+   $nb = $_SESSION['panier']['qteProduit'][$i];
+   echo $id;
 
-$pdo->exec($requete);
+//$requete = "SELECT prodStock FROM produit WHERE prodId = '$id'";
+
+$requete = "UPDATE produit SET prodStock= prodStock-$nb  WHERE prodID='$id'";
+
+$test =$pdo->prepare($requete);
+$test->execute();
+$bleu = $test->fetch();
+
+
+
+
 
 }
