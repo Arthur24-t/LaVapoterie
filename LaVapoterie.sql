@@ -93,3 +93,19 @@ insert  into `produit`(`prodId`,`prodNom`,`prodCateg`,`prodStock`,`prodPrix`) va
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
 /*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+
+CREATE TABLE `commande` (
+  `comRef` varchar(4) NOT NULL,
+  `comClient` varchar(40) NOT NULL,
+  `comDate` varchar(10) NOT NULL,
+  `comExpedition` int(5) DEFAULT NULL,
+  `comRefExepediteur` int(5) DEFAULT NULL,
+  PRIMARY KEY (`comRef`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+CREATE TABLE `detailCommande` (
+  `refProduit` varchar(4) NOT NULL,
+  `refCommande` varchar(40) NOT NULL, 
+  PRIMARY KEY (`refProduit`, `refCommande`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
