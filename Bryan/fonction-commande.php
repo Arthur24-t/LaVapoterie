@@ -55,7 +55,7 @@ for ($i = 0; $i < $nbArticles; $i++) {
     $id = $_SESSION['panier']['idProduit'][$i];
     $nb = $_SESSION['panier']['qteProduit'][$i];
     $date = date('d-m-y h:i:s');
-    $
+    
 
     //$requete = "SELECT prodStock FROM produit WHERE prodId = '$id'";
 

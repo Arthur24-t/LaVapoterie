@@ -106,6 +106,7 @@ CREATE TABLE `commande` (
 
 CREATE TABLE `detailCommande` (
   `refProduit` varchar(4) NOT NULL,
-  `refCommande` varchar(40) NOT NULL, 
+  `refCommande` varchar(40) NOT NULL,
+  `quantite` NUMERIC(5) NOT NULL,
   PRIMARY KEY (`refProduit`, `refCommande`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
