@@ -11,6 +11,35 @@
                 <img src="image/Logo.png" class="logo" width="200" height="200">
             </div>
         </a>
+        <div class="connection">
+
+        
+            
+            <!-- tester si l'utilisateur est connecté -->
+            <?php
+                
+                if(isset($_GET['deconnexion']))
+                { 
+                   if($_GET['deconnexion']==true)
+                   {  
+                    unset($_SESSION['username']);
+                      header("location:index.php");
+                   }
+                }
+                if(isset($_SESSION['username'])){
+                    $user = $_SESSION['username'];
+                    // afficher un message
+                    echo "<br>Bonjour $user, vous êtes connectés";
+                    echo "<a href='index.php?deconnexion=true'><span>Déconnexion</span></a>";
+                }
+                else{
+                    echo "<a href='connection.php'><span>Connection</span></a>";
+                }
+            ?>
+
+        </div>
+
+
         <div class="container">
         <div class="panier"><a href="panier.php">
             <img src="/image/panier.png" class="panier" width="90" height="90">

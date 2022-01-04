@@ -21,26 +21,28 @@ USE `lavapoterie`;
 DROP TABLE IF EXISTS `client`;
 
 CREATE TABLE `client` (
-  `cliId` int(5) NOT NULL,
-  `cliNom` varchar(15) NOT NULL,
-  `cliPrenom` varchar(15) NOT NULL,
-  `cliMail` varchar(30) NOT NULL,
-  `cliDate` date NOT NULL,
-  `cliAge` int(3) NOT NULL,
+  `cliId` INT(5) AUTO_INCREMENT NOT NULL,
+  `cliPseudo` VARCHAR(100) NOT NULL,
+  `cliMdp` VARCHAR(100) NOT NULL,
+  `cliNom` VARCHAR(100) NOT NULL,
+  `cliPrenom` VARCHAR(100) NOT NULL,
+  `cliMail` VARCHAR(100) NOT NULL,
+  `cliDate` DATE NOT NULL,
+  `cliAge` DATE NOT NULL,
   PRIMARY KEY (`cliId`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+) ENGINE=MYISAM DEFAULT CHARSET=latin1;
 
 /*Data for the table `client` */
 
-insert  into `client`(`cliId`,`cliNom`,`cliPrenom`,`cliMail`,`cliDate`,`cliAge`) values 
-(1,'Bondroit','Sophie','connasse@gmail.com','2021-12-03',20),
-(2,'Wandolski','Pauline','grospute@gmail.com','2021-12-03',20),
-(3,'Trusgnach','Arthur','arthur@gmail.com','2021-12-03',20),
-(4,'Trioux','Axel','charo@gmail.com','2021-12-03',19),
-(5,'Perera','Donovan','ledebile@gmail.com','2021-12-03',20),
-(6,'Mohamed','Amine','sanspapier@gmail.com','2021-12-03',30),
-(7,'Tsougnui','Henri','pinguin@gmail.com','2021-12-03',60),
-(8,'Chien','sam','SAm@gmail.com','2021-12-03',1);
+INSERT  INTO `client`(`cliId`,`cliPseudo`,`cliMdp`,`cliNom`,`cliPrenom`,`cliMail`,`cliDate`,`cliAge`) VALUES 
+(1,'bonbon','1234','Bondroit','Sophie','connasse@gmail.com','2021-12-03','1999-12-03'),
+(2,'wanwan','1234','Wandolski','Pauline','grospute@gmail.com','2021-12-03','1999-12-03'),
+(3,'trutru','1234','Trusgnach','Arthur','arthur@gmail.com','2021-12-03','1999-12-03'),
+(4,'tritri','1234','Trioux','Axel','charo@gmail.com','2021-12-03','1999-12-03'),
+(5,'perper','1234','Perera','Donovan','ledebile@gmail.com','2021-12-03','1999-12-03'),
+(6,'mohmoh','1234','Mohamed','Amine','sanspapier@gmail.com','2021-12-03','1999-12-03'),
+(7,'tsotso','1234','Tsougnui','Henri','pinguin@gmail.com','2021-12-03','1999-12-03'),
+(8,'chichi','1234','Chien','sam','SAm@gmail.com','2021-12-03','1999-12-03');
 
 /*Table structure for table `produit` */
 
@@ -96,7 +98,7 @@ insert  into `produit`(`prodId`,`prodNom`,`prodCateg`,`prodStock`,`prodPrix`) va
 
 
 CREATE TABLE `commande` (
-  `comRef` varchar(4) NOT NULL,
+  `comRef` INTEGER(4) AUTO_INCREMENT NOT NULL,
   `comClient` varchar(40) NOT NULL,
   `comDate` date NOT NULL,
   `comExpedition` int(5) DEFAULT NULL,
