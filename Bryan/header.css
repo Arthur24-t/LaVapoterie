@@ -11,20 +11,59 @@
     position: fixed;
     right: 0;
     top: 0;
-    transform: translate(-10px, 10px);
-    background-color: blue;
-    
+    transform: translate(-22px, 20px);
+    background-color: black;
+    color: white;
     align-items: center;
     display: flex;
     justify-content: center;
     border-radius: 9999px;
-                    height: 32px;
-                    width: 32px;
+                    height: 25px;
+                    width: 25px;
                     z-index: 11;
                     
 }
 
+.container{
+display: flex;
+flex-wrap: wrap;
+height: 0;
+}
+.deco{
+    display: flex;
+margin-left: 10px;
+margin-right: 5px;
+background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+text-decoration: none;
+text-align: center;
+}
 
+.pseudo{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 5px;
+    background-color: black;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.co{
+    display: flex;
+background-color: black;
+    color: white;
+    padding: 10px 20px;
+   
+    border: none;
+    cursor: pointer;
+    text-align: center;
+text-decoration: none;
+}
 
 .panier {
 vertical-align: bottom;
@@ -46,11 +85,15 @@ color: black;
 .truc {
 display: flex;
 justify-content: space-between;
+}
 
+
+.reseau {
+justify-content: space-between;
 }
 
 .logo {
-align-self: center;
+
 width: 250px;
 height: 250px;
 }

@@ -1,20 +1,21 @@
 
 <link rel="stylesheet" type="text/css" href="header.css" />
-<link rel="stylesheet" media="screen and (max-width: 1280px)" href="site.css" type="text/css" />
+<link rel="stylesheet" media="screen and (max-width: 1280px)" href="header.css" type="text/css" />
 
     <div class="truc">
-        <div class="bidule">
-            
+        <div class="reseau">
+        <img src="image/logo insta.jpg" width="100" height="100">
+        <img src="image/logo facebook.png" width="100" height="100">
         </div>
         <a href="index.php">
             <div class="logo">
                 <img src="image/Logo.png" class="logo" width="200" height="200">
             </div>
         </a>
-        <div class="connection">
+        
 
         
-            
+        <div class="container">
             <!-- tester si l'utilisateur est connecté -->
             <?php
                 
@@ -29,18 +30,18 @@
                 if(isset($_SESSION['username'])){
                     $user = $_SESSION['username'];
                     // afficher un message
-                    echo "<br>Bonjour $user, vous êtes connectés";
-                    echo "<a href='index.php?deconnexion=true'><span><br>Déconnexion</span></a>";
+                    echo "<p><span class='pseudo'>Bonjour &nbsp <span style='font-weight:bold'>$user </span></span></p>";
+                    echo "<a href='index.php?deconnexion=true'><span class='deco'><br>Déconnexion</span></a>";
                 }
                 else{
-                    echo "<a href='connection.php'><span>Connection</span></a>";
+                    echo "<a href='connection.php'><span class='co'>Connection</span></a>";
                 }
             ?>
 
-        </div>
+        
 
 
-        <div class="container">
+        
         <div class="panier"><a href="panier.php">
             <img src="/image/panier.png" class="panier" width="90" height="90">
             
