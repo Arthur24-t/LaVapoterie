@@ -98,7 +98,7 @@ insert  into `produit`(`prodId`,`prodNom`,`prodCateg`,`prodStock`,`prodPrix`) va
 
 
 CREATE TABLE `commande` (
-  `comRef` varchar(4) NOT NULL,
+  `comRef` INTEGER(4) AUTO_INCREMENT NOT NULL,
   `comClient` varchar(40) NOT NULL,
   `comDate` date NOT NULL,
   `comExpedition` int(5) DEFAULT NULL,
