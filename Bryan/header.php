@@ -8,7 +8,7 @@
         <img src="image/logo facebook.png" width="100" height="100">
         </div>
         <a href="index.php">
-            <div class="logo">
+            <div class="logob">
                 <img src="image/Logo.png" class="logo" width="200" height="200">
             </div>
         </a>
@@ -28,7 +28,7 @@
                    }
                 }
                 if(isset($_SESSION['username'])){
-                    $user = $_SESSION['username'];
+                    $user = strtolower($_SESSION['username']);
                     // afficher un message
                     echo "<p><span class='pseudo'>Bonjour &nbsp <span style='font-weight:bold'>$user </span></span></p>";
                     echo "<a href='index.php?deconnexion=true'><span class='deco'><br>Déconnexion</span></a>";

@@ -6,6 +6,7 @@
 </head>
 
 <body>
+<?php include("header.php"); ?>
     <?php
 
     if (isset($_REQUEST['username'], $_REQUEST['email'], $_REQUEST['password'])) {
