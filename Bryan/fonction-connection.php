@@ -18,7 +18,7 @@ if(isset($_POST['username']) && isset($_POST['password']))
     if($username !== "" && $password !== "")
     {
         $requete = "SELECT count(*) FROM client where 
-              cliPseudo = '".$username."' and cliMdp = '".$password."' ";
+              cliPseudo = '$username' and cliMdp = '".hash('sha256', $password)."' ";
         $exec_requete = mysqli_query($db,$requete);
         $reponse      = mysqli_fetch_array($exec_requete);
         $count = $reponse['count(*)'];

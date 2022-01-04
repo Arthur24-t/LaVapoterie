@@ -8,7 +8,7 @@
 
 if (isset($_REQUEST['username'], $_REQUEST['email'], $_REQUEST['password'])){
     $today = date("y-m-d");
-    echo"bleu";
+    
 
     //connection base de donnée 
     $db_username = 'root';
@@ -21,44 +21,43 @@ if (isset($_REQUEST['username'], $_REQUEST['email'], $_REQUEST['password'])){
   // récupérer le nom d'utilisateur et supprimer les antislashes ajoutés par le formulaire
   $username = stripslashes($_REQUEST['username']);
   $username = mysqli_real_escape_string($db, $username); 
-  echo $username;
+  
 
   // récupérer l'email et supprimer les antislashes ajoutés par le formulaire
   $email = stripslashes($_REQUEST['email']);
   $email = mysqli_real_escape_string($db, $email);
-  echo $email;
+  
 
 
   $nom = stripslashes($_REQUEST['nom']);
   $nom = mysqli_real_escape_string($db, $nom);
-  echo $nom;
-
+  
 
   $prenom = stripslashes($_REQUEST['prenom']);
   $prenom = mysqli_real_escape_string($db, $prenom);
-  echo $prenom;
+ 
 
 
   $age = $_POST['age'];
 
-  echo $age;
+  
 
 
   // récupérer le mot de passe et supprimer les antislashes ajoutés par le formulaire
   $password = stripslashes($_REQUEST['password']);
   $password = mysqli_real_escape_string($db, $password);
   //requéte SQL + mot de passe crypté
-  echo $password;
+  
 
     $query = "INSERT into `client` (`cliPseudo`,`cliMdp`,`cliNom`,`cliPrenom`,`cliMail`,`cliDate`,`cliAge`)
-              VALUES ('$username','$password', '$nom', '$prenom', '$email', '$today', '$age')";
+              VALUES ('$username','".hash('sha256', $password)."', '$nom', '$prenom', '$email', '$today', '$age')";
   // Exécuter la requête sur la base de données
- echo $query;
+ 
     $res = mysqli_query($db, $query);
 
-    echo $res;
+    
     if($res){
-        echo "pute";
+        
        echo "<div class='sucess'>
              <h3>Vous êtes inscrit avec succès.</h3>
              <p>Cliquez ici pour vous <a href='connection.php'>connecter</a></p>
