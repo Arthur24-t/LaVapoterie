@@ -30,7 +30,7 @@
                     $user = $_SESSION['username'];
                     // afficher un message
                     echo "<br>Bonjour $user, vous êtes connectés";
-                    echo "<a href='index.php?deconnexion=true'><span>Déconnexion</span></a>";
+                    echo "<a href='index.php?deconnexion=true'><span><br>Déconnexion</span></a>";
                 }
                 else{
                     echo "<a href='connection.php'><span>Connection</span></a>";

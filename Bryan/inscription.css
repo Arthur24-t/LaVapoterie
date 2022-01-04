@@ -6,7 +6,7 @@ body{
     margin:0 auto;
     margin-top:10%;
 }
-/* Bordered form */
+
 form {
     width:100%;
     padding: 30px;
@@ -20,8 +20,7 @@ form {
     padding-bottom: 10px;
 }
 
-/* Full-width inputs */
-input[type=text], input[type=password],input[type=date] {
+input[type=text], input[type=password],input[type=date],input[type=email] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -30,7 +29,7 @@ input[type=text], input[type=password],input[type=date] {
     box-sizing: border-box;
 }
 
-/* Set a style for all buttons */
+
 input[type=submit] {
     background-color: black;
     color: white;
