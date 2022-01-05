@@ -188,12 +188,18 @@
         z-index: 3;
     }
     .banderole {
+        display: flex;
+        flex-wrap: wrap;
         margin-right: 2%;
         margin-left: 2%;
         margin-top: 2%;
         width: auto;
         height: 250px;
         border: 3px solid;
+    }
+    .image {
+        width: auto;
+        height: 250px;
     }
     .corps {
         display: flex;
