@@ -32,18 +32,12 @@ include_once("fonction-panier.php");
 
 
     <div class="banderole">
-        <table>
-            <tr>
-                <td>
-                    <image src="/image/banniere.png">
-                    </image>
-                
-                </td>
-            </tr>
-        </table>
-
-
+        
+        <img  src="/image/banniere.png"> 
+                   
     </div>
+
+
 
     <div class="corps">
         <div class="millieu">
