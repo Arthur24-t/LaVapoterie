@@ -34,7 +34,7 @@ include_once("fonction-panier.php");
     <div class="banderole">
         <table>
             <tr>
-                <td>
+                <td class="image">
                     <image src="/image/banniere.png">
                     </image>
                 
