@@ -85,7 +85,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
                echo "<tr><div class=\"panier_vide\"><td>Votre panier est vide </ td></div></tr>";
                
             else {
-               for ($i = 0; $i < $nbArticles; $i++) {
+               
                   
                   echo"<div class=\"haut_table\">
 
@@ -116,7 +116,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
       
                </div>";
 
-
+               for ($i = 0; $i < $nbArticles; $i++) {
 
 
 

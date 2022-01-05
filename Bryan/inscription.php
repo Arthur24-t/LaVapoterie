@@ -36,7 +36,13 @@
 
             if (filter_var($email, FILTER_VALIDATE_EMAIL)) { // test de l'adresse mail pour voir si elle est "correct"
                 $email = mysqli_real_escape_string($db, $email);
-    
+                
+                $sql  = "SELECT COUNT(*) AS nbr FROM client WHERE cliMail = '".$_POST['username'].  //recherche du pseudo dans la base de donnée
+                 "'";
+                $ex  = mysqli_query($db,$sql);
+                $alors  = mysqli_fetch_assoc($ex);
+
+
     
                 $nom = stripslashes($_REQUEST['nom']);
                 $nom = mysqli_real_escape_string($db, $nom);
@@ -101,7 +107,19 @@
 
             <form action="" method="POST">
                 <h1>Inscription</h1>
-
+                <?php
+                if (isset($_GET['erreur'])) {
+                    $err = $_GET['erreur'];
+                    if ($err == 1)
+                        echo "<p style='color:red'>l'adresse mail est incorrect</p>";
+                    if ($err == 2)
+                        echo "<p style='color:red'>il faut etre majeur pour s'inscrire sur le site</p>";
+                    if ($err == 3)
+                        echo "<p style='color:red'>les mot de passes ne corresponde pas</p>";
+                    if ($err == 4)
+                        echo "<p style='color:red'>le nom d'utilisateur est deja utilisé</p>";
+                }
+                ?>
                 <label><b>Nom d'utilisateur</b></label>
                 <input type="text" placeholder="Entrer le nom d'utilisateur" name="username" required>
 
@@ -127,19 +145,7 @@
 
                 <p>Deja inscrit ? Cliquez <a href="connection.php">ici</a></p>
                 <input type="submit" id='submit' value='INSCRIPTION'>
-                <?php
-                if (isset($_GET['erreur'])) {
-                    $err = $_GET['erreur'];
-                    if ($err == 1)
-                        echo "<p style='color:red'>l'adresse mail est incorrect</p>";
-                    if ($err == 2)
-                        echo "<p style='color:red'>il faut etre majeur pour s'inscrire sur le site</p>";
-                    if ($err == 3)
-                        echo "<p style='color:red'>les mot de passes ne corresponde pas</p>";
-                    if ($err == 4)
-                        echo "<p style='color:red'>le nom d'utilisateur est deja utilisé</p>";
-                }
-                ?>
+                
             </form>
 
 
