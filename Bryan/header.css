@@ -125,19 +125,56 @@ color: white;
         position: fixed;
         right: 0;
         top: 0;
-        transform: translate(-10px, 10px);
-        background-color: blue;
+        transform: translate(-17px, 14px);
+        background-color: black;
         
         align-items: center;
         display: flex;
         justify-content: center;
         border-radius: 9999px;
-                        height: 32px;
-                        width: 32px;
-                        z-index: 11;
+                        height: 20px;
+                        width: 20px;
+                        
                         
     }
+    .deco{
+        display: flex;
+    margin-left: 10px;
+    margin-right: 5px;
+    background-color: black;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+    text-decoration: none;
+    text-align: center;
+    }
     
+    .pseudo{
+        display: flex;
+        position: absolute;
+        top:auto;
+        right: 250px;
+        margin-left: 10px;
+        margin-right: 5px;
+        background-color: black;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+        text-decoration: none;
+        text-align: center;
+    }
+    
+    .co{
+        display: flex;
+    background-color: black;
+        color: white;
+        padding: 10px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        text-align: center;
+    text-decoration: none;
+    }
     
     
     .panier {
@@ -160,7 +197,7 @@ color: white;
     .truc {
     display: flex;
     justify-content: space-between;
-    
+    background-color: white;
     }
     
     .logo {

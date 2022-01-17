@@ -189,14 +189,19 @@
     }
     .banderole {
         display: flex;
-        flex-wrap: wrap;
-        margin-right: 2%;
-        margin-left: 2%;
-        margin-top: 2%;
+       
+        margin: 2%;
         width: auto;
         height: 250px;
-        border: 3px solid;
+        justify-content: center;
     }
+
+    .banderole img{
+        width: 900px;
+        height: auto;
+
+    }
+
     .image {
         width: auto;
         height: 250px;
