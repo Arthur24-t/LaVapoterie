@@ -2,54 +2,48 @@
 session_start();
 include_once("fonction-panier.php");
 
+//connection a la base de donnée 
+if (isset($_SESSION['username'])){
 
-try {
-    //test de la connection
-    $pdo = new PDO(
-        'mysql:host=localhost;dbname=site;charset=utf8',
-        'root',
-        '1234'
-    );
-} catch (PDOException $exception) {
+$db_username = 'root';
+    $db_password = '1234';
+    $db_name     = 'lavapoterie';
+    $db_host     = 'localhost';
+    $db = mysqli_connect($db_host, $db_username, $db_password,$db_name)
+           or die('could not connect to database');
 
-    mail('VOTRE_EMAIL', 'PDOException', $exception->getMessage());
-    exit('Erreur de connexion à la base de données');
+//------------------------------------affecter le numero de commande  ---------------------------
+function numCommande($db){
+
+$numCom = rand(1,100000);
+
+$sql  = "SELECT COUNT(*) AS nbr FROM client WHERE cliPseudo = '".$numCom."'";  //recherche du pseudo dans la base de donnée
+        
+        $ex  = mysqli_query($db,$sql);
+        $alors  = mysqli_fetch_assoc($ex);
+
+        if((!$alors['nbr'] == 0)){
+            numCommande($db);
+        }
+        else{
+            return $numCom;
+        }
 }
-//------------------------affectation numero de commande -----------------
+//------------------------------------mettre dans les tables ---------------------------
 
-$requete = "SELECT MAX(comRef) FROM commande";
-
-    $exe = $pdo->prepare($requete);
-    $exe->execute();
-    $fini = $exe->fetchAll();
-
-    //echo $fini;
-
-    
-    $conn = mysqli_connect('localhost', 'root', '1234', 'site');
+$ncom = numCommande($db);
 
 
-// On créé la requête
-$req = "SELECT * FROM produit";
- 
-// on envoie la requête
-$res = $conn->query($req);
- 
-// on va scanner tous les tuples un par un
-echo "<table>";
-while ($data = mysqli_fetch_array($res)) {
-    // on affiche les résultats
-    echo "<tr><td>".$data['id']."</td><td>".$data['texte']."</td></tr>";
-}
-echo "</table>";
+           $query = "";
+
+// Exécuter la requête sur la base de données
+$res = mysqli_query($db, $query);
+
+           
+//-----------------------retire les produit du stock--------------------------------
 
 
-
-
-//-------------------------------------------------------
-
-
-$nbArticles = count($_SESSION['panier']['libelleProduit']); //recupere le nombre de produit dans la panier 
+$nbArticles = count($_SESSION['panier']['libelleProduit']); //recupere le nombre de produit dans le panier 
 
 for ($i = 0; $i < $nbArticles; $i++) {
     $id = $_SESSION['panier']['idProduit'][$i];
@@ -61,16 +55,13 @@ for ($i = 0; $i < $nbArticles; $i++) {
 
     $requete = "UPDATE produit SET prodStock= prodStock-$nb  WHERE prodID='$id'";
 
-    $exe = $pdo->prepare($requete);
+    $exe = $db->prepare($requete);
     $exe->execute();
     $fini = $exe->fetch();
 }
 
-supprimePanier();
-?>
+supprimePanier(); // supprime le panier a la fin de la commande 
 
-<?php
-session_start();
 echo '<?xml version="1.0" encoding="utf-8"?>';
 ?>
 
@@ -98,3 +89,12 @@ echo '<?xml version="1.0" encoding="utf-8"?>';
 </body>
 
 </html>
+<?php } 
+
+else {
+
+    header('Location: connection.php?erreur=3');
+
+}
+
+?>
