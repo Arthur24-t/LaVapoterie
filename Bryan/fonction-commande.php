@@ -35,14 +35,14 @@ $ncom = numCommande($db);
 $user = $_SESSION['username'];
 $today = date("y-m-d");
 
-$requete_commande = "INSERT into commande (comRef,`comClient`,`comDate`)
-VALUES($ncom, '$user','$today')";
+$requete_commande = "INSERT into commande (comRef,`comClient`,`comDate`) 
+VALUES($ncom, '$user','$today')"; // creation de la commande 
 
 $exe_commande = mysqli_query($db, $requete_commande);
 
 $nbArticle = count($_SESSION['panier']['libelleProduit']); //recupere le nombre de produit dans le panier 
 
-for ($i = 0; $i < $nbArticle; $i++) {
+for ($i = 0; $i < $nbArticle; $i++) { // chaque produit va se mettre dans le detail de commande 
     $id = $_SESSION['panier']['idProduit'][$i];
     $nb = $_SESSION['panier']['qteProduit'][$i];
 
