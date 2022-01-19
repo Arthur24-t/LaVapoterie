@@ -32,12 +32,30 @@ $sql  = "SELECT COUNT(*) AS nbr FROM client WHERE cliPseudo = '".$numCom."'";  /
 //------------------------------------mettre dans les tables ---------------------------
 
 $ncom = numCommande($db);
+$user = $_SESSION['username'];
+$today = date("y-m-d");
 
+$requete_commande = "INSERT into commande (comRef,`comClient`,`comDate`)
+VALUES($ncom, '$user','$today')";
 
-           $query = "";
+$exe_commande = mysqli_query($db, $requete_commande);
 
+$nbArticle = count($_SESSION['panier']['libelleProduit']); //recupere le nombre de produit dans le panier 
+
+for ($i = 0; $i < $nbArticle; $i++) {
+    $id = $_SESSION['panier']['idProduit'][$i];
+    $nb = $_SESSION['panier']['qteProduit'][$i];
+
+    $query = "INSERT into detailCommande (`refProduit`,`refCommande`,quantite)
+    VALUES('$id', $ncom,$nb)";
+    echo $query;
 // Exécuter la requête sur la base de données
 $res = mysqli_query($db, $query);
+
+
+}
+
+           
 
            
 //-----------------------retire les produit du stock--------------------------------
