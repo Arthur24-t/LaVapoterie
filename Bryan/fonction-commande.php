@@ -60,10 +60,7 @@ $res = mysqli_query($db, $query);
            
 //-----------------------retire les produit du stock--------------------------------
 
-
-$nbArticles = count($_SESSION['panier']['libelleProduit']); //recupere le nombre de produit dans le panier 
-
-for ($i = 0; $i < $nbArticles; $i++) {
+for ($i = 0; $i < $nbArticle; $i++) {
     $id = $_SESSION['panier']['idProduit'][$i];
     $nb = $_SESSION['panier']['qteProduit'][$i];
     $date = date('d-m-y h:i:s');
