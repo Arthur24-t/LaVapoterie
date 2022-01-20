@@ -55,9 +55,6 @@ $res = mysqli_query($db, $query);
 
 }
 
-           
-
-           
 //-----------------------retire les produit du stock--------------------------------
 
 for ($i = 0; $i < $nbArticle; $i++) {
