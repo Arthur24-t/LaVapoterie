@@ -34,7 +34,7 @@ $sql  = "SELECT COUNT(*) AS nbr FROM client WHERE cliPseudo = '".$numCom."'";  /
 $ncom = numCommande($db);
 $user = $_SESSION['username'];
 $today = date("y-m-d");
-
+$_SESSION["numCom"]= $ncom;
 $requete_commande = "INSERT into commande (comRef,`comClient`,`comDate`) 
 VALUES($ncom, '$user','$today')"; // creation de la commande 
 
@@ -74,35 +74,8 @@ for ($i = 0; $i < $nbArticle; $i++) {
 
 supprimePanier(); // supprime le panier a la fin de la commande 
 
-echo '<?xml version="1.0" encoding="utf-8"?>';
-?>
-
-
-
-
-<!DOCTYPE html>
-<html lang="fr">
-<meta charset="utf-8" />
-
-<head>
-    <link rel="stylesheet" type="text/css" href="commande.css" />
-</head>
-<div class="head">
-    <?php include("header.php"); ?>
-</div>
-
-
-<body>
-    <div class="bordereaux">
-        <p>Merci de votre commande !</p>
-        <p>vos produit sera expedié dans les meilleurs delais </p>
-        <a href="index.php">Poursuivez votre shopping</a>
-    </div>
-</body>
-
-</html>
-<?php } 
-
+header('Location: confirmation-commande.php');
+}
 else {
 
     header('Location: connection.php?erreur=3');
