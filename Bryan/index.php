@@ -44,6 +44,7 @@ include_once("fonction-panier.php");
             <div class="titre">
                 <h1>TOP DES VENTES</h1>
             </div>
+            
             <div class="top">
                 
             <div class="num">
