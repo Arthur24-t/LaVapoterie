@@ -18,7 +18,7 @@ include_once("fonction-panier.php");
 <?php include("header.php"); ?>
 
 <body>
-
+<form action="" method="POST">
     <div class="corps">
 
 
@@ -259,7 +259,7 @@ include_once("fonction-panier.php");
 
 
     </div>
-
+</form>
 </body>
 
 </html>
