@@ -1,3 +1,10 @@
+<?php
+session_start();
+echo '<?xml version="1.0" encoding="utf-8"?>';
+
+include_once("fonction-panier.php");
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <meta charset="utf-8" />
@@ -12,13 +19,6 @@
 
 <body>
 
-    <div class="banderole">
-
-        <table>
-            <tr></tr>
-        </table>
-
-    </div>
     <div class="corps">
 
 
@@ -86,6 +86,7 @@
                     <div class="prix_produit">
                         <p>2€</p>
                     </div>
+                    <div class="bouton"><button class="ajout_panier" type="submit" name="prod-C01"> ajouter au panier </button></div>
                 </div>
             </div>
 
@@ -102,9 +103,18 @@
                     <div class="prix_produit">
                         <p>5€</p>
                     </div>
+                    <div class="bouton"><button class="ajout_panier" type="submit" name="prod-A20"> ajouter au panier </button></div>
 
                 </div>
             </div>
+
+            
+            <?php
+                if (isset($_POST["prod-A20"])) {
+                    
+                    ajouterArticle("A20", "Flacon", 1, 30);
+                }
+            ?>
 
 
             <div class="item">
@@ -120,6 +130,7 @@
                     <div class="prix_produit">
                         <p>20€</p>
                     </div>
+                    <div class="bouton"><button class="ajout_panier" type="submit" name="prod-C01"> ajouter au panier </button></div>
                 </div>
             </div>
 
@@ -136,7 +147,7 @@
                     <div class="prix_produit">
                         <p>5€</p>
                     </div>
-
+                    <div class="bouton"><button class="ajout_panier" type="submit" name="prod-C01"> ajouter au panier </button></div>
                 </div>
             </div>
 
@@ -153,6 +164,7 @@
                     <div class="prix_produit">
                         <p>15€</p>
                     </div>
+                    <div class="bouton"><button class="ajout_panier" type="submit" name="prod-C01"> ajouter au panier </button></div>
                 </div>
             </div>
 
@@ -169,6 +181,7 @@
                     <div class="prix_produit">
                         <p>2€</p>
                     </div>
+                    <div class="bouton"><button class="ajout_panier" type="submit" name="prod-C01"> ajouter au panier </button></div>
                 </div>
             </div>
 
@@ -185,6 +198,7 @@
                     <div class="prix_produit">
                         <p>2€</p>
                     </div>
+                    <div class="bouton"><button class="ajout_panier" type="submit" name="prod-C01"> ajouter au panier </button></div>
                 </div>
             </div>
 
@@ -201,6 +215,7 @@
                     <div class="prix_produit">
                         <p>2€</p>
                     </div>
+                    <div class="bouton"><button class="ajout_panier" type="submit" name="prod-C01"> ajouter au panier </button></div>
                 </div>
             </div>
 
@@ -217,6 +232,7 @@
                     <div class="prix_produit">
                         <p>2€</p>
                     </div>
+                    <div class="bouton"><button class="ajout_panier" type="submit" name="prod-C01"> ajouter au panier </button></div>
                 </div>
             </div>
 
@@ -234,6 +250,7 @@
                     <div class="prix_produit">
                         <p>2€</p>
                     </div>
+                    <div class="bouton"><button class="ajout_panier" type="submit" name="prod-C01"> ajouter au panier </button></div>
                 </div>
             </div>
 
