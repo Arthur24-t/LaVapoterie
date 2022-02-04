@@ -125,7 +125,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
                   echo "<div class=\"libelle_produit\">" . htmlspecialchars($_SESSION['panier']['libelleProduit'][$i]) . "</div>";
                   echo "<div class=\"qte_produit\"><input type=\"number\"  name=\"q[]\" value=\"" . htmlspecialchars($_SESSION['panier']['qteProduit'][$i]) . "\"/></div>";
                   echo "<div class=\"prix_produit\">" . htmlspecialchars($_SESSION['panier']['prixProduit'][$i]) . "€</div>";
-                  echo "<div class=\"supprimer_produit\"><a href=\"" . htmlspecialchars("panier.php?action=suppression&l=" . rawurlencode($_SESSION['panier']['libelleProduit'][$i])) . "\">Suprimer</a> </div>";
+                  echo "<div class=\"supprimer_produit\"><a href=\"" . htmlspecialchars("panier.php?action=suppression&l=" . rawurlencode($_SESSION['panier']['libelleProduit'][$i])) . "\">Supprimer</a> </div>";
                   echo "</div>";
                }
 
@@ -138,7 +138,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
                echo "<tr><td colspan=\"5\">";
                echo "<input type=\"submit\" value=\"Rafraichir\"/>";
                echo "<input type=\"hidden\" name=\"action\" value=\"refresh\"/>";
-               echo "<div class=\"supprimer_produit\"><a href=\"fonction-commande.php\">Passer la commande</a> </div>";
+               echo "<div class=\"passercom\"><a href=\"fonction-commande.php\">Passer la commande</a> </div>";
                
                echo "</td></tr>";
             }
