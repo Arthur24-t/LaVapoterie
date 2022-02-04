@@ -68,10 +68,19 @@ margin-right: 5px;
 
     }
 
+.tableau{
+    display: flex;
+    justify-content: center;
+}
+.tableau table td{
+width: 100%;
+
+}
+
 .libelle_produit{
     display: flex;
  font-weight: bold;
-transform: translate(-60px, 10px);
+
 }
 
 .prix_produit{
