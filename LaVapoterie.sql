@@ -112,3 +112,6 @@ CREATE TABLE `detailCommande` (
   `quantite` NUMERIC(5) NOT NULL,
   PRIMARY KEY (`refProduit`, `refCommande`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+ALTER TABLE detailCommande ADD CONSTRAINT FK_produit FOREIGN KEY (refProduit)  REFERENCES produit (prodId) ON DELETE CASCADE;
+ALTER TABLE detailCommande ADD CONSTRAINT FK_commande FOREIGN KEY (refCommande)  REFERENCES commande (comRef) ON DELETE CASCADE;
