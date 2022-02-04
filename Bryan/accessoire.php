@@ -56,7 +56,7 @@ include_once("fonction-panier.php");
         <div class="produit">
         
             <div class="item">
-                <div class="image_produit"><img src="/image/rangement.jpg">
+                <div class="image_produit"><img src="/image/produit/A28.jpg">
                 </div>
                 <div class="tout">
                     <div class="nom_produit">
@@ -66,21 +66,21 @@ include_once("fonction-panier.php");
                         <p>Boite de rangement <br> pour cigarette</p>
                     </div>
                     <div class="prix_produit">
-                        <p>12€</p>
+                        <p>25€</p>
                     </div>
-                    <div class="bouton"><button class="ajout_panier" type="submit" name="prod-C01"> ajouter au panier </button></div>
+                    <div class="bouton"><button class="ajout_panier" type="submit" name="prod-A28"> ajouter au panier </button></div>
                 </div>
             </div>
 
             <?php
-                if (isset($_POST["prod-A20"])) {
+                if (isset($_POST["prod-A28"])) {
                     
-                    ajouterArticle("A20", "Flacon", 1, 30);
+                    ajouterArticle("A28", "Pochette Accessoire", 1, 25);
                 }
             ?>
 
             <div class="item">
-                <div class="image_produit"><img src="/image/seringue.jpg">
+                <div class="image_produit"><img src="/image/produit/A45.jpg">
                 </div>
                 <div class="tout">
                     <div class="nom_produit">
@@ -92,14 +92,14 @@ include_once("fonction-panier.php");
                     <div class="prix_produit">
                         <p>2€</p>
                     </div>
-                    <div class="bouton"><button class="ajout_panier" type="submit" name="prod-C01"> ajouter au panier </button></div>
+                    <div class="bouton"><button class="ajout_panier" type="submit" name="prod-A45"> ajouter au panier </button></div>
                 </div>
             </div>
 
             <?php
-                if (isset($_POST["prod-A20"])) {
+                if (isset($_POST["prod-A45"])) {
                     
-                    ajouterArticle("A20", "Flacon", 1, 30);
+                    ajouterArticle("A45", "Seringue", 1, 2);
                 }
             ?>
 
@@ -132,7 +132,7 @@ include_once("fonction-panier.php");
 
 
             <div class="item">
-                <div class="image_produit"><img src="/image/chargeur.jpg">
+                <div class="image_produit"><img src="/image/produit/A26.jpg">
                 </div>
                 <div class="tout">
                     <div class="nom_produit">
@@ -142,16 +142,16 @@ include_once("fonction-panier.php");
                         <p>Chargeur pour cigarette X</p>
                     </div>
                     <div class="prix_produit">
-                        <p>20€</p>
+                        <p>140€</p>
                     </div>
-                    <div class="bouton"><button class="ajout_panier" type="submit" name="prod-C01"> ajouter au panier </button></div>
+                    <div class="bouton"><button class="ajout_panier" type="submit" name="prod-A26"> ajouter au panier </button></div>
                 </div>
             </div>
 
             <?php
-                if (isset($_POST["prod-A20"])) {
+                if (isset($_POST["prod-A26"])) {
                     
-                    ajouterArticle("A20", "Flacon", 1, 30);
+                    ajouterArticle("A26", "Chargeur", 1, 140);
                 }
             ?>
 
@@ -168,7 +168,7 @@ include_once("fonction-panier.php");
                     <div class="prix_produit">
                         <p>5€</p>
                     </div>
-                    <div class="bouton"><button class="ajout_panier" type="submit" name="prod-C01"> ajouter au panier </button></div>
+                    <div class="bouton"><button class="ajout_panier" type="submit" name="prod-A20"> ajouter au panier </button></div>
                 </div>
             </div>
 
@@ -180,7 +180,7 @@ include_once("fonction-panier.php");
             ?>
 
             <div class="item">
-                <div class="image_produit"><img src="/image/drip tip bleu.jpg">
+                <div class="image_produit"><img src="/image/produit/A23.jpg">
                 </div>
                 <div class="tout">
                     <div class="nom_produit">
@@ -190,21 +190,21 @@ include_once("fonction-panier.php");
                         <p>Drip tip Bleu</p>
                     </div>
                     <div class="prix_produit">
-                        <p>15€</p>
+                        <p>30€</p>
                     </div>
-                    <div class="bouton"><button class="ajout_panier" type="submit" name="prod-C01"> ajouter au panier </button></div>
+                    <div class="bouton"><button class="ajout_panier" type="submit" name="prod-A23"> ajouter au panier </button></div>
                 </div>
             </div>
 
             <?php
-                if (isset($_POST["prod-A20"])) {
+                if (isset($_POST["prod-A23"])) {
                     
-                    ajouterArticle("A20", "Flacon", 1, 30);
+                    ajouterArticle("A23", "DripTip", 1, 30);
                 }
             ?>
 
             <div class="item">
-                <div class="image_produit"><img src="/image/seringue.jpg">
+                <div class="image_produit"><img src="/image/produit/A45.jpg">
                 </div>
                 <div class="tout">
                     <div class="nom_produit">
@@ -216,19 +216,19 @@ include_once("fonction-panier.php");
                     <div class="prix_produit">
                         <p>2€</p>
                     </div>
-                    <div class="bouton"><button class="ajout_panier" type="submit" name="prod-C01"> ajouter au panier </button></div>
+                    <div class="bouton"><button class="ajout_panier" type="submit" name="prod-A45"> ajouter au panier </button></div>
                 </div>
             </div>
 
             <?php
-                if (isset($_POST["prod-A20"])) {
+                if (isset($_POST["prod-A45"])) {
                     
-                    ajouterArticle("A20", "Flacon", 1, 30);
+                    ajouterArticle("A45", "Seringue", 1, 2);
                 }
             ?>
 
             <div class="item">
-                <div class="image_produit"><img src="/image/seringue.jpg">
+                <div class="image_produit"><img src="/image/produit/A45.jpg">
                 </div>
                 <div class="tout">
                     <div class="nom_produit">
@@ -240,19 +240,19 @@ include_once("fonction-panier.php");
                     <div class="prix_produit">
                         <p>2€</p>
                     </div>
-                    <div class="bouton"><button class="ajout_panier" type="submit" name="prod-C01"> ajouter au panier </button></div>
+                    <div class="bouton"><button class="ajout_panier" type="submit" name="prod-A45"> ajouter au panier </button></div>
                 </div>
             </div>
 
             <?php
-                if (isset($_POST["prod-A20"])) {
+                if (isset($_POST["prod-A45"])) {
                     
-                    ajouterArticle("A20", "Flacon", 1, 30);
+                    ajouterArticle("A45", "Seringue", 1, 2);
                 }
             ?>
 
             <div class="item">
-                <div class="image_produit"><img src="/image/seringue.jpg">
+                <div class="image_produit"><img src="/image/produit/A45.jpg">
                 </div>
                 <div class="tout">
                     <div class="nom_produit">
@@ -264,66 +264,16 @@ include_once("fonction-panier.php");
                     <div class="prix_produit">
                         <p>2€</p>
                     </div>
-                    <div class="bouton"><button class="ajout_panier" type="submit" name="prod-C01"> ajouter au panier </button></div>
+                    <div class="bouton"><button class="ajout_panier" type="submit" name="prod-A45"> ajouter au panier </button></div>
                 </div>
             </div>
 
             <?php
-                if (isset($_POST["prod-A20"])) {
+                if (isset($_POST["prod-A45"])) {
                     
-                    ajouterArticle("A20", "Flacon", 1, 30);
+                    ajouterArticle("A45", "Seringue", 1, 2);
                 }
             ?>
-
-            <div class="item">
-                <div class="image_produit"><img src="/image/seringue.jpg">
-                </div>
-                <div class="tout">
-                    <div class="nom_produit">
-                        <p>Seringue </p>
-                    </div>
-                    <div class="descprition_produit">
-                        <p>Seringue de 10ml </p>
-                    </div>
-                    <div class="prix_produit">
-                        <p>2€</p>
-                    </div>
-                    <div class="bouton"><button class="ajout_panier" type="submit" name="prod-C01"> ajouter au panier </button></div>
-                </div>
-            </div>
-
-            <?php
-                if (isset($_POST["prod-A20"])) {
-                    
-                    ajouterArticle("A20", "Flacon", 1, 30);
-                }
-            ?>
-            
-            <div class="item">
-                <div class="image_produit"><img src="/image/seringue.jpg">
-                </div>
-                <div class="tout">
-                    <div class="nom_produit">
-                        <p>Seringue </p>
-                    </div>
-                    <div class="descprition_produit">
-                        <p>Seringue de 10ml </p>
-                    </div>
-                    <div class="prix_produit">
-                        <p>2€</p>
-                    </div>
-                    <div class="bouton"><button class="ajout_panier" type="submit" name="prod-C01"> ajouter au panier </button></div>
-                </div>
-            </div>
-
-            <?php
-                if (isset($_POST["prod-A20"])) {
-                    
-                    ajouterArticle("A20", "Flacon", 1, 30);
-                }
-            ?>
-
-        </div>
 
 
     </div>

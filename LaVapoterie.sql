@@ -89,7 +89,10 @@ insert  into `produit`(`prodId`,`prodNom`,`prodCateg`,`prodStock`,`prodPrix`) va
 ('P27','Clearomiseur','Autre',2,110),
 ('C28','Cigarette Perfect','Cigarette',4,125),
 ('C29','Cigarette Economique','Cigarette',56,100),
-('L30','Liquide Mangue','Liquide',120,12);
+('L30','Liquide Mangue','Liquide',120,12)
+('A28','Pochette accessoire','Rangement',10,25)
+('A45','Seringue','Contenance',218,2)
+('A26','Chargeur ','Pile',33,140);
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
