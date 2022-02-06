@@ -1,0 +1,47 @@
+*{
+    font-family: Andale Mono, monospace;
+    margin: 0; 
+    padding: 0;
+}
+body{
+    background: #696969;
+}
+#container{
+    width:400px;
+    margin:0 auto;
+    margin-top:10%;
+}
+
+.bordereaux{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    width: 100%;
+    }
+
+.millieu {
+        width: 80%;
+        padding: 30px;
+        border: 1px solid #f1f1f1;
+        background: #fff;
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    }
+
+.millieu p {
+    text-align: center;
+}
+.millieu a{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    justify-self: right;
+    text-decoration: none;
+
+}
