@@ -1,18 +1,18 @@
-<?php 
+<?php
 session_start();
 $numCommande = $_SESSION["numCom"];
 
 $db_username = 'root';
-    $db_password = '1234';
-    $db_name     = 'lavapoterie';
-    $db_host     = 'localhost';
-    $db = mysqli_connect($db_host, $db_username, $db_password,$db_name)
-           or die('could not connect to database');
+$db_password = '1234';
+$db_name     = 'lavapoterie';
+$db_host     = 'localhost';
+$db = mysqli_connect($db_host, $db_username, $db_password, $db_name)
+    or die('could not connect to database');
 
-           $sql  = "SELECT prodId, prodNom, quantite FROM produit,detailcommande WHERE refProduit = prodId AND refCommande = '$numCommande'";
+$sql  = "SELECT prodId, prodNom, quantite, prodPrix FROM produit,detailCommande WHERE refProduit = prodId AND refCommande = '$numCommande'";
 
-           $result = mysqli_query($db,$sql);
-           
+$result = mysqli_query($db, $sql);
+
 ?>
 
 
@@ -31,40 +31,45 @@ $db_username = 'root';
 <body>
     <div class="bordereaux">
         <div class="millieu">
-        <p>Merci de votre commande !</p>
-        <p>votre commande numero :<?php echo $numCommande;?> sera expedié dans les meilleurs delais </p>
-        <p>Detail de votre commande : </p>
+            <p>Merci de votre commande !</p>
+            <p>votre commande numero :<?php echo $numCommande; ?> sera expedié dans les meilleurs delais </p>
+            <p>Detail de votre commande : </p>
 
-        <?php 
-         print "<table bgcolor=yellow border=2>\n";
+            <?php
+            echo "<div class='table'><table cellspacing= 50px align='center'>
 
-         // ------------------------------------------------------
-          while ( $a_row = mysqli_fetch_row( $result ) )
-              {
-              print "<tr>\n";
-              foreach ( $a_row as $field )  // Affichage d'un champ dans la cellule du tableau
-                  print "\t<td>$field</td>\n";
-              print "</tr>\n";
-              }
-         // ---------------------------------------------------------- 
-         
-         print "</table>\n";
-         
-          mysqli_close( $db );  // Fermeture de la oonnexion à la BDD
-         
-        ?>
+            <td><h4>Refenrence produit</h4></td>
+            <td align='left'><h4>Libellé</h4></td>
+            <td align='center'><h4>Quantité</h4></td>
+            <td><h4>Prix</h4></td>
+            ";
 
+            // ------------------------------------------------------
+            while ($a_row = mysqli_fetch_row($result)) {
+                echo "<tr>\n";
+                foreach ($a_row as $field)  // Affichage d'un champ dans la cellule du tableau
+                    echo "\t<td align='center'>$field</td>\n";
+                echo "</tr>\n";
+            }
+            // ---------------------------------------------------------- 
 
+            echo "</table>\n</div>";
 
+            mysqli_close($db);  // Fermeture de la oonnexion à la BDD
 
-        <a href="index.php">Poursuivez votre shopping</a>
-<?php 
-
-    
-?>
+            ?>
 
 
-</div>
+
+
+            <a href="index.php">Poursuivez votre shopping</a>
+            <?php
+
+
+            ?>
+
+
+        </div>
     </div>
 </body>
 

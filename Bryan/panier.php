@@ -92,24 +92,11 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
 
                   
                   <td><h2>Image</h2></td>
-                  
-      
-      
-                  
-                     <td align='left'><h2>Libellé</h2></td>
-                  
-      
-      
-                  
-                     <td align='center'><h2>Quantité</h2></td>
-                  
-      
-      
-                  
-                     <td><h2>Prix</h2></td>
+                  <td align='left'><h2>Libellé</h2></td>
+                  <td align='center'><h2>Quantité</h2></td>
+                  <td><h2>Prix</h2></td>
    
-                     <td align='center'><h2>Action</h2></td>
-                      ";
+                  <td align='center'><h2>Action</h2></td>";
 
                
                for ($i = 0; $i < $nbArticles; $i++) {
@@ -120,7 +107,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
                   echo "<td><div class=\"image_produit\"><img src=\"/image/produit/" . htmlspecialchars($_SESSION['panier']['idProduit'][$i]) . ".jpg\"></td></div>";
                   echo "<td align='center'><div class=\"libelle_produit\">" . htmlspecialchars($_SESSION['panier']['libelleProduit'][$i]) . "</div></td>";
                  
-                  echo "<td align='center'><div class=\"qte_produit\"><input type=\"number\"  name=\"q[]\" value=\"" . htmlspecialchars($_SESSION['panier']['qteProduit'][$i]) . "\"/></div></td>";
+                  echo "<td align='center'><div class=\"qte_produit\"><p id='quantite'>" .htmlspecialchars($_SESSION['panier']['qteProduit'][$i]) . "</p></div></td>";
                  
                   echo "<td align='center'><div class=\"prix_produit\">" . htmlspecialchars($_SESSION['panier']['prixProduit'][$i]) . "€</div></td>";
                   echo "<td align='center'><div class=\"supprimer_produit\"><a href=\"" . htmlspecialchars("panier.php?action=suppression&l=" . rawurlencode($_SESSION['panier']['libelleProduit'][$i])) . "\">Supprimer</a> </div></td>";
