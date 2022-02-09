@@ -49,7 +49,7 @@ if (!$erreur) {
             modifierQTeArticle($_SESSION['panier']['libelleProduit'][$b], round($QteArticle[$b]));
          }
          break;
-            default:
+      default:
          break;
    }
 }
@@ -73,21 +73,21 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
 <body>
    <div class="panier_millieu">
       <form method="post" action="panier.php">
-         
-        
-      
+
+
+
 
          <?php
          if (creationPanier()) {
             $nbArticles = count($_SESSION['panier']['libelleProduit']);
             if ($nbArticles <= 0)
-               
+
                echo "<tr><div class=\"panier_vide\"><td>Votre panier est vide </ td></div></tr>";
-               
+
             else {
-               
+
                echo "<div class='tableau'><table  cellspacing= 10px align='center'>";
-                  echo"
+               echo "
 
 
                   
@@ -98,7 +98,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
    
                   <td align='center'><h2>Action</h2></td>";
 
-               
+
                for ($i = 0; $i < $nbArticles; $i++) {
 
 
@@ -106,26 +106,24 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
                   echo "<div class=\"panier_produit\">";
                   echo "<td><div class=\"image_produit\"><img src=\"/image/produit/" . htmlspecialchars($_SESSION['panier']['idProduit'][$i]) . ".jpg\"></td></div>";
                   echo "<td align='center'><div class=\"libelle_produit\">" . htmlspecialchars($_SESSION['panier']['libelleProduit'][$i]) . "</div></td>";
-                 
-                  echo "<td align='center'><div class=\"qte_produit\"><p id='quantite'>" .htmlspecialchars($_SESSION['panier']['qteProduit'][$i]) . "</p></div></td>";
-                 
+
+                  echo "<td align='center'><div class=\"qte_produit\"><p id='quantite'>" . htmlspecialchars($_SESSION['panier']['qteProduit'][$i]) . "</p></div></td>";
+
                   echo "<td align='center'><div class=\"prix_produit\">" . htmlspecialchars($_SESSION['panier']['prixProduit'][$i]) . "€</div></td>";
                   echo "<td align='center'><div class=\"supprimer_produit\"><a href=\"" . htmlspecialchars("panier.php?action=suppression&l=" . rawurlencode($_SESSION['panier']['libelleProduit'][$i])) . "\">Supprimer</a> </div></td>";
                   echo "</div>";
                   echo "</tr>";
                }
                echo "</table></div>";
-            
-               echo "Total : " . MontantGlobal(). "€\n";
-               
-              
-               
-              
+
+               echo "Total : " . MontantGlobal() . "€\n";
+
+
+
+
                echo "<input type=\"submit\" value=\"Rafraichir\"/>";
                echo "<input type=\"hidden\" name=\"action\" value=\"refresh\"/>";
                echo "<div class=\"passercom\"><a href=\"fonction-commande.php\">Passer la commande</a> </div>";
-               
-               
             }
          }
          ?>
