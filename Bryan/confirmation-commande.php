@@ -31,7 +31,7 @@ $result = mysqli_query($db, $sql);
 <body>
     <div class="bordereaux">
         <div class="millieu">
-            <p>Merci de votre commande !</p>
+            <h1>Merci de votre commande !</h1>
             <p>votre commande numero :<?php echo $numCommande; ?> sera expedié dans les meilleurs delais </p>
             <p>Detail de votre commande : </p>
 

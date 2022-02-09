@@ -4,8 +4,8 @@
 
     <div class="truc">
         <div class="reseau">
-        <img src="image/logo insta.jpg" width="100" height="100">
-        <img src="image/logo facebook.png" width="100" height="100">
+        <img src="image/logo insta.jpg" >
+        <img src="image/logo facebook.png">
         </div>
         <a href="index.php">
             <div class="logob">
