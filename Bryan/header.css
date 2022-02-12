@@ -201,6 +201,7 @@ color: white;
     }
     
     .logo {
+        margin-left: 100px;
     align-self: center;
     width: 150px;
     height: 150px;
