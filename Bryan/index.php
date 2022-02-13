@@ -287,7 +287,7 @@ include_once("fonction-panier.php");
                                 <p>Contenant pour liquide</p>
                             </div>
                             <div class="prix_produit">
-                                <p>12</p>
+                                <p>12€</p>
                             </div>
                             <div class="quantite">
                                 
