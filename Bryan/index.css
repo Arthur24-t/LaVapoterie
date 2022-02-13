@@ -230,17 +230,22 @@
     }
     .bouton {
         display: flex;
-        flex-wrap: wrap;
-        order: 6;
-        width: 100px;
-        background-color: black;
-    }
-    .bouton button {
         background-color: black;
         color: white;
+        padding: 5px 15px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100px;
+        text-align: center;
+        justify-content: center;
+        justify-self: right;
+        text-decoration: none;
+
     }
-    .bouton img {
-        width: 15%;
+    .bouton a{
+        color: white;
+        text-decoration: none;
     }
     .tout {
         display: flex;
@@ -282,10 +287,7 @@
         justify-content: center;
         width: 280px;
     }
-    .item_promo a {
-        text-decoration: none;
-        color: black;
-    }
+    
     .toutpromo1 {
         display: flex;
         justify-content: center;
