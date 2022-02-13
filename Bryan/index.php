@@ -6,51 +6,51 @@ include_once("fonction-panier.php");
 
 $action = (isset($_POST['action']) ? $_POST['action'] : (isset($_GET['action']) ? $_GET['action'] : null));
 if ($action !== null) {
-   if (!in_array($action, array('ajout', 'suppression', 'refresh')))
-      $erreur = true;
+    if (!in_array($action, array('ajout', 'suppression', 'refresh')))
+        $erreur = true;
 
-   //récupération des variables en POST ou GET
-   $i = (isset($_POST['i']) ? $_POST['i'] : (isset($_GET['i']) ? $_GET['i'] : null));
-   $l = (isset($_POST['l']) ? $_POST['l'] : (isset($_GET['l']) ? $_GET['l'] : null));
-   $p = (isset($_POST['p']) ? $_POST['p'] : (isset($_GET['p']) ? $_GET['p'] : null));
-   $q = (isset($_POST['q']) ? $_POST['q'] : (isset($_GET['q']) ? $_GET['q'] : null));
+    //récupération des variables en POST ou GET
+    $i = (isset($_POST['i']) ? $_POST['i'] : (isset($_GET['i']) ? $_GET['i'] : null));
+    $l = (isset($_POST['l']) ? $_POST['l'] : (isset($_GET['l']) ? $_GET['l'] : null));
+    $p = (isset($_POST['p']) ? $_POST['p'] : (isset($_GET['p']) ? $_GET['p'] : null));
+    $q = (isset($_POST['q']) ? $_POST['q'] : (isset($_GET['q']) ? $_GET['q'] : null));
 
-   //Suppression des espaces verticaux
-   $l = preg_replace('#\v#', '', $l);
-   $i = preg_replace('#\v#', '', $i);
-   //On vérifie que $p est un float
-   $p = floatval($p);
+    //Suppression des espaces verticaux
+    $l = preg_replace('#\v#', '', $l);
+    $i = preg_replace('#\v#', '', $i);
+    //On vérifie que $p est un float
+    $p = floatval($p);
 
-   //On traite $q qui peut être un entier simple ou un tableau d'entiers
+    //On traite $q qui peut être un entier simple ou un tableau d'entiers
 
-   if (is_array($q)) {
-      $QteArticle = array();
-      $i = 0;
-      foreach ($q as $contenu) {
-         $QteArticle[$i++] = intval($contenu);
-      }
-   } else
-      $q = intval($q);
+    if (is_array($q)) {
+        $QteArticle = array();
+        $i = 0;
+        foreach ($q as $contenu) {
+            $QteArticle[$i++] = intval($contenu);
+        }
+    } else
+        $q = intval($q);
 }
 
 if (!$erreur) {
-   switch ($action) {
-      case "ajout":
-         ajouterArticle($i, $l, $q, $p);
-         break;
+    switch ($action) {
+        case "ajout":
+            ajouterArticle($i, $l, $q, $p);
+            break;
 
-      case "suppression":
-         supprimerArticle($l);
-         break;
+        case "suppression":
+            supprimerArticle($l);
+            break;
 
-      case "refresh":
-         for ($b = 0; $b < count($QteArticle); $b++) {
-            modifierQTeArticle($_SESSION['panier']['libelleProduit'][$b], round($QteArticle[$b]));
-         }
-         break;
-      default:
-         break;
-   }
+        case "refresh":
+            for ($b = 0; $b < count($QteArticle); $b++) {
+                modifierQTeArticle($_SESSION['panier']['libelleProduit'][$b], round($QteArticle[$b]));
+            }
+            break;
+        default:
+            break;
+    }
 }
 
 
@@ -70,7 +70,7 @@ if (!$erreur) {
 </head>
 
 <div class="head">
-<?php include("header.php"); ?>
+    <?php include("header.php"); ?>
 </div>
 
 <!--Nos coups de coeurs TOP 5-->
@@ -81,13 +81,13 @@ if (!$erreur) {
 
 
 <body>
-<?php include("header.php"); ?>
+    <?php include("header.php"); ?>
 
 
     <div class="banderole">
-        
-        <img  src="/image/banniere.png"> 
-                   
+
+        <img src="/image/banniere.png">
+
     </div>
 
 
@@ -97,14 +97,14 @@ if (!$erreur) {
             <div class="titre">
                 <h1>TOP DES VENTES</h1>
             </div>
-            
+
             <div class="top">
-                
-            <div class="num">
-                        <H1>1</H1>
-                    </div>
+
+                <div class="num">
+                    <H1>1</H1>
+                </div>
                 <div class="item">
-                    
+
                     <div class="image_produit"><img src="/image/produit/C01.jpg">
                     </div>
                     <div class="tout">
@@ -120,19 +120,19 @@ if (!$erreur) {
                         </div>
                         <div class="quantite">
                             <form action="" method="POST">
-                                
+
                         </div>
-                        
-                        <div class="bouton"><a href="index.php?action=ajout&amp;i=C01&amp; l=Pod Caliburn&amp;q=1&amp;p=30" >Ajouter au panier</a></div>
+
+                        <div class="bouton"><a href="index.php?action=ajout&amp;i=C01&amp; l=Pod Caliburn&amp;q=1&amp;p=30">Ajouter au panier</a></div>
                     </div>
                 </div>
 
-                    <div class="num">
-                        <H1 >2</H1>
-                    </div>
+                <div class="num">
+                    <H1>2</H1>
+                </div>
 
                 <div class="item">
-                    
+
                     <div class="image_produit"><img src="/image/produit/C14.jpg">
                     </div>
                     <div class="tout">
@@ -146,19 +146,19 @@ if (!$erreur) {
                             <p>54€</p>
                         </div>
                         <div class="quantite">
-                            
+
                         </div>
-                        
-                        <div class="bouton"><a href="index.php?action=ajout&amp;i=C14&amp; l=Aegis Solo&amp;q=1&amp;p=54" >Ajouter au panier</a></div>
+
+                        <div class="bouton"><a href="index.php?action=ajout&amp;i=C14&amp; l=Aegis Solo&amp;q=1&amp;p=54">Ajouter au panier</a></div>
                     </div>
                 </div>
 
-               
+
                 <div class="num">
-                        <H1>3</H1>
-                    </div>
+                    <H1>3</H1>
+                </div>
                 <div class="item">
-                    
+
                     <div class="image_produit"><img src="/image/produit/A11.jpg">
                     </div>
                     <div class="tout">
@@ -172,18 +172,18 @@ if (!$erreur) {
                             <p>10€</p>
                         </div>
                         <div class="quantite">
-                            
+
                         </div>
-                        <div class="bouton"><a href="index.php?action=ajout&amp;i=A11&amp; l=Acu 30w&amp;q=1&amp;p=10" >Ajouter au panier</a></div>
+                        <div class="bouton"><a href="index.php?action=ajout&amp;i=A11&amp; l=Acu 30w&amp;q=1&amp;p=10">Ajouter au panier</a></div>
                     </div>
                 </div>
-               
+
 
                 <div class="num">
-                        <H1>4</H1>
-                    </div>
+                    <H1>4</H1>
+                </div>
                 <div class="item">
-                    
+
                     <div class="image_produit"><img src="/image/produit/L30.jpg">
                     </div>
                     <div class="tout">
@@ -198,17 +198,17 @@ if (!$erreur) {
                         </div>
                         <div class="quantite">
 
-                            
+
                         </div>
-                        <div class="bouton"><a href="index.php?action=ajout&amp;i=L30&amp; l=Liquide Mangue&amp;q=1&amp;p=12" >Ajouter au panier</a></div>
+                        <div class="bouton"><a href="index.php?action=ajout&amp;i=L30&amp; l=Liquide Mangue&amp;q=1&amp;p=12">Ajouter au panier</a></div>
                     </div>
                 </div>
 
                 <div class="num">
-                        <H1>5</H1>
-                    </div>
+                    <H1>5</H1>
+                </div>
                 <div class="item">
-                
+
                     <div class="image_produit"><img src="/image/produit/C29.jpg">
                     </div>
                     <div class="tout">
@@ -222,14 +222,14 @@ if (!$erreur) {
                             <p>100€</p>
                         </div>
                         <div class="quantite">
-                            
+
                         </div>
-                        <div class="bouton"><a href="index.php?action=ajout&amp;i=C29&amp; l=Ecigarette economique&amp;q=1&amp;p=100" >Ajouter au panier</a></div>
+                        <div class="bouton"><a href="index.php?action=ajout&amp;i=C29&amp; l=Ecigarette economique&amp;q=1&amp;p=100">Ajouter au panier</a></div>
                     </div>
                 </div>
             </div>
 
-            
+
 
 
 
@@ -256,9 +256,9 @@ if (!$erreur) {
                                 <p>14€</p>
                             </div>
                             <div class="quantite">
-                                
+
                             </div>
-                            <div class="bouton"><a href="index.php?action=ajout&amp;i=A12&amp; l=Chargeur Double&amp;q=1&amp;p=14" >Ajouter au panier</a></div>
+                            <div class="bouton"><a href="index.php?action=ajout&amp;i=A12&amp; l=Chargeur Double&amp;q=1&amp;p=14">Ajouter au panier</a></div>
                         </div>
                     </div>
 
@@ -277,14 +277,14 @@ if (!$erreur) {
                                 <p>25€</p>
                             </div>
                             <div class="quantite">
-                                
+
                             </div>
-                            <div class="bouton"><a href="index.php?action=ajout&amp;i=A17&amp; l=Pochette de rangement&amp;q=1&amp;p=25" >Ajouter au panier</a>
+                            <div class="bouton"><a href="index.php?action=ajout&amp;i=A17&amp; l=Pochette de rangement&amp;q=1&amp;p=25">Ajouter au panier</a>
                             </div>
                         </div>
                     </div>
-                    
- 
+
+
                     <div class="item_promo">
                         <div class="image_produit"><img src="/image/produit/A20.jpg">
                         </div>
@@ -299,13 +299,13 @@ if (!$erreur) {
                                 <p>12€</p>
                             </div>
                             <div class="quantite">
-                                
+
                             </div>
-                            <div class="bouton"><a href="index.php?action=ajout&amp;i=A20&amp; l=Flacon&amp;q=1&amp;p=12" >Ajouter au panier</a></div>
+                            <div class="bouton"><a href="index.php?action=ajout&amp;i=A20&amp; l=Flacon&amp;q=1&amp;p=12">Ajouter au panier</a></div>
                         </div>
                     </div>
 
-                   
+
 
                     <div class="item_promo">
                         <div class="image_produit"><img src="/image/produit/P02.jpg">
@@ -321,12 +321,12 @@ if (!$erreur) {
                                 <p>3€</p>
                             </div>
                             <div class="quantite">
-                                
+
                             </div>
-                            <div class="bouton"><a href="index.php?action=ajout&amp;i=P02&amp; l=Resistance&amp;q=1&amp;p=12" >Ajouter au panier</a></div>
+                            <div class="bouton"><a href="index.php?action=ajout&amp;i=P02&amp; l=Resistance&amp;q=1&amp;p=12">Ajouter au panier</a></div>
                         </div>
                     </div>
-                    
+
 
                 </div>
                 <div class="toutpromo2">
@@ -345,13 +345,13 @@ if (!$erreur) {
                                 <p>40€</p>
                             </div>
                             <div class="quantite">
-                                
+
                             </div>
-                            <div class="bouton"><a href="index.php?action=ajout&amp;i=C04&amp; l=Ecigarette Kit&amp;q=1&amp;p=40" >Ajouter au panier</a></div>
+                            <div class="bouton"><a href="index.php?action=ajout&amp;i=C04&amp; l=Ecigarette Kit&amp;q=1&amp;p=40">Ajouter au panier</a></div>
                         </div>
                     </div>
 
-                
+
 
                     <div class="item_promo">
                         <div class="image_produit"><img src="/image/produit/L25.jpg">
@@ -367,9 +367,9 @@ if (!$erreur) {
                                 <p>9€</p>
                             </div>
                             <div class="quantite">
-                                
+
                             </div>
-                            <div class="bouton"><a href="index.php?action=ajout&amp;i=L25&amp; l=Liquide Ananas&amp;q=1&amp;p=9" >Ajouter au panier</a></div>
+                            <div class="bouton"><a href="index.php?action=ajout&amp;i=L25&amp; l=Liquide Ananas&amp;q=1&amp;p=9">Ajouter au panier</a></div>
                         </div>
                     </div>
 
@@ -388,15 +388,15 @@ if (!$erreur) {
                             </div>
 
                             <div class="quantite">
-                                
+
                             </div>
                             <div class="bouton">
-                            <a href="index.php?action=ajout&amp;i=C16&amp; l=Pod 2000&amp;q=1&amp;p=15" >Ajouter au panier</a>
+                                <a href="index.php?action=ajout&amp;i=C16&amp; l=Pod 2000&amp;q=1&amp;p=15">Ajouter au panier</a>
                             </div>
                         </div>
 
                     </div>
-                    
+
                     <div class="item_promo">
                         <a href="immanquables.php">
                             <div class="image_produit"><img src="/image/suivant.png">
