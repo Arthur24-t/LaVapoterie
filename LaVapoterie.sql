@@ -29,20 +29,15 @@ CREATE TABLE `client` (
   `cliMail` VARCHAR(100) NOT NULL,
   `cliDate` DATE NOT NULL,
   `cliAge` DATE NOT NULL,
+  `cliAdresse` VARCHAR(100),
+  `cliCpostal` VARCHAR(100),
+  `cliVille` VARCHAR(100),
+  `cliNumCarte` INTEGER(16),
+  `cliDateExpiration` DATE,
+  `cliCryptogramme` INTEGER(3) ,
   PRIMARY KEY (`cliId`)
 ) ENGINE=MYISAM DEFAULT CHARSET=latin1;
 
-/*Data for the table `client` */
-
-INSERT  INTO `client`(`cliId`,`cliPseudo`,`cliMdp`,`cliNom`,`cliPrenom`,`cliMail`,`cliDate`,`cliAge`) VALUES 
-(1,'bonbon','1234','Bondroit','Sophie','connasse@gmail.com','2021-12-03','1999-12-03'),
-(2,'wanwan','1234','Wandolski','Pauline','grospute@gmail.com','2021-12-03','1999-12-03'),
-(3,'trutru','1234','Trusgnach','Arthur','arthur@gmail.com','2021-12-03','1999-12-03'),
-(4,'tritri','1234','Trioux','Axel','charo@gmail.com','2021-12-03','1999-12-03'),
-(5,'perper','1234','Perera','Donovan','ledebile@gmail.com','2021-12-03','1999-12-03'),
-(6,'mohmoh','1234','Mohamed','Amine','sanspapier@gmail.com','2021-12-03','1999-12-03'),
-(7,'tsotso','1234','Tsougnui','Henri','pinguin@gmail.com','2021-12-03','1999-12-03'),
-(8,'chichi','1234','Chien','sam','SAm@gmail.com','2021-12-03','1999-12-03');
 
 /*Table structure for table `produit` */
 
