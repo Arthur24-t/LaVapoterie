@@ -27,6 +27,9 @@ echo '<?xml version="1.0" encoding="utf-8"?>';
                 <label><p><b>Adresse (numero et rue)</b></p></label>
                 <input type="text" placeholder="Entrer votre adresse" name="adresse" required>
 
+                <label><p><b>Complement d'adresse</b></p></label>
+                <input type="text" placeholder="Entrer votre complement" name="ComplementAdresse" required>
+
                 <label><p><b>Code Postal</b></p></label>
                 <input type="text" placeholder="Entrer votre code Postal" name="Cpostal" required>
 

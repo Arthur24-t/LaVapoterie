@@ -3,11 +3,11 @@ function factu(){
     if (document.getElementById("same").checked == false)
 	{
 
-        var labelleAdresse = document.createElement("p");
+        let labelleAdresse = document.createElement("p");
         labelleAdresse.textContent="Adresse de Facturation";
         document.getElementById("facturation").appendChild(labelleAdresse);
 
-		var inputAdresse = document.createElement("input");
+		let inputAdresse = document.createElement("input");
         inputAdresse.type= "text";
         inputAdresse.id= "adresseFac";
         inputAdresse.name= "adresseFac";
@@ -15,11 +15,25 @@ function factu(){
         inputAdresse.required;
         document.getElementById("facturation").appendChild(inputAdresse);
 
-        var labelleCpostal = document.createElement("p");
+
+        let labelleCAdresse = document.createElement("p");
+        labelleCAdresse.textContent="Adresse de Facturation";
+        document.getElementById("facturation").appendChild(labelleCAdresse);
+
+		let inputCAdresse = document.createElement("input");
+        inputCAdresse.type= "text";
+        inputCAdresse.id= "complementAdresseFac";
+        inputCAdresse.name= "complementAdresseFac";
+        inputCAdresse.placeholder= "veuillez entrer votre complement d'adresse ";
+        inputCAdresse.required;
+        document.getElementById("facturation").appendChild(inputCAdresse);
+
+
+        let labelleCpostal = document.createElement("p");
         labelleCpostal.textContent="Code Postal de Facturation";
         document.getElementById("facturation").appendChild(labelleCpostal);
 
-		var inputCPostal = document.createElement("input");
+		let inputCPostal = document.createElement("input");
         inputCPostal.type= "text";
         inputCPostal.id= "CpostalFac";
         inputCPostal.name= "CpostalFac";
@@ -27,11 +41,11 @@ function factu(){
         inputCPostal.required;
         document.getElementById("facturation").appendChild(inputCPostal)
 
-        var labelleVille = document.createElement("p");
+        let labelleVille = document.createElement("p");
         labelleVille.textContent="Ville de Facturation";
         document.getElementById("facturation").appendChild(labelleVille);
 
-		var inputVille = document.createElement("input");
+		let inputVille = document.createElement("input");
         inputVille.type= "text";
         inputVille.id= "villeFac";
         inputVille.name= "villeFac";
@@ -45,9 +59,7 @@ function factu(){
 
     if (document.getElementById("same").checked == true)
 	{
-        r1 = getElementById("facturation");
-        r1.remove
-
+        document.getElementById('facturation').innerHTML = "";
     }
 
 }
