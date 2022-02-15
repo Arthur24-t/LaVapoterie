@@ -20,7 +20,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>';
         <div class="millieu">
             
 
-        <form action="" method="POST">
+        <form action="fonction-livraison.php" method="POST">
         <h1>Adresse de livraison et facturation </h1>
 
                 <h3>Adresse de livraison:</h3>
