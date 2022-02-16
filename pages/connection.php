@@ -2,7 +2,7 @@
     <head>
        <meta charset="utf-8">
         
-        <link rel="stylesheet" href="connection.css" media="screen" type="text/css" />
+        <link rel="stylesheet" href="../css/connection.css" media="screen" type="text/css" />
     </head>
     
     

@@ -2,7 +2,7 @@
 session_start();
 echo '<?xml version="1.0" encoding="utf-8"?>';
 
-include_once("fonction-panier.php");
+include_once("pages/fonction-panier.php");
 
 $action = (isset($_POST['action']) ? $_POST['action'] : (isset($_GET['action']) ? $_GET['action'] : null));
 if ($action !== null) {
@@ -64,13 +64,13 @@ if (!$erreur) {
 <head>
     <title>Site d'achat d'ecigarette</title>
     <link rel="icon" href="/image/logo.png" type="image/icon type">
-    <link rel="stylesheet" type="text/css" href="index.css" />
-    <link rel="stylesheet" media="screen and (max-width: 1280px)" href="index.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" media="screen and (max-width: 1280px)" href="css/index.css" type="text/css" />
 
 </head>
 
 <div class="head">
-    <?php include("header.php"); ?>
+    <?php include("pages/header.php"); ?>
 </div>
 
 <!--Nos coups de coeurs TOP 5-->
@@ -81,7 +81,7 @@ if (!$erreur) {
 
 
 <body>
-    <?php include("header.php"); ?>
+    <?php include("pages/header.php"); ?>
 
 
     <div class="banderole">

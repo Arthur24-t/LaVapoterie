@@ -7,8 +7,8 @@ echo '<?xml version="1.0" encoding="utf-8"?>';
 
 <head>
     <title>Contact</title>
-    <link rel="icon" href="/image/logo.png" type="image/icon type">
-    <link rel="stylesheet" type="text/css" href="contact.css" />
+    <link rel="icon" href="/image/logo.png" type="../image/icon type">
+    <link rel="stylesheet" type="text/css" href="../css/contact.css" />
 </head>
 
 <header class="header">

@@ -45,7 +45,7 @@ while ($a_row = mysqli_fetch_row($exe)) {
 <meta charset="utf-8" />
 
 <head>
-    <link rel="stylesheet" type="text/css" href="confirmation-commande.css" />
+    <link rel="stylesheet" type="text/css" href="../css/confirmation-commande.css" />
 </head>
 <div class="head">
     <?php include("header.php"); ?>
@@ -87,7 +87,7 @@ while ($a_row = mysqli_fetch_row($exe)) {
 
 
 
-            <a href="index.php">Poursuivez votre shopping</a>
+            <a href="../index.php">Poursuivez votre shopping</a>
             <?php
 
 

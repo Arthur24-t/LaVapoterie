@@ -1,14 +1,14 @@
-<link rel="stylesheet" type="text/css" href="header.css" />
-<link rel="stylesheet" media="screen and (max-width: 1280px)" href="header.css" type="text/css" />
+<link rel="stylesheet" type="text/css" href="../css/header.css" />
+<link rel="stylesheet" media="screen and (max-width: 1280px)" href="../css/header.css" type="text/css" />
 
 <div class="truc">
     <div class="reseau">
-        <img src="image/logo insta.jpg">
-        <img src="image/logo facebook.png">
+        <img src="../image/logo insta.jpg">
+        <img src="../image/logo facebook.png">
     </div>
-    <a href="index.php">
+    <a href="../index.php">
         <div class="logob">
-            <img src="image/Logo.png" class="logo" width="200" height="200">
+            <img src="../image/Logo.png" class="logo" width="200" height="200">
         </div>
     </a>
 
@@ -38,8 +38,8 @@
 
 
 
-        <div class="panier"><a href="panier.php">
-                <img src="/image/panier.png" class="panier" width="90" height="90">
+        <div class="panier"><a href="/pages/panier.php">
+                <img src="../image/panier.png" class="panier" width="90" height="90">
 
                 <!-- Docked at the top right corner -->
                 <div class="container__docker">
@@ -70,25 +70,25 @@
 
 <div class="menu">
 
-    <a href="immanquables.php">
+    <a href="/pages/immanquables.php">
         <div>A NE PAS MANQUER !</div>
     </a>
-    <a href="Cigarettes.php">
+    <a href="/pages/Cigarettes.php">
         <div>NOS CIGARETTES ELECTRONIQUES</div>
     </a>
-    <a href="liquides.php">
+    <a href="/pages/liquides.php">
         <div>E-LIQUIDES</div>
     </a>
-    <a href="accessoire.php">
+    <a href="/pages/accessoire.php">
         <div>ACCESSOIRES</div>
     </a>
-    <a href="pieces.php">
+    <a href="/pages/pieces.php">
         <div>PIECES DETACHEES</div>
     </a>
-    <a href="guide.php">
+    <a href="/pages/guide.php">
         <div>LE GUIDE</div>
     </a>
-    <a href="contact.php">
+    <a href="/pages/contact.php">
         <div>QUI SOMMES-NOUS ?</div>
     </a>
 

@@ -42,8 +42,8 @@ while ($a_row = mysqli_fetch_row($result)) {
 <meta charset="utf-8" />
 
 <head>
-    <link rel="stylesheet" type="text/css" href="livraison.css" />
-    <script type="text/javascript" src="livraison.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/livraison.css" />
+    <script type="text/javascript" src="../Js/livraison.js"></script>
 </head>
 <div class="head">
     <?php include("header.php"); ?>

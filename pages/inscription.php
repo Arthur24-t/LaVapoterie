@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="inscription.css" />
+    <link rel="stylesheet" href="../css/inscription.css" />
 </head>
 
 <body>
