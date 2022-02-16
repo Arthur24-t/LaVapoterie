@@ -35,12 +35,6 @@ while ($a_row = mysqli_fetch_row($result)) {
     }
 }
 
-
-
-
-
-
-
 ?>
 
 <!DOCTYPE html>

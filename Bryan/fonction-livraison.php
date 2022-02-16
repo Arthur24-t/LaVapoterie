@@ -1,5 +1,7 @@
 <?php
-
+session_start();
+$user = strtolower($_SESSION['username']);
+echo "$user";
 // connexion à la base de données
 $db_username = 'root';
 $db_password = '1234';
@@ -22,11 +24,19 @@ if (isset($_POST["check"])) {
        $cPostal = mysqli_real_escape_string($db, htmlspecialchars($_POST['Cpostal']));
        $Ville = mysqli_real_escape_string($db, htmlspecialchars($_POST['Ville']));
 
-       $query = "INSERT into `client` (`cliAdresse`,`cliCompAdresse`,`cliCpostal`,`cliVille`,`cliAdresseFac`,`cliCompAdresseFac`,`cliCpostalFac`,`cliVilleFac`)
-       VALUES ('$adresse','$cAdresse', '$cPostal', '$Ville', '$adresse', '$cAdresse', '$cPostal','$Ville')";
+       $query = "UPDATE `client` SET `cliAdresse`= '$adresse',
+       `cliCompAdresse`= '$cAdresse',
+       `cliCpostal`= '$cPostal',
+       `cliVille`= '$Ville',
+       `cliAdresseFac`= '$adresse',
+       `cliCompAdresseFac`= '$cAdresse',
+       `cliCpostalFac`= '$cPostal',
+       `cliVilleFac`= '$Ville' 
+       WHERE cliPseudo LIKE '$user'";
 
        // Exécuter la requête sur la base de données
        $res = mysqli_query($db, $query);
+       
 } else {
 
        $adresse = mysqli_real_escape_string($db, htmlspecialchars($_POST['adresse']));
@@ -40,8 +50,14 @@ if (isset($_POST["check"])) {
        $facVille = mysqli_real_escape_string($db, htmlspecialchars($_POST['villeFac']));
 
 
-       $query = "INSERT into `client` (`cliAdresse`,`cliCompAdresse`,`cliCpostal`,`cliVille`,`cliAdresseFac`,`cliCompAdresseFac`,`cliCpostalFac`,`cliVilleFac`)
-                                    VALUES ('$adresse','$cAdresse', '$cPostal', '$Ville', '$facAdresse', '$facCAdresse', '$facCPostal','$facVille')";
+       $query = "UPDATE `client` SET `cliAdresse`= '$adresse',
+       `cliCompAdresse`= '$cAdresse',
+       `cliCpostal`= '$cPostal',
+       `cliVille`= '$Ville',
+       `cliAdresseFac`= '$facAdresse',
+       `cliCompAdresseFac`= '$facCAdresse',
+       `cliCpostalFac`= '$facCPostal',
+       `cliVilleFac`= '$facVille' WHERE cliPseudo LIKE '$user'";
 
        // Exécuter la requête sur la base de données
        $res = mysqli_query($db, $query);
