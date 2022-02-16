@@ -38,7 +38,7 @@ CREATE TABLE `client` (
   `cliCpostalFac` VARCHAR(100),
   `cliVilleFac` VARCHAR(100),
   `cliNumCarte` INTEGER(16),
-  `cliDateExpiration` DATE,
+  `cliDateExpiration` VARCHAR(5),
   `cliCryptogramme` INTEGER(3) ,
   PRIMARY KEY (`cliId`)
 ) ENGINE=MYISAM DEFAULT CHARSET=latin1;

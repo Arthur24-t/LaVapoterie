@@ -1,7 +1,7 @@
 <?php
 session_start();
 $user = strtolower($_SESSION['username']);
-echo "$user";
+
 // connexion à la base de données
 $db_username = 'root';
 $db_password = '1234';
@@ -36,7 +36,7 @@ if (isset($_POST["check"])) {
 
        // Exécuter la requête sur la base de données
        $res = mysqli_query($db, $query);
-       
+       header('Location: paiement.php');
 } else {
 
        $adresse = mysqli_real_escape_string($db, htmlspecialchars($_POST['adresse']));
@@ -61,4 +61,5 @@ if (isset($_POST["check"])) {
 
        // Exécuter la requête sur la base de données
        $res = mysqli_query($db, $query);
+       header('Location: paiement.php');
 }

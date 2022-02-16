@@ -1,5 +1,7 @@
 <?php
 session_start();
+$user = strtolower($_SESSION['username']);
+
 $numCommande = $_SESSION["numCom"];
 
 $db_username = 'root';
@@ -12,6 +14,28 @@ $db = mysqli_connect($db_host, $db_username, $db_password, $db_name)
 $sql  = "SELECT prodId, prodNom, quantite, prodPrix FROM produit,detailCommande WHERE refProduit = prodId AND refCommande = '$numCommande'";
 
 $result = mysqli_query($db, $sql);
+
+
+$requete =  "SELECT cliAdresse, cliCompAdresse, cliCPostal, cliVille FROM client WHERE cliPseudo LIKE '$user';";
+
+// Exécution de la requête sur la connexion établie
+$exe = mysqli_query($db, $requete);
+
+// nombre de lignes retournées par la requête SQL
+$num_rows = mysqli_num_rows($exe);
+
+// Affichage du résultat de la requête par une boucle TANT QUE (While)
+
+
+// ------------------------------------------------------
+while ($a_row = mysqli_fetch_row($exe)) {
+    $i = 0;
+    foreach ($a_row as $field) {
+        $i++;
+        $tab[$i] = $field;
+    }
+}
+
 
 ?>
 
@@ -32,7 +56,8 @@ $result = mysqli_query($db, $sql);
     <div class="bordereaux">
         <div class="millieu">
             <h1>Merci de votre commande !</h1>
-            <p>votre commande numero :<?php echo $numCommande; ?> sera expedié dans les meilleurs delais </p>
+            <p>votre commande numero :<?php echo $numCommande; ?> sera expedié dans les meilleurs delais a votre adresse :</p>
+            <?php echo"<p>$tab[1] $tab[2], $tab[3], $tab[4]  </p>"; ?>
             <p>Detail de votre commande : </p>
 
             <?php
