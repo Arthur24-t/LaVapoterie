@@ -123,7 +123,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
 
                echo "<input type=\"submit\" value=\"Rafraichir\"/>";
                echo "<input type=\"hidden\" name=\"action\" value=\"refresh\"/>";
-               echo "<div class=\"passercom\"><a href=\"fonction-commande.php\">Passer la commande</a> </div>";
+               echo "<div class=\"passercom\"><a href=\"livraison.php\">Passer la commande</a> </div>";
             }
          }
          ?>

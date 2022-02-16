@@ -38,7 +38,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>';
 
                 <input type="checkbox" id="same" name="check" checked onclick="factu()"><label>Utiliser cette adresse comme adresse de Facturation</label>
                 <div id="facturation" class="check"></div>
-                <input type="submit" id='submit' value='livraison' >
+                <input type="submit" id='submit' value='Paiement ->' >
                 
 
 

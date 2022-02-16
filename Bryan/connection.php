@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="connection.css" media="screen" type="text/css" />
     </head>
     
-    <header>
+    
     <?php include("header.php"); ?>
     <div class="tout">
         <div id="container">
@@ -34,5 +34,5 @@
 
         </div>
         </div>
-            </header>
+            
 </html>
