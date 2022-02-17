@@ -28,9 +28,9 @@
             $user = strtolower($_SESSION['username']);
             // afficher un message
             echo "<p><span class='pseudo'>Bonjour &nbsp <span style='font-weight:bold'>$user </span></span></p>";
-            echo "<a href='index.php?deconnexion=true'><span class='deco'><br>Déconnexion</span></a>";
+            echo "<a href='../index.php?deconnexion=true'><span class='deco'><br>Déconnexion</span></a>";
         } else {
-            echo "<a href='connection.php'><span class='co'>Connection</span></a>";
+            echo "<a href='/pages/connection.php'><span class='co'>Connection</span></a>";
         }
         ?>
 
