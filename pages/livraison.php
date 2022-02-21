@@ -3,6 +3,8 @@ session_start();
 echo '<?xml version="1.0" encoding="utf-8"?>';
 $user = strtolower($_SESSION['username']);
 
+if (isset($_SESSION['username'])){
+
 $db_username = 'root';
 $db_password = '1234';
 $db_name     = 'lavapoterie';
@@ -99,3 +101,14 @@ while ($a_row = mysqli_fetch_row($result)) {
 </body>
 
 </html>
+
+<?php 
+}
+else {
+
+    header('Location: connection.php?erreur=3');
+
+}
+
+?>
+?>

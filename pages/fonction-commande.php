@@ -3,7 +3,7 @@ session_start();
 include_once("fonction-panier.php");
 
 //connection a la base de donnée 
-if (isset($_SESSION['username'])){
+
 
 $db_username = 'root';
     $db_password = '1234';
@@ -75,11 +75,5 @@ for ($i = 0; $i < $nbArticle; $i++) {
 supprimePanier(); // supprime le panier a la fin de la commande 
 
 header('Location: confirmation-commande.php');
-}
-else {
 
-    header('Location: connection.php?erreur=3');
 
-}
-
-?>
