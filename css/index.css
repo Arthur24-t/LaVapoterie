@@ -69,13 +69,7 @@
         width: 100px;
         background-color: black;
     }
-    .bouton button {
-        background-color: black;
-        color: white;
-    }
-    .bouton img {
-        width: 15%;
-    }
+    
     .tout {
         display: flex;
         flex-direction: column;

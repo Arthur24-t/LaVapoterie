@@ -1,0 +1,66 @@
+*{
+    font-family: Andale Mono, monospace;
+    margin: 0; 
+    padding: 0;
+}
+body{
+    background: #696969;
+}
+#container{
+    width:80%;
+    margin:0 auto;
+    margin-top:10%;
+}
+
+.produit {
+    width: 80%;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.head {
+    margin: 0;
+position: fixed;
+width: 100%;
+background-color: white;
+opacity: .99;
+z-index: 3;
+}
+
+
+
+
+.bouton {
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    text-align: center;
+    justify-content: center;
+    justify-self: right;
+    text-decoration: none;
+
+}
+.bouton a{
+    color: white;
+    text-decoration: none;
+}
+
+.prix{
+display: flex;
+}
+
+.description{
+    display: flex;
+}
+.titre{
+    display: flex;
+}
+.image{
+    display: flex;
+}
