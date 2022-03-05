@@ -1,4 +1,4 @@
-.texte {
+*{
     font-family: Andale Mono, monospace;
     /*galigraphie du Texte */
 }
@@ -24,16 +24,6 @@
     width: 1200px;
     margin-right: 2%;
     margin-left: 2%;
-}
-
-.Recherche {
-    display: flex;
-    flex-direction: column;
-}
-
-.vide {
-    display: flex;
-    margin-right: 5%;
 }
 
 .item {

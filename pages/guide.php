@@ -8,9 +8,13 @@
     <link rel="stylesheet" type="text/css" href="/css/guide.css" />
 </head>
 
-<?php include("header.php"); ?>
+
 <body>
 
+<div class="head">
+    <?php include("header.php"); ?>
+</div>
+<?php include("header.php"); ?>
 
 
 <div id="container">
@@ -19,7 +23,7 @@
 </br></br></br></br>
 <h2>Quelle cigarette électronique choisir pour débuter ?</h2>
 </br>
-<p>La cigarette électronique est devenue en l’espace de quelques années le moyen le plus utilisé et le plus efficace pour arrêter de fumer. Un succès dû à son fonctionnement permettant de reproduire les sensations obtenues avec une cigarette classique.
+<p>La cigarette électronique est devenue en l'espace de quelques années le moyen le plus utilisé et le plus efficace pour arrêter de fumer. Un succès dû à son fonctionnement permettant de reproduire les sensations obtenues avec une cigarette classique.
 </br></br>
 Pour vous aider à réussir votre sevrage tabagique, Le Petit Vapoteur, leader sur le marché de la e-cigarette, a créé un guide complet destiné à répondre à toutes vos questions et à vous aider à trouver la cigarette électronique qui vous correspond. Vous aurez ainsi toutes les cartes en main pour dire adieu au tabac !
 </br></br>
@@ -29,7 +33,7 @@ Il est important de rappeler, avant de commencer, que l'ecigarette reste un prod
 
 <h2>Quels sont les différents types de vapoteuse ?</h2>
 </br></br>
-<p>On peut réunir l’ensemble des cigarettes électroniques dans trois grandes familles:</p>
+<p>On peut réunir l'ensemble des cigarettes électroniques dans trois grandes familles:</p>
 </br>
 <ul>
     <ol>   

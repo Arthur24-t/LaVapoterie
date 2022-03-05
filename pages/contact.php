@@ -11,11 +11,12 @@ echo '<?xml version="1.0" encoding="utf-8"?>';
     <link rel="stylesheet" type="text/css" href="../css/contact.css" />
 </head>
 
-<header class="header">
-    <?php include("header.php"); ?>
-</header>
 
 <body>
+<div class="head">
+    <?php include("header.php"); ?>
+</div>
+<?php include("header.php"); ?>
 
     <div class="contact_main" id="container">
 

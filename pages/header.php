@@ -3,8 +3,8 @@
 
 <div class="truc">
     <div class="reseau">
-        <img src="../image/logo insta.jpg">
-        <img src="../image/logo facebook.png">
+        <a href=""><img src="../image/logo insta.jpg"></a>
+        <a href="">  <img src="../image/logo facebook.png"></a>
     </div>
     <a href="../index.php">
         <div class="logob">
