@@ -69,7 +69,7 @@ if (!$erreur) {
 <meta charset="utf-8" />
 
 <head>
-<title>Ecigarette</title>
+<title>Liquides</title>
     <link rel="icon" href="/image/logo.png" type="image/icon type">
     <link rel="stylesheet" type="text/css" href="../css/cigarette.css" />
 </head>

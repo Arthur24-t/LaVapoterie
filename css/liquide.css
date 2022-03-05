@@ -1,0 +1,94 @@
+*{
+    font-family: Andale Mono, monospace;
+    /*galigraphie du Texte */
+}
+.head {
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    opacity: .99;
+    z-index: 3;
+}
+.corps {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.produit {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1200px;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.item {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 250px;
+    margin-bottom: 100px;
+    align-self: center;
+    margin-left: 50px;
+}
+
+.item a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.tout {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: NOwrap;
+    justify-content: space-between;
+}
+
+.image_produit img {
+    order: 1;
+    max-width: 200px;
+    height: 150px;
+    overflow: auto;
+}
+
+.nom_produit p {
+    display: flex;
+    order: 2;
+    font-weight: bold;
+    flex-wrap: wrap;
+}
+
+.descprition_produit {
+    display: flex;
+    order: 3;
+    flex-wrap: wrap;
+    font-size: small;
+}
+
+.prix_produit {
+    order: 4;
+}
+.bouton {
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    text-align: center;
+    justify-content: center;
+    justify-self: right;
+    text-decoration: none;
+    order :5;
+
+}
+.bouton a{
+    color: white;
+    text-decoration: none;
+}
