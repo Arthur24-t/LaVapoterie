@@ -3,7 +3,7 @@ session_start();
 echo '<?xml version="1.0" encoding="utf-8"?>';
 include_once("fonction-panier.php");
 
-$erreur = false;
+
 
 $action = (isset($_POST['action']) ? $_POST['action'] : (isset($_GET['action']) ? $_GET['action'] : null));
 if ($action !== null) {
@@ -26,9 +26,9 @@ if ($action !== null) {
 
    if (is_array($q)) {
       $QteArticle = array();
-      $i = 0;
+      $g = 0;
       foreach ($q as $contenu) {
-         $QteArticle[$i++] = intval($contenu);
+         $QteArticle[$g++] = intval($contenu);
       }
    } else
       $q = intval($q);
@@ -101,7 +101,8 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
 
                for ($i = 0; $i < $nbArticles; $i++) {
 
-
+                  echo $_SESSION['panier']['idProduit'][$i];
+                  echo "test";
                   echo "<tr>";
                   echo "<div class=\"panier_produit\">";
                   echo "<td><div class=\"image_produit\"><img src=\"../image/produit/" . htmlspecialchars($_SESSION['panier']['idProduit'][$i]) . ".jpg\"></td></div>";

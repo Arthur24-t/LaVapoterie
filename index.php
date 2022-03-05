@@ -123,7 +123,7 @@ if ($action !== null) {
 
                 </div>
 
-                <div class="bouton"><a href="index.php?action=ajout&amp;i=C01&amp; l=Pod Caliburn&amp;q=1&amp;p=30">Ajouter au panier</a></div>
+                <div class="bouton"><a href="index.php?action=ajout&amp;i=C01&amp;l=Pod Caliburn&amp;q=1&amp;p=30">Ajouter au panier</a></div>
             </div>
         </div>
 
