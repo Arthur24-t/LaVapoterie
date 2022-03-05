@@ -9,15 +9,18 @@ body{
 #container{
     width:80%;
     margin:0 auto;
-    margin-top:10%;
+    margin-top:5%;
 }
 
 .produit {
+    display: flex;
+    justify-self: center;
     width: 80%;
     padding: 30px;
     border: 1px solid #f1f1f1;
     background: #fff;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    justify-content: center;
 }
 .head {
     margin: 0;
@@ -42,8 +45,8 @@ z-index: 3;
     width: 100px;
     text-align: center;
     justify-content: center;
-    justify-self: right;
     text-decoration: none;
+    
 
 }
 .bouton a{
@@ -51,12 +54,26 @@ z-index: 3;
     text-decoration: none;
 }
 
+.droite{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.gauche{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-self:last baseline;
+}
+
 .prix{
 display: flex;
+margin-top: 200px;
 }
 
 .description{
     display: flex;
+    margin-top:50px;
 }
 .titre{
     display: flex;

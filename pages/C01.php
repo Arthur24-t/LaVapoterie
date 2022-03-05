@@ -77,34 +77,20 @@ if (!$erreur) {
 
         <div class="produit"><div class="gauche">
             <div class="titre">
-                <h1>                                                                                    </h1> <!-- coller a droite -->
+                <h1>Pod Caliburn                                                                        </h1> <!-- coller a droite -->
             </div>
             <div class="image">
-               
-                                                     </div></div>
+        <img src='../image/produit/C01.jpg'>                         </div></div>
             <div class="droite">
             <div class="description">
-                <p>                                                                                                                                                                           
+                <p> elle est genial et fume beaucoup !                                                                                                                                        
                             </p> <!-- mettre a droite de l'image -->
             </div>
             <div class="prix">
-                <p>                        </p>
+                <p>  30€                 </p>
             </div>
             <div class="bouton">
-                
-
-
-
-
-
-
-
-
-
-
-
-                                          
-                                                                                                                             </div>
+              <a href='C01.php?action=ajout&amp;i=C01&amp;l=Pod Caliburn&amp;q=1&amp;p=30€'>Ajouter au panier</a></div>                                                                           </div>
         </div>
 
     </div>
