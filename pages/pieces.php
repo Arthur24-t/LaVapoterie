@@ -7,7 +7,7 @@ include_once("fonction-panier.php");
 $action = (isset($_POST['action']) ? $_POST['action'] : (isset($_GET['action']) ? $_GET['action'] : null));
 if ($action !== null) {
     if (!in_array($action, array('ajout', 'suppression', 'refresh')))
-        $erreur = true;
+        
 
     //récupération des variables en POST ou GET
     $i = (isset($_POST['i']) ? $_POST['i'] : (isset($_GET['i']) ? $_GET['i'] : null));
@@ -33,7 +33,7 @@ if ($action !== null) {
         $q = intval($q);
 }
 
-if (!$erreur) {
+
     switch ($action) {
         case "ajout":
             ajouterArticle($i, $l, $q, $p);
@@ -51,7 +51,7 @@ if (!$erreur) {
         default:
             break;
     }
-}
+
 
 
 
@@ -106,7 +106,7 @@ if (!$erreur) {
                             <p>3€</p>
                         </div>
                 </a>
-                <div class="bouton"><a href="liquides.php?action=ajout&amp;i=P02&amp; l=Resistance 50w&amp;q=1&amp;p=3">Ajouter au panier</a></div>
+                <div class="bouton"><a href="pieces.php?action=ajout&amp;i=P02&amp; l=Resistance 50w&amp;q=1&amp;p=3">Ajouter au panier</a></div>
             </div>
         </div>
 
@@ -127,7 +127,7 @@ if (!$erreur) {
                         <p>4€</p>
                     </div>
             </a>
-            <div class="bouton"><a href="liquides.php?action=ajout&amp;i=P07&amp; l=Reservoir 10ml&amp;q=1&amp;p=4">Ajouter au panier</a></div>
+            <div class="bouton"><a href="pieces.php?action=ajout&amp;i=P07&amp; l=Reservoir 10ml&amp;q=1&amp;p=4">Ajouter au panier</a></div>
         </div>
     </div>
 
