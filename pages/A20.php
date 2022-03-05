@@ -7,7 +7,7 @@ include_once("fonction-panier.php");
 $action = (isset($_POST['action']) ? $_POST['action'] : (isset($_GET['action']) ? $_GET['action'] : null));
 if ($action !== null) {
     if (!in_array($action, array('ajout', 'suppression', 'refresh')))
-        $erreur = true;
+        
 
     //récupération des variables en POST ou GET
     $i = (isset($_POST['i']) ? $_POST['i'] : (isset($_GET['i']) ? $_GET['i'] : null));
@@ -31,9 +31,9 @@ if ($action !== null) {
         }
     } else
         $q = intval($q);
-}
 
-if (!$erreur) {
+
+
     switch ($action) {
         case "ajout":
             ajouterArticle($i, $l, $q, $p);
