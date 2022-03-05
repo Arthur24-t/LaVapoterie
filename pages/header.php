@@ -89,7 +89,7 @@
         <div>LE GUIDE</div>
     </a>
     <a href="/pages/contact.php">
-        <div>QUI SOMMES-NOUS ?</div>
+        <div>CONTACT</div>
     </a>
 
 </div>

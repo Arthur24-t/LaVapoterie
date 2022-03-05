@@ -1,0 +1,34 @@
+*{
+    font-family: Andale Mono, monospace;
+    margin: 0; 
+    padding: 0;
+}
+body{
+    background: #696969;
+}
+#container{
+    width:80%;
+    margin:0 auto;
+    margin-top:5%;
+}
+
+.guide {
+    
+    justify-self: center;
+    width: 80%;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    justify-content: center;
+}
+.head {
+    margin: 0;
+position: fixed;
+width: 100%;
+background-color: white;
+opacity: .99;
+z-index: 3;
+}
+
+
