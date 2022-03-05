@@ -90,7 +90,7 @@ if (!$erreur) {
                 <p>  30         </p>
             </div>
             <div class="bouton">
-              <a href='A23.php?action=ajout&amp;i=A23&amp;l=Drip Trip Bleu&amp;q=1&amp;p=[6~[2~€'>Ajouter au panier</a></div>                                                                   </div>
+              <a href='A23.php?action=ajout&amp;i=A23&amp;l=Drip Trip Bleu&amp;q=1&amp;p=30'>Ajouter au panier</a></div>                                                                   </div>
         </div>
 
     </div>
