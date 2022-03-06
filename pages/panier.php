@@ -3,12 +3,12 @@ session_start();
 echo '<?xml version="1.0" encoding="utf-8"?>';
 include_once("fonction-panier.php");
 
-
+$erreur = false;
 
 $action = (isset($_POST['action']) ? $_POST['action'] : (isset($_GET['action']) ? $_GET['action'] : null));
 if ($action !== null) {
    if (!in_array($action, array('ajout', 'suppression', 'refresh')))
-      
+      $erreur = true;
 
    //récupération des variables en POST ou GET
    $i = (isset($_POST['i']) ? $_POST['i'] : (isset($_GET['i']) ? $_GET['i'] : null));
@@ -26,15 +26,15 @@ if ($action !== null) {
 
    if (is_array($q)) {
       $QteArticle = array();
-      $g = 0;
+      $i = 0;
       foreach ($q as $contenu) {
-         $QteArticle[$g++] = intval($contenu);
+         $QteArticle[$i++] = intval($contenu);
       }
    } else
       $q = intval($q);
 }
 
-
+if (!$erreur) {
    switch ($action) {
       case "ajout":
          ajouterArticle($i, $l, $q, $p);
@@ -52,7 +52,7 @@ if ($action !== null) {
       default:
          break;
    }
-
+}
 
 echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
 
@@ -101,8 +101,6 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
 
                for ($i = 0; $i < $nbArticles; $i++) {
 
-                  echo $_SESSION['panier']['idProduit'][$i];
-                  echo "test";
                   echo "<tr>";
                   echo "<div class=\"panier_produit\">";
                   echo "<td><div class=\"image_produit\"><img src=\"../image/produit/" . htmlspecialchars($_SESSION['panier']['idProduit'][$i]) . ".jpg\"></td></div>";
