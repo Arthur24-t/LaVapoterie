@@ -62,39 +62,45 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
 <meta charset="utf-8" />
 
 <head>
-    <title>Site d'achat d'ecigarette</title>
-    <link rel="icon" href="/image/logo.png" type="../image/icon type">
-    <link rel="stylesheet" type="text/css" href="../css/produit.css" />
+   <title>Site d'achat d'ecigarette</title>
+   <link rel="icon" href="/image/logo.png" type="../image/icon type">
+   <link rel="stylesheet" type="text/css" href="../css/produit.css" />
 
 </head>
 
 <div class="head">
-    <?php include("/header.php"); ?>
+   <?php include("/header.php"); ?>
 </div>
 
 <body>
-    <?php include("header.php"); ?>
-    <div id="container">
+   <?php include("header.php"); ?>
+   <div id="container">
 
-        <div class="produit"><div class="gauche">
+      <div class="produit">
+         <div class="gauche">
             <div class="titre">
-                <h1>Pochette de Rangement                                                               </h1> <!-- coller a droite -->
+               <h1>Pochette de Rangement </h1> <!-- coller a droite -->
             </div>
             <div class="image">
-        <img src='../image/produit/A17.jpg'>                         </div></div>
-            <div class="droite">
+               <img src='../image/produit/A17.jpg'>
+            </div>
+         </div>
+         <div class="droite">
             <div class="description">
-                <p> cette Pochette est parfait pour ranger ses accessoires et flacon                                                                                                          
-                            </p> <!-- mettre a droite de l'image -->
+               <p> La pochette de rangement va vous accompagner dans tous les voyages.
+                  Les deux tapis peuvent être retirés à tout moment, bien installés et réutilisés.
+                  Grâce à la forme extra encastrée, les modèles géants et les bouteilles de 200 ml peuvent être insérées dans la poche. </p> <!-- mettre a droite de l'image -->
             </div>
             <div class="prix">
-                <p>  25€                 </p>
+               <p> 25€ </p>
             </div>
             <div class="bouton">
-              <a href='A17.php?action=ajout&amp;i=A17&amp;l=Pochette de Rangement &amp;q=1&amp;p=25€'>Ajouter au panier</a></div>                                                                 </div>
-        </div>
+               <a href='A17.php?action=ajout&amp;i=A17&amp;l=Pochette de Rangement &amp;q=1&amp;p=25€'>Ajouter au panier</a>
+            </div>
+         </div>
+      </div>
 
-    </div>
+   </div>
 
 </body>
 

@@ -106,7 +106,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
                                 <p>Pod Caliburn</p>
                             </div>
                             <div class="descprition_produit">
-                                <p>elle fume</p>
+                                <p>Cigarette de petit gabari pour les débutants</p>
                             </div>
                             <div class="prix_produit">
                                 <p>30€</p>
@@ -135,7 +135,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
                         <p>Aegis Solo</p>
                     </div>
                     <div class="descprition_produit">
-                        <p>elle fume</p>
+                        <p>Cigarette pour plus expèrimenté(es)</p>
                     </div>
                     <div class="prix_produit">
                         <p>54€</p>
@@ -211,7 +211,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
                     <p>Ecigarette Economique</p>
                 </div>
                 <div class="descprition_produit">
-                    <p>Cigarette pas tres economique vu son prix</p>
+                    <p>Cigarette économique pour les expérimentés/p>
                 </div>
                 <div class="prix_produit">
                     <p>100€</p>
@@ -267,7 +267,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
                     <p>Pochette de rangement </p>
                 </div>
                 <div class="descprition_produit">
-                    <p>Pour ranger ses affaires</p>
+                    <p>Pour ranger la cigarette et ses accessoires</p>
                 </div>
                 <div class="prix_produit">
                     <p>25€</p>
@@ -313,7 +313,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
                     <p>Resistance 50w</p>
                 </div>
                 <div class="descprition_produit">
-                    <p>Resiste prouve que tu existes</p>
+                    <p>Resistance 50w pour toute cigarette</p>
                 </div>
                 <div class="prix_produit">
                     <p>3€</p>
@@ -337,7 +337,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
                         <p>Ecigarette Kit</p>
                     </div>
                     <div class="descprition_produit">
-                        <p>elle fume</p>
+                        <p> Kit de cigarette pour débutant</p>
                     </div>
                     <div class="prix_produit">
                         <p>40€</p>
@@ -360,7 +360,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
                     <p>Liquide Ananas</p>
                 </div>
                 <div class="descprition_produit">
-                    <p>c'est liquide et gout Ananas</p>
+                    <p>Eliquide goût Ananas</p>
                 </div>
                 <div class="prix_produit">
                     <p>9€</p>
@@ -381,7 +381,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
                     <p>Pod 2000</p>
                 </div>
                 <div class="descprition_produit">
-                    <p>super ecigarette</p>
+                    <p>Pod pour débutant peu encombrante</p>
                 </div>
                 <div class="prix_produit">
                     <p>15€</p>

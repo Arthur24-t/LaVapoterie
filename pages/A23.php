@@ -62,39 +62,44 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
 <meta charset="utf-8" />
 
 <head>
-    <title>Site d'achat d'ecigarette</title>
-    <link rel="icon" href="/image/logo.png" type="../image/icon type">
-    <link rel="stylesheet" type="text/css" href="../css/produit.css" />
+   <title>Site d'achat d'ecigarette</title>
+   <link rel="icon" href="/image/logo.png" type="../image/icon type">
+   <link rel="stylesheet" type="text/css" href="../css/produit.css" />
 
 </head>
 
 <div class="head">
-    <?php include("/header.php"); ?>
+   <?php include("/header.php"); ?>
 </div>
 
 <body>
-    <?php include("header.php"); ?>
-    <div id="container">
+   <?php include("header.php"); ?>
+   <div id="container">
 
-        <div class="produit"><div class="gauche">
+      <div class="produit">
+         <div class="gauche">
             <div class="titre">
-                <h1>Drip Trip Bleu                                                                      </h1> <!-- coller a droite -->
+               <h1>Drip Trip Bleu </h1> <!-- coller a droite -->
             </div>
             <div class="image">
-        <img src='../image/produit/A23.jpg'>                         </div></div>
-            <div class="droite">
+               <img src='../image/produit/A23.jpg'>
+            </div>
+         </div>
+         <div class="droite">
             <div class="description">
-                <p> Drip Trip de couleur bleu                                                                                                                                                 
-                            </p> <!-- mettre a droite de l'image -->
+               <p> Drip Trip de couleur bleu.
+               </p> <!-- mettre a droite de l'image -->
             </div>
             <div class="prix">
-                <p>  30         </p>
+               <p> 30 </p>
             </div>
             <div class="bouton">
-              <a href='A23.php?action=ajout&amp;i=A23&amp;l=Drip Trip Bleu&amp;q=1&amp;p=30'>Ajouter au panier</a></div>                                                                   </div>
-        </div>
+               <a href='A23.php?action=ajout&amp;i=A23&amp;l=Drip Trip Bleu&amp;q=1&amp;p=30'>Ajouter au panier</a>
+            </div>
+         </div>
+      </div>
 
-    </div>
+   </div>
 
 </body>
 

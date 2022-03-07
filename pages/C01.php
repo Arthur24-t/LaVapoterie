@@ -62,39 +62,48 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
 <meta charset="utf-8" />
 
 <head>
-    <title>Site d'achat d'ecigarette</title>
-    <link rel="icon" href="/image/logo.png" type="../image/icon type">
-    <link rel="stylesheet" type="text/css" href="../css/produit.css" />
+   <title>Site d'achat d'ecigarette</title>
+   <link rel="icon" href="/image/logo.png" type="../image/icon type">
+   <link rel="stylesheet" type="text/css" href="../css/produit.css" />
 
 </head>
 
 <div class="head">
-    <?php include("/header.php"); ?>
+   <?php include("/header.php"); ?>
 </div>
 
 <body>
-    <?php include("header.php"); ?>
-    <div id="container">
+   <?php include("header.php"); ?>
+   <div id="container">
 
-        <div class="produit"><div class="gauche">
+      <div class="produit">
+         <div class="gauche">
             <div class="titre">
-                <h1>Pod Caliburn                                                                        </h1> <!-- coller a droite -->
+               <h1>Pod Caliburn </h1> <!-- coller a droite -->
             </div>
             <div class="image">
-        <img src='../image/produit/C01.jpg'>                         </div></div>
-            <div class="droite">
+               <img src='../image/produit/C01.jpg'>
+            </div>
+         </div>
+         <div class="droite">
             <div class="description">
-                <p> elle est genial et fume beaucoup !                                                                                                                                        
-                            </p> <!-- mettre a droite de l'image -->
+               <p> Le pod Caliburn est peu encombrant, ce dernier mesure moins de 11 cm mais propose pourtant 690 mAh d'autonomie !
+                  Un pod compact à la générosité inégalée.
+                  En plus de son ergonomie sans faille, l'utilisation est simplifiée au maximum, vous n'avez qu'un bouton à activer pour utiliser le Pod !
+                  Il vous suffira alors d'appuyer 5 fois dessus pour déclencher ou éteindre le pod.
+
+               </p> <!-- mettre a droite de l'image -->
             </div>
             <div class="prix">
-                <p>  30€                 </p>
+               <p> 30€ </p>
             </div>
             <div class="bouton">
-              <a href='C01.php?action=ajout&amp;i=C01&amp;l=Pod Caliburn&amp;q=1&amp;p=30€'>Ajouter au panier</a></div>                                                                           </div>
-        </div>
+               <a href='C01.php?action=ajout&amp;i=C01&amp;l=Pod Caliburn&amp;q=1&amp;p=30€'>Ajouter au panier</a>
+            </div>
+         </div>
+      </div>
 
-    </div>
+   </div>
 
 </body>
 

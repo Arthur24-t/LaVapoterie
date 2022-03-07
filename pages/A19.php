@@ -62,39 +62,44 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
 <meta charset="utf-8" />
 
 <head>
-    <title>Site d'achat d'ecigarette</title>
-    <link rel="icon" href="/image/logo.png" type="../image/icon type">
-    <link rel="stylesheet" type="text/css" href="../css/produit.css" />
+   <title>Site d'achat d'ecigarette</title>
+   <link rel="icon" href="/image/logo.png" type="../image/icon type">
+   <link rel="stylesheet" type="text/css" href="../css/produit.css" />
 
 </head>
 
 <div class="head">
-    <?php include("/header.php"); ?>
+   <?php include("/header.php"); ?>
 </div>
 
 <body>
-    <?php include("header.php"); ?>
-    <div id="container">
+   <?php include("header.php"); ?>
+   <div id="container">
 
-        <div class="produit"><div class="gauche">
+      <div class="produit">
+         <div class="gauche">
             <div class="titre">
-                <h1>Seringue 10ml                                                                       </h1> <!-- coller a droite -->
+               <h1>Seringue 10mL </h1> <!-- coller a droite -->
             </div>
             <div class="image">
-        <img src='../image/produit/A19.jpg'>                         </div></div>
-            <div class="droite">
+               <img src='../image/produit/A19.jpg'>
+            </div>
+         </div>
+         <div class="droite">
             <div class="description">
-                <p> Seringue pour eviter d'en mettre partout en mettant du produit                                                                                                            
-                            </p> <!-- mettre a droite de l'image -->
+               <p> Seringue de 10mL de contenance parfaite pour remplir le réservoir de la cigarette du liquide de votre choix.
+               </p> <!-- mettre a droite de l'image -->
             </div>
             <div class="prix">
-                <p>  10€                 </p>
+               <p> 10€ </p>
             </div>
             <div class="bouton">
-              <a href='A19.php?action=ajout&amp;i=A19&amp;l=Seringue 10ml&amp;q=1&amp;p=10€'>Ajouter au panier</a></div>                                                                          </div>
-        </div>
+               <a href='A19.php?action=ajout&amp;i=A19&amp;l=Seringue 10ml&amp;q=1&amp;p=10€'>Ajouter au panier</a>
+            </div>
+         </div>
+      </div>
 
-    </div>
+   </div>
 
 </body>
 

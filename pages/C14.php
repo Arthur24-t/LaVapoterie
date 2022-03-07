@@ -84,7 +84,8 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
         <img src='../image/produit/C14.jpg'>                         </div></div>
             <div class="droite">
             <div class="description">
-                <p> Ecigarette parfait pour les personnes voulant faire des figure                                                                                                            
+                <p> Aegis Solo est un cigarette accessible au petit budget,
+                   et pour les débutants cherchant à réduire leur consommation de cigarette et de nicotine.                                                                                                          
                             </p> <!-- mettre a droite de l'image -->
             </div>
             <div class="prix">

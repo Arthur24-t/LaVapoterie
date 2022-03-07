@@ -62,39 +62,46 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
 <meta charset="utf-8" />
 
 <head>
-    <title>Site d'achat d'ecigarette</title>
-    <link rel="icon" href="/image/logo.png" type="../image/icon type">
-    <link rel="stylesheet" type="text/css" href="../css/produit.css" />
+   <title>Site d'achat d'ecigarette</title>
+   <link rel="icon" href="/image/logo.png" type="../image/icon type">
+   <link rel="stylesheet" type="text/css" href="../css/produit.css" />
 
 </head>
 
 <div class="head">
-    <?php include("/header.php"); ?>
+   <?php include("/header.php"); ?>
 </div>
 
 <body>
-    <?php include("header.php"); ?>
-    <div id="container">
+   <?php include("header.php"); ?>
+   <div id="container">
 
-        <div class="produit"><div class="gauche">
+      <div class="produit">
+         <div class="gauche">
             <div class="titre">
-                <h1>Acu 30w                                                                             </h1> <!-- coller a droite -->
+               <h1>Acu 30w </h1> <!-- coller a droite -->
             </div>
             <div class="image">
-        <img src='../image/produit/A11.jpg'>                         </div></div>
-            <div class="droite">
+               <img src='../image/produit/A11.jpg'>
+            </div>
+         </div>
+         <div class="droite">
             <div class="description">
-                <p> Acu 30w pour ecigarette                                                                                                                                                   
-                            </p> <!-- mettre a droite de l'image -->
+               <p>Attention : Il est impératif de transporter vos accus dans des étuis adaptés pour éviter tout incident.
+                  Stockez les également loin des sources de chaleur et utilisez un chargeur adapté afin de prévenir tout court-circuit ou tout dégazage malencontreux.
+                  Vendu à l’unité, cet accu vous assurera une excellente autonomie et vous permettra d’utiliser vos box ou mods mécaniques en toutes circonstances avec des résistances très basses (Ultra Low Resistance). Sa chimie (Lithium-Manganèse) vous assurera une parfaite sécurité avec du matériel adapté.
+               </p> <!-- mettre a droite de l'image -->
             </div>
             <div class="prix">
-                <p>  8€                  </p>
+               <p> 8€ </p>
             </div>
             <div class="bouton">
-              <a href='A11.php?action=ajout&amp;i=A11&amp;l=Acu 30w&amp;q=1&amp;p=8€'>Ajouter au panier</a></div>                                                                                 </div>
-        </div>
+               <a href='A11.php?action=ajout&amp;i=A11&amp;l=Acu 30w&amp;q=1&amp;p=8€'>Ajouter au panier</a>
+            </div>
+         </div>
+      </div>
 
-    </div>
+   </div>
 
 </body>
 

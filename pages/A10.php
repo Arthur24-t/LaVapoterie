@@ -62,39 +62,48 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
 <meta charset="utf-8" />
 
 <head>
-    <title>Site d'achat d'ecigarette</title>
-    <link rel="icon" href="/image/logo.png" type="../image/icon type">
-    <link rel="stylesheet" type="text/css" href="../css/produit.css" />
+   <title>Site d'achat d'ecigarette</title>
+   <link rel="icon" href="/image/logo.png" type="../image/icon type">
+   <link rel="stylesheet" type="text/css" href="../css/produit.css" />
 
 </head>
 
 <div class="head">
-    <?php include("/header.php"); ?>
+   <?php include("/header.php"); ?>
 </div>
 
 <body>
-    <?php include("header.php"); ?>
-    <div id="container">
+   <?php include("header.php"); ?>
+   <div id="container">
 
-        <div class="produit"><div class="gauche">
+      <div class="produit">
+         <div class="gauche">
             <div class="titre">
-                <h1>chiffon de nettoyage                                                                </h1> <!-- coller a droite -->
+               <h1>Chiffon de nettoyage </h1> <!-- coller a droite -->
             </div>
             <div class="image">
-        <img src='../image/produit/A10.jpg'>                         </div></div>
-            <div class="droite">
+               <img src='../image/produit/A10.jpg'>
+            </div>
+         </div>
+         <div class="droite">
             <div class="description">
-                <p> Tres utile pour nettoyer le reservoir de votre ecigarette avant de remettre un gout                                                                                       
-                            </p> <!-- mettre a droite de l'image -->
+               <p> Grâce à ce chiffon microfibre, vous pourrez nettoyer vos boxs, mods, clearomiseurs, atomiseurs et drippers sans craindre de les rayer.
+                  Ce petit chiffon microfibre en polyester a été pensé pour l'entretien de votre matériel de vape et deviendra vite un indispensable de votre équipement de vapoteur !
+                  Lavable, ce petit accessoire vous assurera de posséder une cigarette électronique propre prête à défier le temps.
+
+                  Dimensions : 145 mm x 150 mm.
+               </p> <!-- mettre a droite de l'image -->
             </div>
             <div class="prix">
-                <p>  1€                  </p>
+               <p> 1€ </p>
             </div>
             <div class="bouton">
-              <a href='A10.php?action=ajout&amp;i=A10&amp;l=chiffon de nettoyage&amp;q=1&amp;p=1€'>Ajouter au panier</a></div>                                                                    </div>
-        </div>
+               <a href='A10.php?action=ajout&amp;i=A10&amp;l=chiffon de nettoyage&amp;q=1&amp;p=1€'>Ajouter au panier</a>
+            </div>
+         </div>
+      </div>
 
-    </div>
+   </div>
 
 </body>
 
