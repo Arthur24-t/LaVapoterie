@@ -1,10 +1,10 @@
 <link rel="stylesheet" type="text/css" href="../css/header.css" />
 <link rel="stylesheet" media="screen and (max-width: 1280px)" href="../css/header.css" type="text/css" />
-
+<link rel="stylesheet" media="screen and (max-width: 1920px)" href="../css/header.css" type="text/css" />
 <div class="truc">
     <div class="reseau">
         <a href=""><img src="../image/logo insta.jpg"></a>
-        <a href="">  <img src="../image/logo facebook.png"></a>
+        <a href=""> <img src="../image/logo facebook.png"></a>
     </div>
     <a href="../index.php">
         <div class="logob">

@@ -6,46 +6,25 @@
 
 @media  all and (max-width:1920px){
 
-.container__docker {
-    margin-top: 5px;
-    position: fixed;
-    right: 0;
-    top: 0;
-    transform: translate(-22px, 20px);
-    background-color: black;
-    color: white;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    border-radius: 9999px;
-                    height: 25px;
-                    width: 25px;
-                    z-index: 11;
-                    
-}
-
-.container{
-display: flex;
-flex-wrap: wrap;
-height: 0;
-}
-.deco{
-    display: flex;
-margin-left: 10px;
-margin-right: 5px;
-background-color: black;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-text-decoration: none;
-text-align: center;
-}
-
-.pseudo{
-    display: flex;
-    position: absolute;
-    top:auto;
-    right: 250px;
+    .container__docker {
+        margin-top: 5px;
+        position: fixed;
+        right: 0;
+        top: 0;
+        transform: translate(-30px, 14px);
+        background-color: black;
+        
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        border-radius: 9999px;
+                        height: 20px;
+                        width: 20px;
+                        
+                        
+    }
+    .deco{
+        display: flex;
     margin-left: 10px;
     margin-right: 5px;
     background-color: black;
@@ -54,70 +33,86 @@ text-align: center;
         padding: 10px 15px;
     text-decoration: none;
     text-align: center;
-}
-
-.co{
-    display: flex;
-background-color: black;
-    color: white;
-    padding: 10px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
+    }
+    
+    .pseudo{
+        display: flex;
+        position: absolute;
+        top:auto;
+        right: 250px;
+        margin-left: 10px;
+        margin-right: 5px;
+        background-color: black;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+        text-decoration: none;
+        text-align: center;
+    }
+    
+    .co{
+        display: flex;
+    background-color: black;
+        color: white;
+        padding: 10px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        text-align: center;
+    text-decoration: none;
+    }
+    
+    
+    .panier {
+    vertical-align: bottom;
+    align-self: flex-start;
+    flex-wrap: wrap;
     text-align: center;
-text-decoration: none;
-}
+    text-decoration: none;
+    background-color: white;
+    z-index: 10;
+    width: 70px;
+    height: 70px;
 
-.panier {
-vertical-align: bottom;
-align-self: flex-start;
-flex-wrap: wrap;
-text-align: center;
-text-decoration: none;
-background-color: white;
+    }
+    
+    .panier a{
+    text-decoration: none;
+    color: black;
+    }
+    
+    .truc {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    }
+    
+    .logo {
+        margin-left: 100px;
+    align-self: center;
+    width: 150px;
+    height: 150px;
+    }
+    
+    .menu {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    background-color: black;
+    font-size: 18px;
+    line-height: 20px;
+    
+    }
+    .menu a{
+    text-decoration: none;
+    color: white;
+    }
 
-
-
-}
-
-.panier a{
-text-decoration: none;
-color: black;
-}
-
-.truc {
-display: flex;
-justify-content: space-between;
-opacity: 1;
-background-color: white;
-}
-
-
-.reseau {
-justify-content: space-between;
-}
-
-.logo {
-
-width: 250px;
-height: 250px;
-}
-
-
-.menu {
-display: flex;
-justify-content: space-between;
-text-decoration: none;
-background-color: black;
-font-size: 25px;
-line-height: 40px;
-
-}
-.menu a{
-text-decoration: none;
-color: white;
-}
-}
+    .reseau img{
+        width: 50px;
+        height: 50px;
+            }
+    }
 
 @media  all and (max-width: 1366px) {
     .container__docker {

@@ -64,6 +64,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
     <title>Site d'achat d'ecigarette</title>
     <link rel="icon" href="/image/logo.png" type="image/icon type">
     <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" media="screen and (max-width: 1920px)" href="css/index.css" type="text/css" />
     <link rel="stylesheet" media="screen and (max-width: 1280px)" href="css/index.css" type="text/css" />
 
 </head>
@@ -71,12 +72,6 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
 <div class="head">
     <?php include("pages/header.php"); ?>
 </div>
-
-<!--Nos coups de coeurs TOP 5-->
-
-
-<!--- lien facebook et insta en bas de page newlatters sur site gaelle -->
-
 
 
 <body>
@@ -118,7 +113,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
                     </a>
                 </div>
                 <div class="quantite">
-                    <form action="" method="POST">
+                  
 
                 </div>
 
