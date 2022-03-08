@@ -62,39 +62,50 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
 <meta charset="utf-8" />
 
 <head>
-    <title>Site d'achat d'ecigarette</title>
-    <link rel="icon" href="/image/logo.png" type="../image/icon type">
-    <link rel="stylesheet" type="text/css" href="../css/produit.css" />
+   <title>Site d'achat d'ecigarette</title>
+   <link rel="icon" href="/image/logo.png" type="../image/icon type">
+   <link rel="stylesheet" type="text/css" href="../css/produit.css" />
 
 </head>
 
 <div class="head">
-    <?php include("/header.php"); ?>
+   <?php include("/header.php"); ?>
 </div>
 
 <body>
-    <?php include("header.php"); ?>
-    <div id="container">
+   <?php include("header.php"); ?>
+   <div id="container">
 
-        <div class="produit"><div class="gauche">
+      <div class="produit">
+         <div class="gauche">
             <div class="titre">
-                <h1>VapeZen                                                                             </h1> <!-- coller a droite -->
+               <h1>VapeZen </h1> <!-- coller a droite -->
             </div>
             <div class="image">
-        <img src='../image/produit/C22.jpg'>                         </div></div>
-            <div class="droite">
+               <img src='../image/produit/C22.jpg'>
+            </div>
+         </div>
+         <div class="droite">
             <div class="description">
-                <p> Vaper zenement grace a VapeZen !                                                                                                                                          
-                            </p> <!-- mettre a droite de l'image -->
+               <p> Une e-cigarette de poche performante.
+                  Dimensions: 117.7 x 22mm.
+                  Contenance de 2ml.
+                  Bonne batterie de 1600mAh. Airflow réglable.
+                  Format tubulaire.
+                  Résistances Vape Pen Meshed 0.15.
+                  Livré avec 1 x kit Vape Pen V2 2 x résistance Vape Pen Meshed 0,15 ohm 1 x câble USB 1 x manuel d'utilisation Caractéristiques Type de batteries Intégrée Autonomie1600 mAh Micro USB Chargement uniquement Puissance maximum 60W Airf
+               </p> <!-- mettre a droite de l'image -->
             </div>
             <div class="prix">
-                <p>  123€                </p>
+               <p> 123€ </p>
             </div>
             <div class="bouton">
-              <a href='C22.php?action=ajout&amp;i=C22&amp;l=VapeZen&amp;q=1&amp;p=123€'>Ajouter au panier</a></div>                                                                               </div>
-        </div>
+               <a href='C22.php?action=ajout&amp;i=C22&amp;l=VapeZen&amp;q=1&amp;p=123€'>Ajouter au panier</a>
+            </div>
+         </div>
+      </div>
 
-    </div>
+   </div>
 
 </body>
 

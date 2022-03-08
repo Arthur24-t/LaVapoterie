@@ -62,39 +62,44 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
 <meta charset="utf-8" />
 
 <head>
-    <title>Site d'achat d'ecigarette</title>
-    <link rel="icon" href="/image/logo.png" type="../image/icon type">
-    <link rel="stylesheet" type="text/css" href="../css/produit.css" />
+   <title>Site d'achat d'ecigarette</title>
+   <link rel="icon" href="/image/logo.png" type="../image/icon type">
+   <link rel="stylesheet" type="text/css" href="../css/produit.css" />
 
 </head>
 
 <div class="head">
-    <?php include("/header.php"); ?>
+   <?php include("/header.php"); ?>
 </div>
 
 <body>
-    <?php include("header.php"); ?>
-    <div id="container">
+   <?php include("header.php"); ?>
+   <div id="container">
 
-        <div class="produit"><div class="gauche">
+      <div class="produit">
+         <div class="gauche">
             <div class="titre">
-                <h1>pod 2000                                                                            </h1> <!-- coller a droite -->
+               <h1>pod 2000 </h1> <!-- coller a droite -->
             </div>
             <div class="image">
-        <img src='../image/produit/C16.jpg'>                         </div></div>
-            <div class="droite">
+               <img src='../image/produit/C16.jpg'>
+            </div>
+         </div>
+         <div class="droite">
             <div class="description">
-                <p> Ecigarette avec boitier de 2 acu inclus                                                                                                                                   
-                            </p> <!-- mettre a droite de l'image -->
+               <p> Ecigarette avec boitier de 2 acu inclus
+               </p> <!-- mettre a droite de l'image -->
             </div>
             <div class="prix">
-                <p>  15€                 </p>
+               <p> 15€ </p>
             </div>
             <div class="bouton">
-              <a href='C16.php?action=ajout&amp;i=C16&amp;l=pod 2000&amp;q=1&amp;p=15€'>Ajouter au panier</a></div>                                                                               </div>
-        </div>
+               <a href='C16.php?action=ajout&amp;i=C16&amp;l=pod 2000&amp;q=1&amp;p=15€'>Ajouter au panier</a>
+            </div>
+         </div>
+      </div>
 
-    </div>
+   </div>
 
 </body>
 

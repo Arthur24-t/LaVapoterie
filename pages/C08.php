@@ -62,39 +62,51 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
 <meta charset="utf-8" />
 
 <head>
-    <title>Site d'achat d'ecigarette</title>
-    <link rel="icon" href="/image/logo.png" type="../image/icon type">
-    <link rel="stylesheet" type="text/css" href="../css/produit.css" />
+   <title>Site d'achat d'ecigarette</title>
+   <link rel="icon" href="/image/logo.png" type="../image/icon type">
+   <link rel="stylesheet" type="text/css" href="../css/produit.css" />
 
 </head>
 
 <div class="head">
-    <?php include("/header.php"); ?>
+   <?php include("/header.php"); ?>
 </div>
 
 <body>
-    <?php include("header.php"); ?>
-    <div id="container">
+   <?php include("header.php"); ?>
+   <div id="container">
 
-        <div class="produit"><div class="gauche">
+      <div class="produit">
+         <div class="gauche">
             <div class="titre">
-                <h1>Target kit                                                                          </h1> <!-- coller a droite -->
+               <h1>Target kit </h1> <!-- coller a droite -->
             </div>
             <div class="image">
-        <img src='../image/produit/C08.jpg'>                         </div></div>
-            <div class="droite">
+               <img src='../image/produit/C08.jpg'>
+            </div>
+         </div>
+         <div class="droite">
             <div class="description">
-                <p> Ce Kit de ecigarette est parfait pour les debutant !                                                                                                                      
-                            </p> <!-- mettre a droite de l'image -->
+               <p> Le kit est idéal pour vapoter en toute simplicité et en toutes circonstances.
+                  Adapté à de nombreux types de e liquides, il offre une vape avec un tirage serré de grande qualité.
+                  Le kit se compose d'une batterie à puissance variable, avec une bonne capacité de 900 mAh qui s'accordera parfaitement avec le réservoir.
+                  Ce dernier propose une vape tournée vers les saveurs avant tout.
+                  Avec un tirage et une aération réglable, le réservoir du kit travaille de concert avec une résistance de 1 ohms.
+                  Une résistance peu gourmande en énergie et idéale pour les e liquides à taux élevés de nicotine.
+                  Le kit fonctionne avec deux boutons, le premier pour activer la vape et le second pour régler la puissance, de 2 à 3 volts.
+                  Relativement compact et léger, le kitne vous encombrera pas et sera parfait pour vapoter quand bon vous semble.
+               </p> <!-- mettre a droite de l'image -->
             </div>
             <div class="prix">
-                <p>  80€                 </p>
+               <p> 80€ </p>
             </div>
             <div class="bouton">
-              <a href='C08.php?action=ajout&amp;i=C08&amp;l=Target kit&amp;q=1&amp;p=80€'>Ajouter au panier</a></div>                                                                             </div>
-        </div>
+               <a href='C08.php?action=ajout&amp;i=C08&amp;l=Target kit&amp;q=1&amp;p=80€'>Ajouter au panier</a>
+            </div>
+         </div>
+      </div>
 
-    </div>
+   </div>
 
 </body>
 

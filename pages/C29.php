@@ -62,39 +62,46 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
 <meta charset="utf-8" />
 
 <head>
-    <title>Site d'achat d'ecigarette</title>
-    <link rel="icon" href="/image/logo.png" type="../image/icon type">
-    <link rel="stylesheet" type="text/css" href="../css/produit.css" />
+   <title>Site d'achat d'ecigarette</title>
+   <link rel="icon" href="/image/logo.png" type="../image/icon type">
+   <link rel="stylesheet" type="text/css" href="../css/produit.css" />
 
 </head>
 
 <div class="head">
-    <?php include("/header.php"); ?>
+   <?php include("/header.php"); ?>
 </div>
 
 <body>
-    <?php include("header.php"); ?>
-    <div id="container">
+   <?php include("header.php"); ?>
+   <div id="container">
 
-        <div class="produit"><div class="gauche">
+      <div class="produit">
+         <div class="gauche">
             <div class="titre">
-                <h1>Cigarette Economique                                                                </h1> <!-- coller a droite -->
+               <h1>Cigarette Economique </h1> <!-- coller a droite -->
             </div>
             <div class="image">
-        <img src='../image/produit/C29.jpg'>                         </div></div>
-            <div class="droite">
+               <img src='../image/produit/C29.jpg'>
+            </div>
+         </div>
+         <div class="droite">
             <div class="description">
-                <p> Cigarette tres economique, plus de fumer, moins de liquide utiliser                                                                                                       
-                            </p> <!-- mettre a droite de l'image -->
+               <p>La modbox Eleaf Pico-X associée au clearomiseur GS Drive permettent de retrouver toutes les sensations de vos anciennes cigarettes.
+                  Parfaite ergonomie, légèreté, encombrement mini, facilité d’utilisation et efficacité, ces deux accessoires Eleaf constituent la vapoteuse idéale pour les vapoteurs débutants ou les adeptes de vape serrée.
+                  Capable de fournir toutes puissances comprises entre 1 et 75W, la Pico-X offre également la possibilité d'utiliser de nombreux autres clearomiseurs.
+               </p> <!-- mettre a droite de l'image -->
             </div>
             <div class="prix">
-                <p>  100€                </p>
+               <p> 100€ </p>
             </div>
             <div class="bouton">
-              <a href='C29.php?action=ajout&amp;i=C29&amp;l=Cigarette Economique&amp;q=1&amp;p=100€'>Ajouter au panier</a></div>                                                                  </div>
-        </div>
+               <a href='C29.php?action=ajout&amp;i=C29&amp;l=Cigarette Economique&amp;q=1&amp;p=100€'>Ajouter au panier</a>
+            </div>
+         </div>
+      </div>
 
-    </div>
+   </div>
 
 </body>
 
