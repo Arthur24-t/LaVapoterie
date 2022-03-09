@@ -79,7 +79,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
         <div class="produit">
 
             <div class="item">
-                <a href="./A28.php">
+                <a href="A28.php">
                     <div class="image_produit"><img src="../image/produit/A28.jpg">
                     </div>
                     <div class="tout">
@@ -121,7 +121,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
 
 
             <div class="item">
-                <a href="/A20.php">
+                <a href="A20.php">
                     <div class="image_produit"><img src="../image/produit/A20.jpg">
                     </div>
                     <div class="tout">
@@ -164,7 +164,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
 
 
             <div class="item">
-                <a href="/A20.php">
+                <a href="A20.php">
                     <div class="image_produit"><img src="../image/produit/A20.jpg">
                     </div>
                     <div class="tout">
