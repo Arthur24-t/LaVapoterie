@@ -79,8 +79,8 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
         <div class="produit">
 
             <div class="item">
-                <a href="A28.php">
-                    <div class="image_produit"><img src="../image/produit/A28.jpg">
+                <a href="A03.php">
+                    <div class="image_produit"><img src="../image/produit/A03.jpg">
                     </div>
                     <div class="tout">
                         <div class="nom_produit">
@@ -92,7 +92,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
                         <div class="prix_produit">
                             <p>25€</p>
                         </div>
-                        <div class="bouton"><a href="accessoire.php?action=ajout&amp;i=A28&amp; l=Rangement&amp;q=1&amp;p=25">Ajouter au panier</a></div>
+                        <div class="bouton"><a href="accessoire.php?action=ajout&amp;i=A03&amp; l=Rangement&amp;q=1&amp;p=25">Ajouter au panier</a></div>
                     </div>
                 </a>
             </div>
@@ -100,8 +100,8 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
 
 
             <div class="item">
-                <a href="/A45.php">
-                    <div class="image_produit"><img src="../image/produit/A45.jpg">
+                <a href="A19.php">
+                    <div class="image_produit"><img src="../image/produit/A19.jpg">
                     </div>
                     <div class="tout">
                         <div class="nom_produit">
@@ -113,7 +113,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
                         <div class="prix_produit">
                             <p>2€</p>
                         </div>
-                        <div class="bouton"><a href="accessoire.php?action=ajout&amp;i=A45&amp; l=Seringue&amp;q=1&amp;p=2">Ajouter au panier</a></div>
+                        <div class="bouton"><a href="accessoire.php?action=ajout&amp;i=A19&amp; l=Seringue&amp;q=1&amp;p=2">Ajouter au panier</a></div>
                     </div>
                 </a>
             </div>
@@ -144,8 +144,8 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
 
 
             <div class="item">
-                <a href="/A26.php">
-                    <div class="image_produit"><img src="../image/produit/A26.jpg">
+                <a href="A12.php">
+                    <div class="image_produit"><img src="../image/produit/A12.jpg">
                     </div>
                     <div class="tout">
                         <div class="nom_produit">
@@ -157,7 +157,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
                         <div class="prix_produit">
                             <p>140€</p>
                         </div>
-                        <div class="bouton"><a href="accessoire.php?action=ajout&amp;i=A26&amp; l=Chargeur&amp;q=1&amp;p=140">Ajouter au panier</a></div>
+                        <div class="bouton"><a href="accessoire.php?action=ajout&amp;i=A12&amp; l=Chargeur&amp;q=1&amp;p=140">Ajouter au panier</a></div>
                     </div>
                 </a>
             </div>
@@ -205,8 +205,8 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
 
 
             <div class="item">
-                <a href="A45.php">
-                    <div class="image_produit"><img src="../image/produit/A45.jpg">
+                <a href="A19.php">
+                    <div class="image_produit"><img src="../image/produit/A19.jpg">
                     </div>
                     <div class="tout">
                         <div class="nom_produit">
@@ -218,7 +218,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
                         <div class="prix_produit">
                             <p>2€</p>
                         </div>
-                        <div class="bouton"><a href="accessoire.php?action=ajout&amp;i=A45&amp; l=Seringue&amp;q=1&amp;p=2">Ajouter au panier</a></div>
+                        <div class="bouton"><a href="accessoire.php?action=ajout&amp;i=A19&amp; l=Seringue&amp;q=1&amp;p=2">Ajouter au panier</a></div>
                     </div>
                 </a>
             </div>
@@ -226,8 +226,8 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
 
 
             <div class="item">
-                <a href="/A45.php">
-                    <div class="image_produit"><img src="../image/produit/A45.jpg">
+                <a href="A19.php">
+                    <div class="image_produit"><img src="../image/produit/A19.jpg">
                     </div>
                     <div class="tout">
                         <div class="nom_produit">
@@ -239,7 +239,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
                         <div class="prix_produit">
                             <p>2€</p>
                         </div>
-                        <div class="bouton"><a href="accessoire.php?action=ajout&amp;i=A45&amp; l=Seringue&amp;q=1&amp;p=2">Ajouter au panier</a></div>
+                        <div class="bouton"><a href="accessoire.php?action=ajout&amp;i=A19&amp; l=Seringue&amp;q=1&amp;p=2">Ajouter au panier</a></div>
                     </div>
                 </a>
             </div>
@@ -247,8 +247,8 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
 
 
             <div class="item">
-                <a href="/A45.php">
-                    <div class="image_produit"><img src="../image/produit/A45.jpg">
+                <a href="A19.php">
+                    <div class="image_produit"><img src="../image/produit/A19.jpg">
                     </div>
                     <div class="tout">
                         <div class="nom_produit">
@@ -260,7 +260,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
                         <div class="prix_produit">
                             <p>2€</p>
                         </div>
-                        <div class="bouton"><a href="accessoire.php?action=ajout&amp;i=A45&amp; l=Seringue&amp;q=1&amp;p=2">Ajouter au panier</a></div>
+                        <div class="bouton"><a href="accessoire.php?action=ajout&amp;i=A19&amp; l=Seringue&amp;q=1&amp;p=2">Ajouter au panier</a></div>
                     </div>
                 </a>
             </div>

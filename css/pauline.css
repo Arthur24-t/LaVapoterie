@@ -45,6 +45,13 @@
     margin-left: 50px;
 }
 
+.item a{
+    text-decoration: none;
+    color: black;
+
+}
+
+
 .tout {
     display: flex;
     flex-direction: column;
