@@ -70,7 +70,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
 </head>
 
 <div class="head">
-    <?php include("/header.php"); ?>
+    <?php include("header.php"); ?>
 </div>
 
 <body>
