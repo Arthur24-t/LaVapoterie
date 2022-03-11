@@ -155,20 +155,7 @@
         margin-top: 10px;
         text-align: center;
     }
-    .num {
-        margin-top: 5px;
-        position: relative;
-        color: white;
-        background-color: black;
-        transform: translate(0px, 9px);
-        align-items: center;
-        display: flex;
-        justify-content: center;
-        border-radius: 50%;
-        height: 32px;
-        width: 32px;
-        z-index: 1;
-    }
+   
 
 
 
@@ -317,20 +304,7 @@
         margin-top: 10px;
         text-align: center;
     }
-    .num {
-        margin-top: 5px;
-        position: relative;
-        color: white;
-        background-color: black;
-        transform: translate(0px, 9px);
-        align-items: center;
-        display: flex;
-        justify-content: center;
-        border-radius: 50%;
-        height: 32px;
-        width: 32px;
-        z-index: 1;
-    }
+   
 }
 
 @media all and (max-width: 640px) {
@@ -462,18 +436,5 @@
         margin-top: 10px;
         text-align: center;
     }
-    .num {
-        margin-top: 5px;
-        position: relative;
-        color: white;
-        background-color: black;
-        transform: translate(0px, 9px);
-        align-items: center;
-        display: flex;
-        justify-content: center;
-        border-radius: 50%;
-        height: 32px;
-        width: 32px;
-        z-index: 1;
-    }
+    
 }

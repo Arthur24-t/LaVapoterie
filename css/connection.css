@@ -1,3 +1,8 @@
+*{
+    font-family: Andale Mono, monospace;
+    /*galigraphie du Texte */
+}
+
 body{
     background: #696969;
 }
