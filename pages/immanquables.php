@@ -67,11 +67,64 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
     <title>Immanquables</title>
     <link rel="icon" href="/image/logo.png" type="image/icon type">
     <link rel="stylesheet" type="text/css" href="site.css" />
+   <!-- <link rel="stylesheet" type="text/css" href="../css/immanquables.css" />-->
 </head>
 
-<?php include("header.php"); ?>
+<div class="head">
+    <?php include("header.php"); ?>
+</div>
+
 
 <body>
+
+
+<div class="corps">
+
+
+<div class="produit">
+
+    <div class="item">
+        <a href="A03.php">
+            <div class="image_produit"><img src="../image/produit/A03.jpg">
+            </div>
+            <div class="tout">
+                <div class="nom_produit">
+                    <p>Rangement </p>
+                </div>
+                <div class="descprition_produit">
+                    <p>Boite de rangement <br> pour cigarette</p>
+                </div>
+                <div class="prix_produit">
+                    <p>25€</p>
+                </div>
+                <div class="bouton"><a href="accessoire.php?action=ajout&amp;i=A03&amp; l=Rangement&amp;q=1&amp;p=25">Ajouter au panier</a></div>
+            </div>
+        </a>
+    </div>
+
+
+
+    <div class="item">
+        <a href="A19.php">
+            <div class="image_produit"><img src="../image/produit/A19.jpg">
+            </div>
+            <div class="tout">
+                <div class="nom_produit">
+                    <p>Seringue </p>
+                </div>
+                <div class="descprition_produit">
+                    <p>Seringue de 10ml </p>
+                </div>
+                <div class="prix_produit">
+                    <p>2€</p>
+                </div>
+                <div class="bouton"><a href="accessoire.php?action=ajout&amp;i=A19&amp; l=Seringue&amp;q=1&amp;p=2">Ajouter au panier</a></div>
+            </div>
+        </a>
+    </div>
+
+
+</div>
 
 </body>
 
