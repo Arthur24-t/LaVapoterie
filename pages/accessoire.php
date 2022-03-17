@@ -64,7 +64,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
 <head>
     <title>Accessoire</title>
     <link rel="icon" href="/image/logo.png" type="image/icon type">
-    <link rel="stylesheet" type="text/css" href="../css/pauline.css" />
+    <link rel="stylesheet" type="text/css" href="../css/accessoire.css" />
 </head>
 
 <body>
@@ -185,7 +185,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
 
 
             <div class="item">
-                <a href="/A23.php">
+                <a href="A23.php">
                     <div class="image_produit"><img src="../image/produit/A23.jpg">
                     </div>
                     <div class="tout">

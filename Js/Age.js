@@ -1,9 +1,12 @@
-var Boolean  = window.prompt("Avez-vous plus de 18 ans?",false);
-if(Boolean == false)
+var age = window.prompt("Veuillez entrer votre age s'il vous plaît");
+
+
+if(age>= 18)
 {
-    document.close();
+    alert("Bienvenue sur notre site.");
 }
 else
 {
-    window.alert("Bienvenue ! ");
+    alert("Vous n'avez pas l'âge légal !");
+    location.href="https://www.google.fr/"
 }

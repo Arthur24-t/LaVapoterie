@@ -63,6 +63,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
 <head>
     <title>Site d'achat d'ecigarette</title>
     <script type="text/javascript" src="Js/Age.js"></script>
+    
     <link rel="icon" href="/image/logo.png" type="image/icon type">
     <link rel="stylesheet" type="text/css" href="css/index.css" />
     <link rel="stylesheet" media="screen and (max-width: 1920px)" href="css/index.css" type="text/css" />
