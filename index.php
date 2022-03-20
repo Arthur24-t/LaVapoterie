@@ -7,51 +7,51 @@ $erreur = false;
 
 $action = (isset($_POST['action']) ? $_POST['action'] : (isset($_GET['action']) ? $_GET['action'] : null));
 if ($action !== null) {
-   if (!in_array($action, array('ajout', 'suppression', 'refresh')))
-      $erreur = true;
+    if (!in_array($action, array('ajout', 'suppression', 'refresh')))
+        $erreur = true;
 
-   //récupération des variables en POST ou GET
-   $i = (isset($_POST['i']) ? $_POST['i'] : (isset($_GET['i']) ? $_GET['i'] : null));
-   $l = (isset($_POST['l']) ? $_POST['l'] : (isset($_GET['l']) ? $_GET['l'] : null));
-   $p = (isset($_POST['p']) ? $_POST['p'] : (isset($_GET['p']) ? $_GET['p'] : null));
-   $q = (isset($_POST['q']) ? $_POST['q'] : (isset($_GET['q']) ? $_GET['q'] : null));
+    //récupération des variables en POST ou GET
+    $i = (isset($_POST['i']) ? $_POST['i'] : (isset($_GET['i']) ? $_GET['i'] : null));
+    $l = (isset($_POST['l']) ? $_POST['l'] : (isset($_GET['l']) ? $_GET['l'] : null));
+    $p = (isset($_POST['p']) ? $_POST['p'] : (isset($_GET['p']) ? $_GET['p'] : null));
+    $q = (isset($_POST['q']) ? $_POST['q'] : (isset($_GET['q']) ? $_GET['q'] : null));
 
-   //Suppression des espaces verticaux
-   $l = preg_replace('#\v#', '', $l);
-   $i = preg_replace('#\v#', '', $i);
-   //On vérifie que $p est un float
-   $p = floatval($p);
+    //Suppression des espaces verticaux
+    $l = preg_replace('#\v#', '', $l);
+    $i = preg_replace('#\v#', '', $i);
+    //On vérifie que $p est un float
+    $p = floatval($p);
 
-   //On traite $q qui peut être un entier simple ou un tableau d'entiers
+    //On traite $q qui peut être un entier simple ou un tableau d'entiers
 
-   if (is_array($q)) {
-      $QteArticle = array();
-      $i = 0;
-      foreach ($q as $contenu) {
-         $QteArticle[$i++] = intval($contenu);
-      }
-   } else
-      $q = intval($q);
+    if (is_array($q)) {
+        $QteArticle = array();
+        $i = 0;
+        foreach ($q as $contenu) {
+            $QteArticle[$i++] = intval($contenu);
+        }
+    } else
+        $q = intval($q);
 }
 
 if (!$erreur) {
-   switch ($action) {
-      case "ajout":
-         ajouterArticle($i, $l, $q, $p);
-         break;
+    switch ($action) {
+        case "ajout":
+            ajouterArticle($i, $l, $q, $p);
+            break;
 
-      case "suppression":
-         supprimerArticle($l);
-         break;
+        case "suppression":
+            supprimerArticle($l);
+            break;
 
-      case "refresh":
-         for ($b = 0; $b < count($QteArticle); $b++) {
-            modifierQTeArticle($_SESSION['panier']['libelleProduit'][$b], round($QteArticle[$b]));
-         }
-         break;
-      default:
-         break;
-   }
+        case "refresh":
+            for ($b = 0; $b < count($QteArticle); $b++) {
+                modifierQTeArticle($_SESSION['panier']['libelleProduit'][$b], round($QteArticle[$b]));
+            }
+            break;
+        default:
+            break;
+    }
 }
 
 echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
@@ -62,7 +62,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
 
 <head>
     <title>Site d'achat d'ecigarette</title>
-   
+
     <script type="text/javascript" src="Js/getCookie.js"></script>
     <link rel="icon" href="/image/logo.png" type="image/icon type">
     <link rel="stylesheet" type="text/css" href="css/index.css" />
@@ -90,57 +90,53 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
 
 
     <div id="modalOne" class="modal">
-      <div class="modal-content">
-        <div class="contact-form">
-        
-          <form action="/">
-            <h2>Etes vous majeur ?</h2>
-            <div>
-              <p>Pour naviguer sur notre site il faut etre majeur !</p>
+        <div class="modal-content">
+            <div class="contact-form">
+
+                <form action="/">
+                    <h2>Etes vous majeur ?</h2>
+                    <div>
+                        <p>Pour naviguer sur notre site il faut etre majeur !</p>
+                    </div>
+                    <img src="image/majeur.png" alt="etre majeur">
+                    <div class="btns">
+                        <a class="retour">Retour</a>
+                        <span></span>
+                        <a class="close">je suis majeur</a>
+                    </div>
+                </form>
             </div>
-            <img src="image/majeur.png" alt="etre majeur">
-           <div class="btns">
-            <a class="retour">Retour</a>
-            <span></span>
-            <a class="close">je suis majeur</a>
-            </div>
-          </form>
         </div>
-      </div>
     </div>
-    
+
 
     <script>
-
-if (getCookie("validate") == 1)
-{
-    document.getElementsByClassName('modal')[0].setAttribute("style", "display : none");
-}
+        if (getCookie("validate") == 1) {
+            document.getElementsByClassName('modal')[0].setAttribute("style", "display : none");
+        }
     </script>
 
     <script>
+        if (getCookie("validate") != 1) {
+            let closeBtns = [...document.querySelectorAll(".close")];
+            closeBtns.forEach(function(btn) {
+                btn.onclick = function() {
 
-    if(getCookie("validate") != 1)
-{
-       let closeBtns = [...document.querySelectorAll(".close")];
-      closeBtns.forEach(function (btn) {
-        btn.onclick = function () {
-        
-            document.cookie = "validate=1";
-         
-          let modal = btn.closest(".modal");
-          modal.style.display = "none";
-         
-        };
-      });
-      
-      let retour = [...document.querySelectorAll(".retour")];
-      retour.forEach(function (btn) {
-        btn.onclick = function () {
-            window.history.back();
-        };
-      });
-    }
+                    document.cookie = "validate=1";
+
+                    let modal = btn.closest(".modal");
+                    modal.style.display = "none";
+
+                };
+            });
+
+            let retour = [...document.querySelectorAll(".retour")];
+            retour.forEach(function(btn) {
+                btn.onclick = function() {
+                    window.history.back();
+                };
+            });
+        }
     </script>
 
 
@@ -172,7 +168,7 @@ if (getCookie("validate") == 1)
                     </a>
                 </div>
                 <div class="quantite">
-                  
+
 
                 </div>
 
