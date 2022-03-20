@@ -101,10 +101,10 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
                             <p>Ecigarette pod </p>
                         </div>
                         <div class="prix_produit">
-                            <p>30€</p>
+                        <p><strike>30€</strike> 25€ </p>
                         </div>
                 </a>
-                <div class="bouton"><a href="Cigarettes.php?action=ajout&amp;i=C01&amp; l=Pod Caliburn&amp;q=1&amp;p=30">Ajouter au panier</a></div>
+                <div class="bouton"><a href="Cigarettes.php?action=ajout&amp;i=C01&amp; l=Pod Caliburn&amp;q=1&amp;p=25">Ajouter au panier</a></div>
             </div>
         </div>
 
@@ -165,10 +165,10 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
                     <p>Ecigarette pour debutant !</p>
                 </div>
                 <div class="prix_produit">
-                    <p>54€</p>
+                <p><strike>54€</strike> 49€ </p>
                 </div>
         </a>
-        <div class="bouton"><a href="Cigarettes.php?action=ajout&amp;i=C14&amp; l=Aegis Solo&amp;q=1&amp;p=54">Ajouter au panier</a></div>
+        <div class="bouton"><a href="Cigarettes.php?action=ajout&amp;i=C14&amp; l=Aegis Solo&amp;q=1&amp;p=49">Ajouter au panier</a></div>
     </div>
     </div>
 

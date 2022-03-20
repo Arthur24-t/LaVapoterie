@@ -87,8 +87,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
          </div>
          <div class="droite">
             <div class="description">
-               <p>Ce kit de cigarettes électroniques de haute qualité convient à un usage professionnel et général, offrant des solutions pour la plupart des cigarettes électroniques. Léger et portable, parfait pour les voyages et les déplacements.
-               </p> <!-- mettre a droite de l'image -->
+               <p>Outils de démontages pour réparer sa cigarette.</p> <!-- mettre a droite de l'image -->
             </div>
             <div class="prix">
                <p> 41€ </p>

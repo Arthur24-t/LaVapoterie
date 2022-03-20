@@ -227,10 +227,10 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
                     <p>Flacon Liquide gout Mangue </p>
                 </div>
                 <div class="prix_produit">
-                    <p>12€</p>
+                <p><strike>10€</strike> 7€ </p>
                 </div>
         </a>
-        <div class="bouton"><a href="liquides.php?action=ajout&amp;i=L30&amp; l=Liquide Mangue&amp;q=1&amp;p=12">Ajouter au panier</a></div>
+        <div class="bouton"><a href="liquides.php?action=ajout&amp;i=L30&amp; l=Liquide Mangue&amp;q=1&amp;p=7">Ajouter au panier</a></div>
     </div>
     </div>
 

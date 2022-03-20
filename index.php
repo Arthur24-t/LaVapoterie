@@ -164,7 +164,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
                                 <p>Cigarette de petit gabari pour les débutants</p>
                             </div>
                             <div class="prix_produit">
-                                <p>30€</p>
+                                <p><strike>30€</strike> 25€</p>
                     </a>
                 </div>
                 <div class="quantite">
@@ -172,7 +172,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
 
                 </div>
 
-                <div class="bouton"><a href="index.php?action=ajout&amp;i=C01&amp;l=Pod Caliburn&amp;q=1&amp;p=30">Ajouter au panier</a></div>
+                <div class="bouton"><a href="index.php?action=ajout&amp;i=C01&amp;l=Pod Caliburn&amp;q=1&amp;p=25">Ajouter au panier</a></div>
             </div>
         </div>
 
@@ -193,13 +193,13 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
                         <p>Cigarette pour plus expèrimenté(es)</p>
                     </div>
                     <div class="prix_produit">
-                        <p>54€</p>
+                        <p><strike>54€</strike> 49€</p>
                     </div>
                     <div class="quantite">
 
                     </div>
                 </a>
-                <div class="bouton"><a href="index.php?action=ajout&amp;i=C14&amp; l=Aegis Solo&amp;q=1&amp;p=54">Ajouter au panier</a></div>
+                <div class="bouton"><a href="index.php?action=ajout&amp;i=C14&amp; l=Aegis Solo&amp;q=1&amp;p=49">Ajouter au panier</a></div>
             </div>
         </div>
 
@@ -219,12 +219,12 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
                         <p>un acu de 30w </br>comptatible toute ecigarette</p>
                     </div>
                     <div class="prix_produit">
-                        <p>10€</p>
+                        <p><strike>10€</strike> 7€</p>
                     </div>
                     <div class="quantite">
             </a>
         </div>
-        <div class="bouton"><a href="index.php?action=ajout&amp;i=A11&amp; l=Acu 30w&amp;q=1&amp;p=10">Ajouter au panier</a></div>
+        <div class="bouton"><a href="index.php?action=ajout&amp;i=A11&amp; l=Acu 30w&amp;q=1&amp;p=7">Ajouter au panier</a></div>
     </div>
     </div>
 
@@ -244,13 +244,13 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
                     <p>Liquide Mangue pour ecigarette</p>
                 </div>
                 <div class="prix_produit">
-                    <p>10€</p>
+                    <p><strike>10€</strike> 7€</p>
                 </div>
                 <div class="quantite">
 
         </a>
     </div>
-    <div class="bouton"><a href="index.php?action=ajout&amp;i=L30&amp; l=Liquide Mangue&amp;q=1&amp;p=12">Ajouter au panier</a></div>
+    <div class="bouton"><a href="index.php?action=ajout&amp;i=L30&amp; l=Liquide Mangue&amp;q=1&amp;p=7">Ajouter au panier</a></div>
     </div>
     </div>
 
@@ -266,15 +266,15 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
                     <p>Ecigarette Economique</p>
                 </div>
                 <div class="descprition_produit">
-                    <p>Cigarette économique pour les expérimentés/p>
+                    <p>Cigarette économique pour les expérimenté</p>
                 </div>
                 <div class="prix_produit">
-                    <p>100€</p>
+                <p><strike>100€</strike> 90€ </p>
                 </div>
                 <div class="quantite">
         </a>
     </div>
-    <div class="bouton"><a href="index.php?action=ajout&amp;i=C29&amp; l=Ecigarette economique&amp;q=1&amp;p=100">Ajouter au panier</a></div>
+    <div class="bouton"><a href="index.php?action=ajout&amp;i=C29&amp; l=Ecigarette economique&amp;q=1&amp;p=90">Ajouter au panier</a></div>
     </div>
     </div>
     </div>

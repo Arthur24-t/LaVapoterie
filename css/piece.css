@@ -1,4 +1,4 @@
-*{
+.texte {
     font-family: Andale Mono, monospace;
     /*galigraphie du Texte */
 }
@@ -26,6 +26,16 @@
     margin-left: 2%;
 }
 
+.Recherche {
+    display: flex;
+    flex-direction: column;
+}
+
+.vide {
+    display: flex;
+    margin-right: 5%;
+}
+
 .item {
     display: flex;
     flex-wrap: nowrap;
@@ -38,6 +48,7 @@
 .item a{
     text-decoration: none;
     color: black;
+
 }
 
 

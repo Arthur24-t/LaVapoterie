@@ -79,7 +79,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
       <div class="produit">
          <div class="gauche">
             <div class="titre">
-               <h1>Chiffon de nettoyage </h1> <!-- coller a droite -->
+               <h1>Lingette de nettoyage </h1> <!-- coller a droite -->
             </div>
             <div class="image">
                <img src='../image/produit/A10.jpg'>

@@ -144,8 +144,8 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
 
 
             <div class="item">
-                <a href="A12.php">
-                    <div class="image_produit"><img src="../image/produit/A12.jpg">
+                <a href="A26.php">
+                    <div class="image_produit"><img src="../image/produit/A26.jpg">
                     </div>
                     <div class="tout">
                         <div class="nom_produit">
@@ -157,29 +157,31 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
                         <div class="prix_produit">
                             <p>140€</p>
                         </div>
-                        <div class="bouton"><a href="accessoire.php?action=ajout&amp;i=A12&amp; l=Chargeur&amp;q=1&amp;p=140">Ajouter au panier</a></div>
+                        <div class="bouton"><a href="accessoire.php?action=ajout&amp;i=A26&amp; l=Chargeur&amp;q=1&amp;p=140">Ajouter au panier</a></div>
                     </div>
                 </a>
             </div>
 
 
             <div class="item">
-                <a href="A20.php">
-                    <div class="image_produit"><img src="../image/produit/A20.jpg">
-                    </div>
-                    <div class="tout">
+
+                <div class="image_produit"><img src="/image/produit/A11.jpg">
+                </div>
+                <div class="tout">
+                    <a href="/pages/A11.php">
                         <div class="nom_produit">
-                            <p>Flacon</p>
+                            <p>ACU 30w</p>
                         </div>
                         <div class="descprition_produit">
-                            <p>Flacon pour liquide <br> en plastique de <br> contenance 100ml</p>
+                            <p>un acu de 30w </br>comptatible toute ecigarette</p>
                         </div>
                         <div class="prix_produit">
-                            <p>5€</p>
+                            <p><strike>10€</strike> 7€</p>
                         </div>
-                        <div class="bouton"><a href="accessoire.php?action=ajout&amp;i=A20&amp; l=Flacon&amp;q=1&amp;p=5">Ajouter au panier</a></div>
-                    </div>
-                </a>
+                    </a>
+                    <div class="bouton"><a href="immanquables.php?action=ajout&amp;i=A11&amp; l=Acu 30w&amp;q=1&amp;p=7">Ajouter au panier</a></div>
+
+                </div>
             </div>
 
 
@@ -203,73 +205,65 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
                 </a>
             </div>
 
-
             <div class="item">
-                <a href="A19.php">
-                    <div class="image_produit"><img src="../image/produit/A19.jpg">
+                <a href="A13.php">
+                    <div class="image_produit"><img src="../image/produit/A13.jpg">
                     </div>
                     <div class="tout">
                         <div class="nom_produit">
-                            <p>Seringue </p>
+                            <p>Pochette de réparation</p>
                         </div>
                         <div class="descprition_produit">
-                            <p>Seringue de 10ml </p>
+                            <p>Divers obljets pour réparer les Cigarettes </p>
                         </div>
                         <div class="prix_produit">
-                            <p>2€</p>
+                            <p>41€</p>
                         </div>
-                        <div class="bouton"><a href="accessoire.php?action=ajout&amp;i=A19&amp; l=Seringue&amp;q=1&amp;p=2">Ajouter au panier</a></div>
+                        <div class="bouton"><a href="accessoire.php?action=ajout&amp;i=A13&amp; l=Pochette réparation&amp;q=1&amp;p=41">Ajouter au panier</a></div>
                     </div>
                 </a>
             </div>
 
-
-
             <div class="item">
-                <a href="A19.php">
-                    <div class="image_produit"><img src="../image/produit/A19.jpg">
+                <a href="A10.php">
+                    <div class="image_produit"><img src="../image/produit/A10.jpg">
                     </div>
                     <div class="tout">
                         <div class="nom_produit">
-                            <p>Seringue </p>
+                            <p>Lingette de nettoyage</p>
                         </div>
                         <div class="descprition_produit">
-                            <p>Seringue de 10ml </p>
+                            <p>Lingette de nettoyage de la cigarette</p>
                         </div>
                         <div class="prix_produit">
-                            <p>2€</p>
+                            <p>1€</p>
                         </div>
-                        <div class="bouton"><a href="accessoire.php?action=ajout&amp;i=A19&amp; l=Seringue&amp;q=1&amp;p=2">Ajouter au panier</a></div>
+                        <div class="bouton"><a href="accessoire.php?action=ajout&amp;i=A10&amp; l=Lingette&amp;q=1&amp;p=1">Ajouter au panier</a></div>
                     </div>
                 </a>
             </div>
-
-
-
-            <div class="item">
-                <a href="A19.php">
-                    <div class="image_produit"><img src="../image/produit/A19.jpg">
-                    </div>
-                    <div class="tout">
-                        <div class="nom_produit">
-                            <p>Seringue </p>
-                        </div>
-                        <div class="descprition_produit">
-                            <p>Seringue de 10ml </p>
-                        </div>
-                        <div class="prix_produit">
-                            <p>2€</p>
-                        </div>
-                        <div class="bouton"><a href="accessoire.php?action=ajout&amp;i=A19&amp; l=Seringue&amp;q=1&amp;p=2">Ajouter au panier</a></div>
-                    </div>
-                </a>
-            </div>
-
-
-
-
         </div>
 
+        <div class="item">
+                <a href="A17.php">
+                    <div class="image_produit"><img src="../image/produit/A17.jpg">
+                    </div>
+                    <div class="tout">
+                        <div class="nom_produit">
+                            <p>Pochette de rangement</p>
+                        </div>
+                        <div class="descprition_produit">
+                            <p>Pochette de rangement de la cigarette et de ces différents accessoires. </p>
+                        </div>
+                        <div class="prix_produit">
+                            <p>25€</p>
+                        </div>
+                        <div class="bouton"><a href="accessoire.php?action=ajout&amp;i=A17&amp; l=Pochette Rangement&amp;q=1&amp;p=25">Ajouter au panier</a></div>
+                    </div>
+                </a>
+            </div>
+
+    </div>
 </body>
 
 </html>
