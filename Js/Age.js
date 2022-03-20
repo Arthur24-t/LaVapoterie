@@ -1,12 +1,30 @@
-var age = window.prompt("Veuillez entrer votre age s'il vous plaît");
-
-
-if(age>= 18)
+if (getCookie("validate") == 1)
 {
-    alert("Bienvenue sur notre site.");
+    document.getElementsByClassName('modal')[0].setAttribute("style", "display : none");
 }
-else
+   
+
+  
+
+    if(getCookie("validate") != 1)
 {
-    alert("Vous n'avez pas l'âge légal !");
-    location.href="https://www.google.fr/"
-}
+       let closeBtns = [...document.querySelectorAll(".close")];
+      closeBtns.forEach(function (btn) {
+        btn.onclick = function () {
+        
+            document.cookie = "validate=1";
+         
+          let modal = btn.closest(".modal");
+          modal.style.display = "none";
+         
+        };
+      });
+      
+      let retour = [...document.querySelectorAll(".retour")];
+      retour.forEach(function (btn) {
+        btn.onclick = function () {
+            window.history.back();
+        };
+      });
+    }
+   

@@ -62,8 +62,8 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
 
 <head>
     <title>Site d'achat d'ecigarette</title>
-    <script type="text/javascript" src="Js/Age.js"></script>
-    
+   
+    <script type="text/javascript" src="Js/getCookie.js"></script>
     <link rel="icon" href="/image/logo.png" type="image/icon type">
     <link rel="stylesheet" type="text/css" href="css/index.css" />
     <link rel="stylesheet" media="screen and (max-width: 1920px)" href="css/index.css" type="text/css" />
@@ -85,6 +85,63 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
         <img src="/image/banniere.png">
 
     </div>
+
+
+
+
+    <div id="modalOne" class="modal">
+      <div class="modal-content">
+        <div class="contact-form">
+        
+          <form action="/">
+            <h2>Etes vous majeur ?</h2>
+            <div>
+              <p>Pour naviguer sur notre site il faut etre majeur !</p>
+            </div>
+            <img src="image/majeur.png" alt="etre majeur">
+           <div class="btns">
+            <a class="retour">Retour</a>
+            <span></span>
+            <a class="close">je suis majeur</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    
+
+    <script>
+
+if (getCookie("validate") == 1)
+{
+    document.getElementsByClassName('modal')[0].setAttribute("style", "display : none");
+}
+    </script>
+
+    <script>
+
+    if(getCookie("validate") != 1)
+{
+       let closeBtns = [...document.querySelectorAll(".close")];
+      closeBtns.forEach(function (btn) {
+        btn.onclick = function () {
+        
+            document.cookie = "validate=1";
+         
+          let modal = btn.closest(".modal");
+          modal.style.display = "none";
+         
+        };
+      });
+      
+      let retour = [...document.querySelectorAll(".retour")];
+      retour.forEach(function (btn) {
+        btn.onclick = function () {
+            window.history.back();
+        };
+      });
+    }
+    </script>
 
 
 
