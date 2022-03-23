@@ -80,23 +80,23 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
     <div class="produit">
          <div class="gauche">
             <div class="titre">
-               <h1>/////////////</h1> 
+               <h1>Coil Trimmer</h1> 
             </div>
             <div class="image">
-               <img src='../image/produit//////////////.jpg'>
+               <img src='../image/produit/A37.jpg'>
             </div>
          </div>
          <div class="droite">
             <div class="description">
-               <p>  ///////////// </p> <!-- mettre a droite 30€image -->
+               <p>  Le Coil Trimmer est un outil de coupe pour tous les coils. Le Coil Trimmer permet une coupe précise des coils Quelle que soit la nature du plateau de montage de votre atomiseur. Très utile pour les plateaux ''Postless'', il s'avérera indispensable pour les plateaux avec pôles de montage et particulièrement dans le cas d'un montage en double coils ! Avec le Coil Trimmer, la coupe du fil résistif excédentaire se fait avec précision avant la pose du coil. </p> <!-- mettre a droite 30€image -->
 
                </p> 
             </div>
             <div class="prix">
-               <p> ///////////// €</p>
+               <p> 18 €</p>
             </div>
             <div class="bouton">
-               <a href='/////////////.php?action=ajout&amp;i=/////////////&amp;l=///////////&amp;q=1&amp;p==/////////////'>Ajouter au panier</a>
+               <a href='A37.php?action=ajout&amp;i=A37&amp;l=Coil Trimmer&amp;q=1&amp;p=18'>Ajouter au panier</a>
             </div>
          </div>
       </div>

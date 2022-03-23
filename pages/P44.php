@@ -80,23 +80,23 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
     <div class="produit">
          <div class="gauche">
             <div class="titre">
-               <h1>/////////////</h1> 
+               <h1>Valkyrie RTA Vaperz</h1> 
             </div>
             <div class="image">
-               <img src='../image/produit//////////////.jpg'>
+               <img src='../image/produit/P44.jpg'>
             </div>
          </div>
          <div class="droite">
             <div class="description">
-               <p>  ///////////// </p> <!-- mettre a droite 30€image -->
+               <p>  Vaperz Cloud, célèbre fabricant américain de produits hors norme, vous propose le Valkyrie RTA, un atomiseur performant de 30 mm de diamètre. Son plateau accepte un montage en double coil, conçu pour la vape directe aérienne. Il possède un airflow supérieur en nid d'abeilles, pour un excellent rendu des saveurs et de vapeur.</p> <!-- mettre a droite 30€image -->
 
                </p> 
             </div>
             <div class="prix">
-               <p> ///////////// €</p>
+               <p> 64 €</p>
             </div>
             <div class="bouton">
-               <a href='/////////////.php?action=ajout&amp;i=/////////////&amp;l=///////////&amp;q=1&amp;p==/////////////'>Ajouter au panier</a>
+               <a href='P44.php?action=ajout&amp;i=P44&amp;l=Valkyrie RTA Vaperz&amp;q=1&amp;p=64'>Ajouter au panier</a>
             </div>
          </div>
       </div>

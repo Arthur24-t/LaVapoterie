@@ -80,23 +80,23 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
     <div class="produit">
          <div class="gauche">
             <div class="titre">
-               <h1>/////////////</h1> 
+               <h1>DIY Kit Mini V2 Coil Master</h1> 
             </div>
             <div class="image">
-               <img src='../image/produit//////////////.jpg'>
+               <img src='../image/produit/A36.jpg'>
             </div>
          </div>
          <div class="droite">
             <div class="description">
-               <p>  ///////////// </p> <!-- mettre a droite 30€image -->
+               <p>  Le DIY Kit Mini V2 de Coil Master propose 6 outils indispensables pour confectionner vos résistances dans une solide boîte en ABS. Compact et résistant, il pourra vous accompagner dans tous vos déplacements ! </p> <!-- mettre a droite 30€image -->
 
                </p> 
             </div>
             <div class="prix">
-               <p> ///////////// €</p>
+               <p> 18 €</p>
             </div>
             <div class="bouton">
-               <a href='/////////////.php?action=ajout&amp;i=/////////////&amp;l=///////////&amp;q=1&amp;p==/////////////'>Ajouter au panier</a>
+               <a href='A36.php?action=ajout&amp;i=A36&amp;l=DIY Kit Mini V2 Coil Master&amp;q=1&amp;p=18'>Ajouter au panier</a>
             </div>
          </div>
       </div>

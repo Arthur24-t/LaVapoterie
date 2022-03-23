@@ -80,23 +80,25 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
     <div class="produit">
          <div class="gauche">
             <div class="titre">
-               <h1>/////////////</h1> 
+               <h1>Atomiseur Gear</h1> 
             </div>
             <div class="image">
-               <img src='../image/produit//////////////.jpg'>
+               <img src='../image/produit/P42.jpg'>
             </div>
          </div>
          <div class="droite">
             <div class="description">
-               <p>  ///////////// </p> <!-- mettre a droite 30€image -->
+               <p>  Wotofo vous propose le Gear V2 RTA, un atomiseur reconstructible compact et puissant, pour une vape remplie de saveurs. Le Gear V2 est simple d'utilisation et compact avec son diamètre de 24 mm et sa hauteur de 38.5 mm. Un condensé de performance dans un format mini !
+
+</p> <!-- mettre a droite 30€image -->
 
                </p> 
             </div>
             <div class="prix">
-               <p> ///////////// €</p>
+               <p> 31 €</p>
             </div>
             <div class="bouton">
-               <a href='/////////////.php?action=ajout&amp;i=/////////////&amp;l=///////////&amp;q=1&amp;p==/////////////'>Ajouter au panier</a>
+               <a href='P42.php?action=ajout&amp;i=P42&amp;l=Atomiseur Gear&amp;q=1&amp;p=31'>Ajouter au panier</a>
             </div>
          </div>
       </div>

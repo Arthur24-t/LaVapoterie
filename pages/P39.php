@@ -80,23 +80,23 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
     <div class="produit">
          <div class="gauche">
             <div class="titre">
-               <h1>/////////////</h1> 
+               <h1>Dual Core Clapton Coils 5</h1> 
             </div>
             <div class="image">
-               <img src='../image/produit//////////////.jpg'>
+               <img src='../image/produit/P39.jpg'>
             </div>
          </div>
          <div class="droite">
             <div class="description">
-               <p>  ///////////// </p> <!-- mettre a droite 30€image -->
+               <p>  5 mm ID Clapton Coils 0.65 ohm de chez Wotofo sont constitués d'un assemblage de fils de qualité, conçus pour les amateurs de vape directe en atomiseur reconstructible qui n'ont pas l'envie de préparer leurs résistances. Idéal pour les atomiseurs RDA et RTA, et s'adaptent parfaitement au SRPNT RDA de la marque. Les coils 5 mm ID Clapton sont prêts à l'emploi et vendus dans une jolie boite cylindrique. </p> <!-- mettre a droite 30€image -->
 
                </p> 
             </div>
             <div class="prix">
-               <p> ///////////// €</p>
+               <p> 5 €</p>
             </div>
             <div class="bouton">
-               <a href='/////////////.php?action=ajout&amp;i=/////////////&amp;l=///////////&amp;q=1&amp;p==/////////////'>Ajouter au panier</a>
+               <a href='P39.php?action=ajout&amp;i=P39&amp;l=Dual Core Clapton Coils 5&amp;q=1&amp;p=5'>Ajouter au panier</a>
             </div>
          </div>
       </div>

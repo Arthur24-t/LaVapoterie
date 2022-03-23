@@ -80,23 +80,23 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
     <div class="produit">
          <div class="gauche">
             <div class="titre">
-               <h1>/////////////</h1> 
+               <h1>Mod S tube digiflor</h1> 
             </div>
             <div class="image">
-               <img src='../image/produit//////////////.jpg'>
+               <img src='../image/produit/P31.jpg'>
             </div>
          </div>
          <div class="droite">
             <div class="description">
-               <p>  ///////////// </p> <!-- mettre a droite 30€image -->
+               <p>  Ce S Tube est un mod électronique élégant pour tous les atomiseurs de 22 mm de diamètre. Ce mod a la particularité d'être convertible et de fonctionner avec un accu de type 18650 ou 18350. Avec ce dernier, le mod offre une cigarette électronique compacte et toujours efficace.  </p> <!-- mettre a droite 30€image -->
 
                </p> 
             </div>
             <div class="prix">
-               <p> ///////////// €</p>
+               <p> 30 €</p>
             </div>
             <div class="bouton">
-               <a href='/////////////.php?action=ajout&amp;i=/////////////&amp;l=///////////&amp;q=1&amp;p==/////////////'>Ajouter au panier</a>
+               <a href='P31.php?action=ajout&amp;i=P31&amp;l=Mod S tube digiflor&amp;q=1&amp;p=30'>Ajouter au panier</a>
             </div>
          </div>
       </div>

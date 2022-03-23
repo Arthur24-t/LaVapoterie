@@ -80,23 +80,23 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
     <div class="produit">
          <div class="gauche">
             <div class="titre">
-               <h1>/////////////</h1> 
+               <h1>Réservoir Pyrex Valkyrie</h1> 
             </div>
             <div class="image">
-               <img src='../image/produit//////////////.jpg'>
+               <img src='../image/produit/P40.jpg'>
             </div>
          </div>
          <div class="droite">
             <div class="description">
-               <p>  ///////////// </p> <!-- mettre a droite 30€image -->
+               <p>  Ce réservoir est compatible avec l'atomiseur Valkyrie RTA de Vaperz Cloud. Avec sa forme bombée, il permet d'augmenter la contenance en e liquide de l'atomiseur jusqu’à 7 ml ! </p> <!-- mettre a droite 30€image -->
 
                </p> 
             </div>
             <div class="prix">
-               <p> ///////////// €</p>
+               <p> 3 €</p>
             </div>
             <div class="bouton">
-               <a href='/////////////.php?action=ajout&amp;i=/////////////&amp;l=///////////&amp;q=1&amp;p==/////////////'>Ajouter au panier</a>
+               <a href='P40.php?action=ajout&amp;i=P40&amp;l=Réservoir Pyrex Valkyrie&amp;q=1&amp;p=3'>Ajouter au panier</a>
             </div>
          </div>
       </div>

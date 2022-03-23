@@ -80,23 +80,23 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
     <div class="produit">
          <div class="gauche">
             <div class="titre">
-               <h1>/////////////</h1> 
+               <h1>E liquide Le Petit Blond </h1> 
             </div>
             <div class="image">
-               <img src='../image/produit//////////////.jpg'>
+               <img src='../image/produit/L46.jpg'>
             </div>
          </div>
          <div class="droite">
             <div class="description">
-               <p>  ///////////// </p> <!-- mettre a droite 30€image -->
+               <p>  E liquide Le Petit Blond Le Petit Vapoteur. Notre Petit Blond, légèrement épicé et doucement gourmand avec des notes caramélisées et de fruits à coques. Le Petit Blond ne sera pas sans vous rapeler un célèbre quartier new-yorkais </p> <!-- mettre a droite 30€image -->
 
                </p> 
             </div>
             <div class="prix">
-               <p> ///////////// €</p>
+               <p> 5 €</p>
             </div>
             <div class="bouton">
-               <a href='/////////////.php?action=ajout&amp;i=/////////////&amp;l=///////////&amp;q=1&amp;p==/////////////'>Ajouter au panier</a>
+               <a href='L46.php?action=ajout&amp;i=L46&amp;l=E liquide Le Petit Blond &amp;q=1&amp;p=5'>Ajouter au panier</a>
             </div>
          </div>
       </div>

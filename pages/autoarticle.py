@@ -1,5 +1,4 @@
 import shutil
-from sqlalchemy import desc;  # folder management
 
 
 
@@ -22,7 +21,6 @@ print("le nom du nouveau fichier est :" + fichier)
 f = open(fichier, "r+", encoding='utf-8')
 
 f.seek(2170, 0)
-
 f.write(str(nomProduit))
 
 f.seek(2344, 0)

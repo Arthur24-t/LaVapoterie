@@ -80,23 +80,25 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
     <div class="produit">
          <div class="gauche">
             <div class="titre">
-               <h1>/////////////</h1> 
+               <h1>Box dotBox 220W</h1> 
             </div>
             <div class="image">
-               <img src='../image/produit//////////////.jpg'>
+               <img src='../image/produit/P34.jpg'>
             </div>
          </div>
          <div class="droite">
             <div class="description">
-               <p>  ///////////// </p> <!-- mettre a droite 30€image -->
+               <p>  Avec la dotBox 220W, dotMod vous propose une fois de plus un mod électronique d'exception. Design très travaillé, excellente ergonomie et plein de bonnes surprises telle que ce chipset Dotmod très complet. La box dotBox 220W fonctionne avec deux accus 18650, pour vapoter entre 5 et 220 watts. Elle propose plusieurs modes comme le contrôle de température, le Bypass, ou encore le "Curve" pour personnaliser la chauffe de la résistance.
+
+</p> <!-- mettre a droite 30€image -->
 
                </p> 
             </div>
             <div class="prix">
-               <p> ///////////// €</p>
+               <p> 92 €</p>
             </div>
             <div class="bouton">
-               <a href='/////////////.php?action=ajout&amp;i=/////////////&amp;l=///////////&amp;q=1&amp;p==/////////////'>Ajouter au panier</a>
+               <a href='P34.php?action=ajout&amp;i=P34&amp;l=Box dotBox 220W&amp;q=1&amp;p=92'>Ajouter au panier</a>
             </div>
          </div>
       </div>

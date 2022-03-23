@@ -80,23 +80,25 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
     <div class="produit">
          <div class="gauche">
             <div class="titre">
-               <h1>/////////////</h1> 
+               <h1>Box Wicket Mono</h1> 
             </div>
             <div class="image">
-               <img src='../image/produit//////////////.jpg'>
+               <img src='../image/produit/P35.jpg'>
             </div>
          </div>
          <div class="droite">
             <div class="description">
-               <p>  ///////////// </p> <!-- mettre a droite 30€image -->
+               <p>  Le fameux moddeur Limelight Mechanics vous propose son mod Wicket Mono DNA60. Comme son nom l'indique, le mod high-end possède le design et les splendides finitions de la box Wicket Mono. Elle est aussi équipée du célèbre chipset de Evolv : le DNA60.
+
+</p> <!-- mettre a droite 30€image -->
 
                </p> 
             </div>
             <div class="prix">
-               <p> ///////////// €</p>
+               <p> 274 €</p>
             </div>
             <div class="bouton">
-               <a href='/////////////.php?action=ajout&amp;i=/////////////&amp;l=///////////&amp;q=1&amp;p==/////////////'>Ajouter au panier</a>
+               <a href='P35.php?action=ajout&amp;i=P35&amp;l=Box Wicket Mono&amp;q=1&amp;p=274'>Ajouter au panier</a>
             </div>
          </div>
       </div>

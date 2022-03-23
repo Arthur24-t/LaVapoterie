@@ -80,23 +80,23 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
     <div class="produit">
          <div class="gauche">
             <div class="titre">
-               <h1>/////////////</h1> 
+               <h1>Alien Wires Wotofo</h1> 
             </div>
             <div class="image">
-               <img src='../image/produit//////////////.jpg'>
+               <img src='../image/produit/P38.jpg'>
             </div>
          </div>
          <div class="droite">
             <div class="description">
-               <p>  ///////////// </p> <!-- mettre a droite 30€image -->
+               <p>  Les coils Alien Wires de chez Wotofo sont constitués d'un cœur de trois fils Ni80, conçus pour les amateurs de vape directe en atomiseur reconstructible qui n'ont pas l'envie de préparer leurs résistances. Idéal pour obtenir une expérience différente de vape, les coils Alien Wires sont prêts à l'emploi et vendu dans une jolie boite cylindrique. </p> <!-- mettre a droite 30€image -->
 
                </p> 
             </div>
             <div class="prix">
-               <p> ///////////// €</p>
+               <p> 9 €</p>
             </div>
             <div class="bouton">
-               <a href='/////////////.php?action=ajout&amp;i=/////////////&amp;l=///////////&amp;q=1&amp;p==/////////////'>Ajouter au panier</a>
+               <a href='P38.php?action=ajout&amp;i=P38&amp;l=Alien Wires Wotofo&amp;q=1&amp;p=9'>Ajouter au panier</a>
             </div>
          </div>
       </div>

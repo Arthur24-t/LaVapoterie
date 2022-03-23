@@ -80,23 +80,25 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
     <div class="produit">
          <div class="gauche">
             <div class="titre">
-               <h1>/////////////</h1> 
+               <h1>Mod Basic Tech</h1> 
             </div>
             <div class="image">
-               <img src='../image/produit//////////////.jpg'>
+               <img src='../image/produit/P32.jpg'>
             </div>
          </div>
          <div class="droite">
             <div class="description">
-               <p>  ///////////// </p> <!-- mettre a droite 30€image -->
+               <p>  Le Basic Mech, c'est la vape en méca par excellence ! Ce mod, signé par les français de Kaser Mods, est l'exemple parfait du beau tube méca de 22 mm de diamètre. Simple et robuste, tout en acier avec des finitions brossées ou polies. Le Basic Mech peut être utilisé avec un accu de type 18650 ou de type 18350. Sa connexion 510 est, elle, de type hybride.
+
+</p> <!-- mettre a droite 30€image -->
 
                </p> 
             </div>
             <div class="prix">
-               <p> ///////////// €</p>
+               <p> 109 €</p>
             </div>
             <div class="bouton">
-               <a href='/////////////.php?action=ajout&amp;i=/////////////&amp;l=///////////&amp;q=1&amp;p==/////////////'>Ajouter au panier</a>
+               <a href='P32.php?action=ajout&amp;i=P32&amp;l=Mod Basic Tech&amp;q=1&amp;p=109'>Ajouter au panier</a>
             </div>
          </div>
       </div>

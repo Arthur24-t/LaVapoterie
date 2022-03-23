@@ -80,23 +80,23 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
     <div class="produit">
          <div class="gauche">
             <div class="titre">
-               <h1>/////////////</h1> 
+               <h1>Nightmare Mini RDA Suicide</h1> 
             </div>
             <div class="image">
-               <img src='../image/produit//////////////.jpg'>
+               <img src='../image/produit/P45.jpg'>
             </div>
          </div>
          <div class="droite">
             <div class="description">
-               <p>  ///////////// </p> <!-- mettre a droite 30€image -->
+               <p>  Suicide Mods nous livre, un RDA qualitatif, le Nightmare Mini RDA qui fera le bonheur de tous ceux qui aiment la puissance tout en gardant un maximum de saveurs. Taillé pour le cloud chasing, cet atomiseur reconstructible est compact et performant avec ses 25 mm de diamètre avec de belles gravures au design original.</p> <!-- mettre a droite 30€image -->
 
                </p> 
             </div>
             <div class="prix">
-               <p> ///////////// €</p>
+               <p> 43 €</p>
             </div>
             <div class="bouton">
-               <a href='/////////////.php?action=ajout&amp;i=/////////////&amp;l=///////////&amp;q=1&amp;p==/////////////'>Ajouter au panier</a>
+               <a href='P45.php?action=ajout&amp;i=P45&amp;l=Nightmare Mini RDA Suicide&amp;q=1&amp;p=43'>Ajouter au panier</a>
             </div>
          </div>
       </div>

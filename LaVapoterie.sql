@@ -76,11 +76,27 @@ insert  into `produit`(`prodId`,`prodNom`,`prodCateg`,`prodStock`,`prodPrix`) va
 ('P27','Clearomiseur','Autre',2,110),
 ('C28','Cigarette Perfect','Cigarette',4,125),
 ('C29','Cigarette Economique','Cigarette',56,100),
-('L30','Liquide Mangue','Liquide',120,12)
-('A28','Pochette accessoire','Rangement',10,25)
-('A45','Seringue','Contenance',218,2)
-('A26','Chargeur ','Pile',33,140);
-
+('L30','Liquide Mangue','Liquide',120,12),
+('P31','Mod S Tube DigiFlavor','piece',58,30),
+('P32','Mod basic Mech','piece',78,109),
+('P33','Mod Juxta V2','piece',24,380),
+('P34','Box dotBox 220W','piece',48,92),
+('P35','Box Wicket Mono','piece',27,274),
+('A36','DIY Kit Mini V2 Coil Master','Outil',7,18),
+('A37','Coil Trimmer','Outil',47,3),
+('P38','Alien Wires Wotofo','piece',58,9),
+('P39','Dual Core Clapton Coils 5','piece',35,5),
+('P40','Réservoir Pyrex Valkyrie','piece',76,3),
+('P41','Deck RBA Puppy','piece',70,25),
+('P42','Atomiseur Gear','piece',40,31),
+('P43','Dead Rabbit','piece',47,25),
+('P44','Valkyrie RTA Vaperz','piece',47,64),
+('P45','Nightmare Mini RDA Suicide','piece',44,43),
+('L46','E liquide Le Petit Blond ','Liquide',150,5),
+('L47','E liquide Le Caramel ','Liquide',85,5),
+('L48','E liquide Classic Menthe ','Liquide',55,5),
+('A49','Spray désinfectant Aseptivape 20 ml','Outil',55,3),
+('C50','Pod Kroma Z Innokin','Cigarette',52,34),
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
 /*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;

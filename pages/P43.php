@@ -80,23 +80,25 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
     <div class="produit">
          <div class="gauche">
             <div class="titre">
-               <h1>/////////////</h1> 
+               <h1>Dead Rabbit </h1> 
             </div>
             <div class="image">
-               <img src='../image/produit//////////////.jpg'>
+               <img src='../image/produit/P43.jpg'>
             </div>
          </div>
          <div class="droite">
             <div class="description">
-               <p>  ///////////// </p> <!-- mettre a droite 30€image -->
+               <p>  Hellvape optimise son atomiseur phare RDA, le Dead Rabbit V3 pour encore plus de saveurs et de simplicité. On garde le célèbre design, avec sa gravure de lapin et son caractère bien trempé, les innovations se trouvent à l'intérieur. On retrouve avec plaisir ce RDA de 24 mm, mono ou double-coils, compact et compatible bottom feeder.
+
+</p> <!-- mettre a droite 30€image -->
 
                </p> 
             </div>
             <div class="prix">
-               <p> ///////////// €</p>
+               <p> 25 €</p>
             </div>
             <div class="bouton">
-               <a href='/////////////.php?action=ajout&amp;i=/////////////&amp;l=///////////&amp;q=1&amp;p==/////////////'>Ajouter au panier</a>
+               <a href='P43.php?action=ajout&amp;i=P43&amp;l=Dead Rabbi&amp;q=1&amp;p=25'>Ajouter au panier</a>
             </div>
          </div>
       </div>

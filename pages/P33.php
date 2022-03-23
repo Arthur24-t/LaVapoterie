@@ -80,23 +80,24 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
     <div class="produit">
          <div class="gauche">
             <div class="titre">
-               <h1>/////////////</h1> 
+               <h1>Mod Juxta V2 Carbone Pro-MS</h1> 
             </div>
             <div class="image">
-               <img src='../image/produit//////////////.jpg'>
+               <img src='../image/produit/P33.jpg'>
             </div>
          </div>
          <div class="droite">
             <div class="description">
-               <p>  ///////////// </p> <!-- mettre a droite 30€image -->
+               <p>  Le mod Juxta V2 Carbone Pro-MS est un mod méca à double barreau, conçu pour fonctionner avec deux accus de type 18650. Installés en série, le mod Juxta V2 offre jusqu'à 8.4 Volts.
+                    Le mod Juxta V2 est une véritable box mécanique fabriquée en carbone et laiton. Les platines et le bouton de contact sont également en laiton. </p> <!-- mettre a droite 30€image -->
 
                </p> 
             </div>
             <div class="prix">
-               <p> ///////////// €</p>
+               <p> 380 €</p>
             </div>
             <div class="bouton">
-               <a href='/////////////.php?action=ajout&amp;i=/////////////&amp;l=///////////&amp;q=1&amp;p==/////////////'>Ajouter au panier</a>
+               <a href='P33.php?action=ajout&amp;i=P33&amp;l=Mod Juxta V2 &amp;q=1&amp;p=380'>Ajouter au panier</a>
             </div>
          </div>
       </div>
