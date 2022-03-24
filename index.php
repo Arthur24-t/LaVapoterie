@@ -98,7 +98,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
                     <div>
                         <p>Pour naviguer sur notre site il faut etre majeur !</p>
                     </div>
-                    <img src="image/majeur.png" alt="etre majeur">
+                    <img src="image/majeur.png" alt="etre majeur" width="300px">
                     <div class="btns">
                         <a class="retour">Retour</a>
                         <span></span>
@@ -486,13 +486,13 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
 
     <div class="categorie">
         <div class="categ_">
-            <a href="Cigarettes.php">
+            <a href="pages/Cigarettes.php">
                 <h3>ECIGARETTE</h3>
                 <img src="image/ciga_dessin.jpg" alt="">
             </a>
         </div>
         <div class="categ_">
-            <a href="liquides.php">
+            <a href="pages/liquides.php">
                 <h3>LIQUIDES</h3>
                 <img src="image/liquide_categ.png" alt="">
             </a>
@@ -501,13 +501,13 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
 
 
         <div class="categ_">
-            <a href="accessoire.php">
+            <a href="pages/accessoire.php">
                 <h3>ACCESSOIRES</h3>
                 <img src="image/accessorie.jpg" alt="">
             </a>
         </div>
         <div class="categ_">
-            <a href="pieces.php">
+            <a href="pages/pieces.php">
                 <h3>PIECES</h3>
                 <img src="image/pieces_categ.jpg" alt="">
             </a>

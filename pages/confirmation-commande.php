@@ -47,12 +47,14 @@ while ($a_row = mysqli_fetch_row($exe)) {
 <head>
     <link rel="stylesheet" type="text/css" href="../css/confirmation-commande.css" />
 </head>
-<div class="head">
-    <?php include("header.php"); ?>
-</div>
 
 
 <body>
+<div class="head">
+    <?php include("header.php"); ?>
+</div>
+<?php include("header.php"); ?>
+
     <div class="bordereaux">
         <div class="millieu">
             <h1>Merci de votre commande !</h1>
