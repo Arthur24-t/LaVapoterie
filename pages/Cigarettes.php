@@ -82,11 +82,6 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
 
     <div class="corps">
 
-
-
-
-
-
         <div class="produit">
 
             <div class="item">
@@ -101,177 +96,192 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
                             <p>Ecigarette pod </p>
                         </div>
                         <div class="prix_produit">
-                        <p><strike>30€</strike> 25€ </p>
+                            <p><strike>30€</strike> 25€ </p>
                         </div>
+                        <div class="bouton"><a href="Cigarettes.php?action=ajout&amp;i=C01&amp; l=Pod Caliburn&amp;q=1&amp;p=25">Ajouter au panier</a></div>
+                    </div>
                 </a>
-                <div class="bouton"><a href="Cigarettes.php?action=ajout&amp;i=C01&amp; l=Pod Caliburn&amp;q=1&amp;p=25">Ajouter au panier</a></div>
+            </div>
+
+
+
+            <div class="item">
+                <a href="C04.php">
+                    <div class="image_produit"><img src="../image/produit/C04.jpg">
+                    </div>
+                    <div class="tout">
+                        <div class="nom_produit">
+                            <p>Ecigarette Kit </p>
+                        </div>
+                        <div class="descprition_produit">
+                            <p>Kit Ecigarette debutant </p>
+                        </div>
+                        <div class="prix_produit">
+                            <p>40€</p>
+                        </div>
+                        <div class="bouton"><a href="Cigarettes.php?action=ajout&amp;i=C04&amp; l=Ecigarette Kit&amp;q=1&amp;p=40">Ajouter au panier</a></div>
+                    </div>
+                </a>
+            </div>
+
+
+
+            <div class="item">
+                <a href="C08.php">
+                    <div class="image_produit"><img src="../image/produit/C08.jpg">
+                    </div>
+                    <div class="tout">
+                        <div class="nom_produit">
+                            <p>Target Kit</p>
+                        </div>
+                        <div class="descprition_produit">
+                            <p>Ecigarette Kit de Target</p>
+                        </div>
+                        <div class="prix_produit">
+                            <p>80€</p>
+                        </div>
+                        <div class="bouton"><a href="Cigarettes.php?action=ajout&amp;i=C08&amp; l=Target Kit&amp;q=1&amp;p=80">Ajouter au panier</a></div>
+                    </div>
+                </a>
+            </div>
+
+
+
+            <div class="item">
+                <a href="C14.php">
+                    <div class="image_produit"><img src="../image/produit/C14.jpg">
+                    </div>
+                    <div class="tout">
+                        <div class="nom_produit">
+                            <p>Aegis Solo</p>
+                        </div>
+                        <div class="descprition_produit">
+                            <p>Ecigarette pour debutant !</p>
+                        </div>
+                        <div class="prix_produit">
+                            <p><strike>54€</strike> 49€ </p>
+                        </div>
+                        <div class="bouton"><a href="Cigarettes.php?action=ajout&amp;i=C14&amp; l=Aegis Solo&amp;q=1&amp;p=49">Ajouter au panier</a></div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="C15.php">
+                    <div class="image_produit"><img src="../image/produit/C15.jpg">
+                    </div>
+                    <div class="tout">
+                        <div class="nom_produit">
+                            <p>M100</p>
+                        </div>
+                        <div class="descprition_produit">
+                            <p>Ecigarette M100 pour la puissance</p>
+                        </div>
+                        <div class="prix_produit">
+                            <p>70€</p>
+                        </div>
+                        <div class="bouton"><a href="Cigarettes.php?action=ajout&amp;i=C15&amp; l=M100&amp;q=1&amp;p=70">Ajouter au panier</a></div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="C16.php">
+                    <div class="image_produit"><img src="../image/produit/C16.jpg">
+                    </div>
+                    <div class="tout">
+                        <div class="nom_produit">
+                            <p>Pod 2000</p>
+                        </div>
+                        <div class="descprition_produit">
+                            <p>Juste notre meilleur ecigarette</p>
+                        </div>
+                        <div class="prix_produit">
+                            <p>15€</p>
+                        </div>
+                        <div class="bouton"><a href="Cigarettes.php?action=ajout&amp;i=C16&amp; l=Pod 2000&amp;q=1&amp;p=15">Ajouter au panier</a></div>
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="item">
+                <a href="C22.php">
+                    <div class="image_produit"><img src="../image/produit/C22.jpg">
+                    </div>
+                    <div class="tout">
+                        <div class="nom_produit">
+                            <p>VapeZen </p>
+                        </div>
+                        <div class="descprition_produit">
+                            <p>Vapoter tranquillement grace a VapeZen</p>
+                        </div>
+                        <div class="prix_produit">
+                            <p>123€</p>
+                        </div>
+                        <div class="bouton"><a href="Cigarettes.php?action=ajout&amp;i=C22&amp; l=VapeZen&amp;q=1&amp;p=123">Ajouter au panier</a></div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="C28.php">
+                    <div class="image_produit"><img src="../image/produit/C28.jpg">
+                    </div>
+                    <div class="tout">
+                        <div class="nom_produit">
+                            <p>Ecigarette Performance </p>
+                        </div>
+                        <div class="descprition_produit">
+                            <p>La performance a l'etat pure</p>
+                        </div>
+                        <div class="prix_produit">
+                            <p>125€</p>
+                        </div>
+                        <div class="bouton"><a href="Cigarettes.php?action=ajout&amp;i=C28&amp; l=Ecigarette Performance&amp;q=1&amp;p=125">Ajouter au panier</a></div>
+                    </div>
+                </a>
+            </div>
+
+
+            <div class="item">
+                <a href="C29.php">
+                    <div class="image_produit"><img src="../image/produit/C29.jpg">
+                    </div>
+                    <div class="tout">
+                        <div class="nom_produit">
+                            <p>Ecigarette Economique </p>
+                        </div>
+                        <div class="descprition_produit">
+                            <p>Economisez du liquide !</p>
+                        </div>
+                        <div class="prix_produit">
+                            <p>100€</p>
+                        </div>
+                        <div class="bouton"><a href="Cigarettes.php?action=ajout&amp;i=C29&amp; l=Ecigarette Economique&amp;q=1&amp;p=100">Ajouter au panier</a></div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="C50.php">
+                    <div class="image_produit"><img src="../image/produit/C50.jpg">
+                    </div>
+                    <div class="tout">
+                        <div class="nom_produit">
+                            <p>Pod Kroma Z Innokin </p>
+                        </div>
+                        <div class="descprition_produit">
+                            <p>Le POD Kroma Z Innokin est très économique au vu du prix de la cigarette peu chère!</p>
+                        </div>
+                        <div class="prix_produit">
+                            <p>34€</p>
+                        </div>
+                        <div class="bouton"><a href="Cigarettes.php?action=ajout&amp;i=C50&amp; l=POD Kroma Z Innokin&amp;q=1&amp;p=34">Ajouter au panier</a></div>
+                    </div>
+                </a>
             </div>
         </div>
-
-
-        <div class="item">
-            <a href="C04.php">
-
-                <div class="image_produit"><img src="../image/produit/C04.jpg">
-                </div>
-                <div class="tout">
-                    <div class="nom_produit">
-                        <p>Ecigarette Kit </p>
-                    </div>
-                    <div class="descprition_produit">
-                        <p>Kit Ecigarette debutant </p>
-                    </div>
-                    <div class="prix_produit">
-                        <p>40€</p>
-                    </div>
-            </a>
-            <div class="bouton"><a href="Cigarettes.php?action=ajout&amp;i=C04&amp; l=Ecigarette Kit&amp;q=1&amp;p=40">Ajouter au panier</a></div>
-        </div>
-    </div>
-
-
-    <div class="item">
-        <a href="C08.php">
-
-            <div class="image_produit"><img src="../image/produit/C08.jpg">
-            </div>
-            <div class="tout">
-                <div class="nom_produit">
-                    <p>Target Kit</p>
-                </div>
-                <div class="descprition_produit">
-                    <p>Ecigarette Kit de Target</p>
-                </div>
-                <div class="prix_produit">
-                    <p>80€</p>
-                </div>
-        </a>
-        <div class="bouton"><a href="Cigarettes.php?action=ajout&amp;i=C08&amp; l=Target Kit&amp;q=1&amp;p=80">Ajouter au panier</a></div>
-
-    </div>
-    </div>
-
-
-
-    <div class="item">
-        <a href="C14.php">
-            <div class="image_produit"><img src="../image/produit/C14.jpg">
-            </div>
-            <div class="tout">
-                <div class="nom_produit">
-                    <p>Aegis Solo</p>
-                </div>
-                <div class="descprition_produit">
-                    <p>Ecigarette pour debutant !</p>
-                </div>
-                <div class="prix_produit">
-                <p><strike>54€</strike> 49€ </p>
-                </div>
-        </a>
-        <div class="bouton"><a href="Cigarettes.php?action=ajout&amp;i=C14&amp; l=Aegis Solo&amp;q=1&amp;p=49">Ajouter au panier</a></div>
-    </div>
-    </div>
-
-    <div class="item">
-        <a href="C15.php">
-            <div class="image_produit"><img src="../image/produit/C15.jpg">
-            </div>
-            <div class="tout">
-                <div class="nom_produit">
-                    <p>M100</p>
-                </div>
-                <div class="descprition_produit">
-                    <p>Ecigarette M100 pour la puissance</p>
-                </div>
-                <div class="prix_produit">
-                    <p>70€</p>
-        </a>
-    </div>
-    <div class="bouton"><a href="Cigarettes.php?action=ajout&amp;i=C15&amp; l=M100&amp;q=1&amp;p=70">Ajouter au panier</a></div>
-    </div>
-    </div>
-
-
-
-    <div class="item">
-        <a href="C16.php">
-            <div class="image_produit"><img src="../image/produit/C16.jpg">
-            </div>
-            <div class="tout">
-                <div class="nom_produit">
-                    <p>Pod 2000</p>
-                </div>
-                <div class="descprition_produit">
-                    <p>Juste notre meilleur ecigarette</p>
-                </div>
-                <div class="prix_produit">
-                    <p>15€</p>
-                </div>
-        </a>
-        <div class="bouton"><a href="Cigarettes.php?action=ajout&amp;i=C16&amp; l=Pod 2000&amp;q=1&amp;p=15">Ajouter au panier</a></div>
-    </div>
-    </div>
-
-    <div class="item">
-        <a href="C22.php">
-            <div class="image_produit"><img src="../image/produit/C22.jpg">
-            </div>
-            <div class="tout">
-                <div class="nom_produit">
-                    <p>VapeZen </p>
-                </div>
-                <div class="descprition_produit">
-                    <p>Vapoter tranquillement grace a VapeZen</p>
-                </div>
-                <div class="prix_produit">
-                    <p>123€</p>
-                </div>
-        </a>
-        <div class="bouton"><a href="Cigarettes.php?action=ajout&amp;i=C22&amp; l=VapeZen&amp;q=1&amp;p=123">Ajouter au panier</a></div>
-    </div>
-    </div>
-
-
-
-    <div class="item">
-        <a href="C28.php">
-            <div class="image_produit"><img src="../image/produit/C28.jpg">
-            </div>
-            <div class="tout">
-                <div class="nom_produit">
-                    <p>Ecigarette Performance </p>
-                </div>
-                <div class="descprition_produit">
-                    <p>La performance a l'etat pure</p>
-                </div>
-                <div class="prix_produit">
-                    <p>125€</p>
-                </div>
-        </a>
-        <div class="bouton"><a href="Cigarettes.php?action=ajout&amp;i=C28&amp; l=Ecigarette Performance&amp;q=1&amp;p=125">Ajouter au panier</a></div>
-    </div>
-    </div>
-
-
-    <div class="item">
-        <a href="C29.php">
-            <div class="image_produit"><img src="../image/produit/C29.jpg">
-            </div>
-            <div class="tout">
-                <div class="nom_produit">
-                    <p>Ecigarette Economique </p>
-                </div>
-                <div class="descprition_produit">
-                    <p>Economisez du liquide !</p>
-                </div>
-                <div class="prix_produit">
-                    <p>100€</p>
-                </div>
-        </a>
-        <div class="bouton"><a href="Cigarettes.php?action=ajout&amp;i=C29&amp; l=Ecigarette Economique&amp;q=1&amp;p=100">Ajouter au panier</a></div>
-    </div>
-    </div>
-
     </div>
 
 </body>

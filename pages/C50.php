@@ -80,8 +80,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
     <div class="produit">
          <div class="gauche">
             <div class="titre">
-               <h1>Pod Kroma Z Innokin
-</h1> 
+               <h1>Pod Kroma Z Innokin</h1> 
             </div>
             <div class="image">
                <img src='../image/produit/C50.jpg'>
@@ -100,20 +99,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
                <a href='C50.php?action=ajout&amp;i=C50&amp;l=Pod Kroma Z Innokin&amp;q=1&amp;p=34'>Ajouter au panier</a>
             </div>
          </div>
-      </div>
-
-
-
-
-
-
-
-
-
-
-
-                                          
-                                                                                                                             </div>
+      </div>                                                                                                        </div>
         </div>
 
     </div>
