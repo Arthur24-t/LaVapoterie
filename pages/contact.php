@@ -27,7 +27,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>';
 
 
                 if (isset($_POST['submit'])) {
-                    $to = 'arthur@lavapoterie';
+                
                     $subject = $_POST["contact_sujet"];
                     $message = 'email :' . $_POST["email"] . "\nsujet :" . $_POST["contact_sujet"] . "\nmessage : " . $_POST["contact_message"];
                     $from = 'admin@lavapoterie';
