@@ -63,6 +63,8 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
 <link rel="stylesheet" type="text/css" href="../css/panier.css" />
 
 <head>
+   <title>Panier</title>
+<link rel="icon" href="/image/logo.png" type="image/icon type">
    <div class="head">
       <?php include("header.php"); ?>
    </div>

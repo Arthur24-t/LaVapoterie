@@ -2,6 +2,8 @@
 <html>
 
 <head>
+<title>Inscription</title>
+<link rel="icon" href="/image/logo.png" type="image/icon type">
     <link rel="stylesheet" href="../css/inscription.css" />
 </head>
 

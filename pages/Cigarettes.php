@@ -67,7 +67,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
 <meta charset="utf-8" />
 
 <head>
-    <title>Liquides</title>
+    <title>Ecigarette</title>
     <link rel="icon" href="/image/logo.png" type="image/icon type">
     <link rel="stylesheet" type="text/css" href="../css/cigarette.css" />
 </head>

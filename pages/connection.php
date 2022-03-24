@@ -5,7 +5,8 @@
         <link rel="stylesheet" href="../css/connection.css" media="screen" type="text/css" />
     </head>
     
-    
+    <title>Connexion</title>
+<link rel="icon" href="/image/logo.png" type="image/icon type">
     <?php include("header.php"); ?>
     <div class="tout">
         <div id="container">

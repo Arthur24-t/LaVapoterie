@@ -6,6 +6,8 @@ echo '<?xml version="1.0" encoding="utf-8"?>';
 <html>
 
 <head>
+<title>Paiement</title>
+<link rel="icon" href="/image/logo.png" type="image/icon type">
     <meta charset="utf-8">
 
     <link rel="stylesheet" href="../css/paiement.css" media="screen" type="text/css" />

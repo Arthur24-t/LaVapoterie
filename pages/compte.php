@@ -2,6 +2,8 @@
 <html>
 
 <head>
+<title>Compte</title>
+<link rel="icon" href="/image/logo.png" type="image/icon type">
     <link rel="stylesheet" href="../css/compte.css" />
 </head>
 
