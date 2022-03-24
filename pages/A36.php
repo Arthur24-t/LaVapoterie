@@ -88,7 +88,8 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
          </div>
          <div class="droite">
             <div class="description">
-               <p>  Le DIY Kit Mini V2 de Coil Master propose 6 outils indispensables pour confectionner vos résistances dans une solide boîte en ABS. Compact et résistant, il pourra vous accompagner dans tous vos déplacements ! </p> <!-- mettre a droite 30€image -->
+               <p>  Le DIY Kit Mini V2 de Coil Master propose 6 outils indispensables pour confectionner vos résistances dans une solide boîte en ABS. 
+                  Compact et résistant, il pourra vous accompagner dans tous vos déplacements ! </p> <!-- mettre a droite 30€image -->
 
                </p> 
             </div>

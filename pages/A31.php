@@ -88,7 +88,9 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
          </div>
          <div class="droite">
             <div class="description">
-               <p>  Ce S Tube est un mod électronique élégant pour tous les atomiseurs de 22 mm de diamètre. Ce mod a la particularité d'être convertible et de fonctionner avec un accu de type 18650 ou 18350. Avec ce dernier, le mod offre une cigarette électronique compacte et toujours efficace.  </p> <!-- mettre a droite 30€image -->
+               <p>  Ce S Tube est un mod électronique élégant pour tous les atomiseurs de 22 mm de diamètre. 
+                  Ce mod a la particularité d'être convertible et de fonctionner avec un accu de type 18650 ou 18350. 
+                  Avec ce dernier, le mod offre une cigarette électronique compacte et toujours efficace.  </p> <!-- mettre a droite 30€image -->
 
                </p> 
             </div>

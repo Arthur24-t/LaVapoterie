@@ -297,7 +297,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
                     </div>
                     <div class="tout">
                         <div class="nom_produit">
-                            <p>Chargeur Double</p>
+                            <p>Chargeur </p>
                         </div>
                         <div class="descprition_produit">
                             <p>chargeur double pour ACU</p>

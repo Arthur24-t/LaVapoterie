@@ -88,7 +88,9 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
          </div>
          <div class="droite">
             <div class="description">
-               <p>  Spray désinfectant Aseptivape 20 ml. Spray de poche 20 ml rechargeable biocide (virucide, bactéricide et fongicide). Toujours à porter de main avec son format réduit, il sera votre meilleur allié pour nettoyer tous vos accessoires de vape. </p> <!-- mettre a droite 30€image -->
+               <p>  Spray désinfectant Aseptivape 20 ml. 
+                  Spray de poche 20 ml rechargeable biocide (virucide, bactéricide et fongicide). 
+                  Toujours à porter de main avec son format réduit, il sera votre meilleur allié pour nettoyer tous vos accessoires de vape. </p> <!-- mettre a droite 30€image -->
 
                </p> 
             </div>

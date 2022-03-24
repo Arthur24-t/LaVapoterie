@@ -144,8 +144,8 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
 
 
             <div class="item">
-                <a href="A26.php">
-                    <div class="image_produit"><img src="../image/produit/A26.jpg">
+                <a href="A12.php">
+                    <div class="image_produit"><img src="../image/produit/A12.jpg">
                     </div>
                     <div class="tout">
                         <div class="nom_produit">
@@ -157,7 +157,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
                         <div class="prix_produit">
                             <p>140€</p>
                         </div>
-                        <div class="bouton"><a href="accessoire.php?action=ajout&amp;i=A26&amp; l=Chargeur&amp;q=1&amp;p=140">Ajouter au panier</a></div>
+                        <div class="bouton"><a href="accessoire.php?action=ajout&amp;i=A16&amp; l=Chargeur&amp;q=1&amp;p=140">Ajouter au panier</a></div>
                     </div>
                 </a>
             </div>
@@ -179,7 +179,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
                             <p><strike>10€</strike> 7€</p>
                         </div>
                     </a>
-                    <div class="bouton"><a href="immanquables.php?action=ajout&amp;i=A11&amp; l=Acu 30w&amp;q=1&amp;p=7">Ajouter au panier</a></div>
+                    <div class="bouton"><a href="accessoire.php?action=ajout&amp;i=A11&amp; l=Acu 30w&amp;q=1&amp;p=7">Ajouter au panier</a></div>
 
                 </div>
             </div>
@@ -242,9 +242,9 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
                     </div>
                 </a>
             </div>
-        </div>
 
-        <div class="item">
+
+            <div class="item">
                 <a href="A17.php">
                     <div class="image_produit"><img src="../image/produit/A17.jpg">
                     </div>
@@ -262,6 +262,102 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
                     </div>
                 </a>
             </div>
+
+            <div class="item">
+                <a href="A24.php">
+                    <div class="image_produit"><img src="../image/produit/A24.jpg">
+                    </div>
+                    <div class="tout">
+                        <div class="nom_produit">
+                            <p>Réservoir</p>
+                        </div>
+                        <div class="descprition_produit">
+                            <p>Réservoir d'E-cigarette de 5mL. </p>
+                        </div>
+                        <div class="prix_produit">
+                            <p>100€</p>
+                        </div>
+                        <div class="bouton"><a href="accessoire.php?action=ajout&amp;i=A24&amp; l=Réservoir&amp;q=1&amp;p=100">Ajouter au panier</a></div>
+                    </div>
+                </a>
+            </div>
+
+        <div class="item">
+            <a href="A31.php">
+                <div class="image_produit"><img src="../image/produit/A31.jpg">
+                </div>
+                <div class="tout">
+                    <div class="nom_produit">
+                        <p>Mod S tube digiflor</p>
+                    </div>
+                    <div class="descprition_produit">
+                        <p>Mod électronique élégant pour tous les atomiseurs de 22 mm de diamètre. </p>
+                    </div>
+                    <div class="prix_produit">
+                        <p>30€</p>
+                    </div>
+                    <div class="bouton"><a href="accessoire.php?action=ajout&amp;i=A31&amp; l=Mod&amp;q=1&amp;p=30">Ajouter au panier</a></div>
+                </div>
+            </a>
+        </div>
+
+        <div class="item">
+            <a href="A36.php">
+                <div class="image_produit"><img src="../image/produit/A36.jpg">
+                </div>
+                <div class="tout">
+                    <div class="nom_produit">
+                        <p>DIY Kit Mini V2 Coil Master</p>
+                    </div>
+                    <div class="descprition_produit">
+                        <p>Boite de différent outils pour confectionner vos résistances. </p>
+                    </div>
+                    <div class="prix_produit">
+                        <p>18€</p>
+                    </div>
+                    <div class="bouton"><a href="accessoire.php?action=ajout&amp;i=A36&amp; l=DIY Kit Mini V2 Coil Master&amp;q=1&amp;p=18">Ajouter au panier</a></div>
+                </div>
+            </a>
+        </div>
+
+        <div class="item">
+            <a href="A37.php">
+                <div class="image_produit"><img src="../image/produit/A37.jpg">
+                </div>
+                <div class="tout">
+                    <div class="nom_produit">
+                        <p>Coil Trimmer</p>
+                    </div>
+                    <div class="descprition_produit">
+                        <p> C'est un outil de coupe pour tous les coils. </p>
+                    </div>
+                    <div class="prix_produit">
+                        <p>18€</p>
+                    </div>
+                    <div class="bouton"><a href="accessoire.php?action=ajout&amp;i=A37&amp; l=Coil Trimmer&amp;q=1&amp;p=18">Ajouter au panier</a></div>
+                </div>
+            </a>
+        </div>
+
+        <div class="item">
+            <a href="A49.php">
+                <div class="image_produit"><img src="../image/produit/A49.jpg">
+                </div>
+                <div class="tout">
+                    <div class="nom_produit">
+                        <p>Spray désinfectant Aseptivape 20 ml</p>
+                    </div>
+                    <div class="descprition_produit">
+                        <p>  Spray de poche 20 ml rechargeable biocide (virucide, bactéricide et fongicide). </p>
+                    </div>
+                    <div class="prix_produit">
+                        <p>3€</p>
+                    </div>
+                    <div class="bouton"><a href="accessoire.php?action=ajout&amp;i=A49&amp; l=Spray désinfectant&amp;q=1&amp;p=3">Ajouter au panier</a></div>
+                </div>
+            </a>
+        </div>
+        
 
     </div>
 </body>
