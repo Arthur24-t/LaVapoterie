@@ -80,7 +80,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
     <div class="produit">
          <div class="gauche">
             <div class="titre">
-               <h1>E liquide Le Petit Blond </h1> 
+               <h1>E liquide Le Vapo Blond </h1> 
             </div>
             <div class="image">
                <img src='../image/produit/L46.jpg'>
@@ -88,7 +88,8 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
          </div>
          <div class="droite">
             <div class="description">
-               <p>  E liquide Le Petit Blond Le Petit Vapoteur. Notre Petit Blond, légèrement épicé et doucement gourmand avec des notes caramélisées et de fruits à coques. Le Petit Blond ne sera pas sans vous rapeler un célèbre quartier new-yorkais </p> <!-- mettre a droite 30€image -->
+               <p>  E liquide Le Vapo Blond. Notre Vap Blond, légèrement épicé et doucement gourmand avec des notes caramélisées et de fruits à coques. 
+                  Le Vap Blond ne sera pas sans vous rapeler un célèbre quartier new-yorkais </p> <!-- mettre a droite 30€image -->
 
                </p> 
             </div>
