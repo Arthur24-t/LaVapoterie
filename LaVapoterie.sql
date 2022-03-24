@@ -96,7 +96,7 @@ insert  into `produit`(`prodId`,`prodNom`,`prodCateg`,`prodStock`,`prodPrix`) va
 ('L47','E liquide Le Caramel ','Liquide',85,5),
 ('L48','E liquide Classic Menthe ','Liquide',55,5),
 ('A49','Spray désinfectant Aseptivape 20 ml','Outil',55,3),
-('C50','Pod Kroma Z Innokin','Cigarette',52,34),
+('C50','Pod Kroma Z Innokin','Cigarette',52,34)
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
 /*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;

@@ -186,24 +186,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
 
 
 
-            <div class="item">
-                <a href="A23.php">
-                    <div class="image_produit"><img src="../image/produit/A23.jpg">
-                    </div>
-                    <div class="tout">
-                        <div class="nom_produit">
-                            <p>Drip tip</p>
-                        </div>
-                        <div class="descprition_produit">
-                            <p>Drip tip Bleu</p>
-                        </div>
-                        <div class="prix_produit">
-                            <p>30€</p>
-                        </div>
-                        <div class="bouton"><a href="accessoire.php?action=ajout&amp;i=A23&amp; l=Drip Tip&amp;q=1&amp;p=30">Ajouter au panier</a></div>
-                    </div>
-                </a>
-            </div>
+           
 
             <div class="item">
                 <a href="A13.php">
@@ -263,43 +246,9 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
                 </a>
             </div>
 
-            <div class="item">
-                <a href="A24.php">
-                    <div class="image_produit"><img src="../image/produit/A24.jpg">
-                    </div>
-                    <div class="tout">
-                        <div class="nom_produit">
-                            <p>Réservoir</p>
-                        </div>
-                        <div class="descprition_produit">
-                            <p>Réservoir d'E-cigarette de 5mL. </p>
-                        </div>
-                        <div class="prix_produit">
-                            <p>100€</p>
-                        </div>
-                        <div class="bouton"><a href="accessoire.php?action=ajout&amp;i=A24&amp; l=Réservoir&amp;q=1&amp;p=100">Ajouter au panier</a></div>
-                    </div>
-                </a>
-            </div>
+            
 
-        <div class="item">
-            <a href="A31.php">
-                <div class="image_produit"><img src="../image/produit/A31.jpg">
-                </div>
-                <div class="tout">
-                    <div class="nom_produit">
-                        <p>Mod S tube digiflor</p>
-                    </div>
-                    <div class="descprition_produit">
-                        <p>Mod électronique élégant pour tous les atomiseurs de 22 mm de diamètre. </p>
-                    </div>
-                    <div class="prix_produit">
-                        <p>30€</p>
-                    </div>
-                    <div class="bouton"><a href="accessoire.php?action=ajout&amp;i=A31&amp; l=Mod&amp;q=1&amp;p=30">Ajouter au panier</a></div>
-                </div>
-            </a>
-        </div>
+       
 
         <div class="item">
             <a href="A36.php">

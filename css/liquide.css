@@ -20,7 +20,7 @@
 .produit {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    
     width: 1200px;
     margin-right: 2%;
     margin-left: 2%;
