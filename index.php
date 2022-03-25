@@ -453,7 +453,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>'; ?>
     </div>
 
     <div class="item_promo">
-        <a href="immanquables.php">
+        <a href="pages/immanquables.php">
             <div class="image_produit"><img src="/image/suivant.png">
             </div>
 
