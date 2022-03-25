@@ -73,7 +73,7 @@ while ($a_row = mysqli_fetch_row($result)) {
                 <label>
                     <p><b>Complement d'adresse</b></p>
                 </label>
-                <?php echo " <input type='text' placeholder='Entrer votre complement'  value='$tab[2]' name='ComplementAdresse' required>"; ?>
+                <?php echo " <input type='text' placeholder='Entrer votre complement'  value='$tab[2]' name='ComplementAdresse'>"; ?>
 
                 <label>
                     <p><b>Code Postal</b></p>
