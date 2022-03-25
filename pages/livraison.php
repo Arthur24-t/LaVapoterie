@@ -16,7 +16,7 @@ $db = mysqli_connect($db_host, $db_username, $db_password, $db_name)
 
 
 // Préparation de la requête	 
-$requete =  "SELECT cliAdresse, cliCompAdresse, cliCPostal, cliVille, cliAdresseFac, cliCompAdresseFac, cliCPostalFac, cliVilleFac  FROM client WHERE cliPseudo LIKE '$user';";
+$requete =  "SELECT cliAdresse, cliCompAdresse, cliCPostal, cliVille, cliAdresseFac, cliCompAdresseFac, cliCPostalFac, cliVilleFac  FROM CLIENT WHERE cliPseudo LIKE '$user';";
 
 
 // Exécution de la requête sur la connexion établie
@@ -69,8 +69,7 @@ while ($a_row = mysqli_fetch_row($result)) {
                 <label>
                     <p><b>Adresse (numero et rue)</b></p>
                 </label>
-                <?php echo " <input type='text' placeholder='Entrer votre adresse' value='$tab[1]' name='adresse' required>";
-                ?>
+                <?php echo " <input type='text' placeholder='Entrer votre adresse' value='$tab[1]' name='adresse' required>";?>
                 <label>
                     <p><b>Complement d'adresse</b></p>
                 </label>
@@ -85,7 +84,6 @@ while ($a_row = mysqli_fetch_row($result)) {
                     <p><b>Ville</b></p>
                 </label>
                 <?php echo " <input type='text' placeholder='Entrer votre Ville' value='$tab[4]' name='Ville' required> "; ?>
-
                 <input type="checkbox" id="same" name="check" checked onclick="factu()"><label>Utiliser cette adresse comme adresse de Facturation</label>
                 <div id="facturation" class="check"></div>
                 <input type="submit" id='submit' value='Paiement ->'>

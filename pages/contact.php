@@ -27,10 +27,9 @@ echo '<?xml version="1.0" encoding="utf-8"?>';
 
 
                 if (isset($_POST['submit'])) {
-                
                     $subject = $_POST["contact_sujet"];
                     $message = 'email :' . $_POST["email"] . "\nsujet :" . $_POST["contact_sujet"] . "\nmessage : " . $_POST["contact_message"];
-                    $from = 'admin@lavapoterie';
+                    $from = 'Admin@LaVapoterie';
                     if (mail($to, $subject, $message)) {
                         echo '<p color="red">Votre message a été envoyé avec succès! Nous vous repondrons dans les plus bref delais</p> ';
                     } else {
